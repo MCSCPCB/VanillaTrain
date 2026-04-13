@@ -1,0 +1,62 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Template Train Render Plugin BP",
+        "description": "Template Train Render Plugin behavior pack",
+        "uuid": "eb5ee932-71ff-4a7d-9156-5cba834d8dcc",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            101
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "0883ee87-f726-490f-9a3e-96c22eadc85f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js",
+            "uuid": "cc4c0877-f0ec-4bc4-a7f2-9654b8cfa825",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "96702b8d-5a9c-43b6-923d-6910773b499b",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "uuid": "6605dddd-00c3-4848-ad59-3bf4cf072cee",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.18.0"
+        }
+    ]
+}

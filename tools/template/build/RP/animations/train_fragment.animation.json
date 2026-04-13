@@ -1,0 +1,365 @@
+{
+    "format_version": "1.20.60",
+    "animations": {
+        "animation.template_plugin_bmni1tmc5.train_fragment.update": {
+            "loop": true,
+            "bones": {
+                "root": {
+                    "scale": 1
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b0": {
+            "loop": true,
+            "bones": {
+                "b0": {
+                    "position": [
+                        "((v.b0px??0)*16)+(v.b0ox??0)",
+                        "((v.b0py??0)*16)+(v.fragment_y_correction_px??0)+(v.b0oy??0)",
+                        "((v.b0pz??0)*16)+(v.b0oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b0rx??0)*90",
+                        "(v.b0ry??0)*90",
+                        "(v.b0rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b0s??1)",
+                        "(v.b0s??1)",
+                        "(v.b0s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b1": {
+            "loop": true,
+            "bones": {
+                "b1": {
+                    "position": [
+                        "((v.b1px??0)*16)+(v.b1ox??0)",
+                        "((v.b1py??0)*16)+(v.fragment_y_correction_px??0)+(v.b1oy??0)",
+                        "((v.b1pz??0)*16)+(v.b1oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b1rx??0)*90",
+                        "(v.b1ry??0)*90",
+                        "(v.b1rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b1s??1)",
+                        "(v.b1s??1)",
+                        "(v.b1s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b2": {
+            "loop": true,
+            "bones": {
+                "b2": {
+                    "position": [
+                        "((v.b2px??0)*16)+(v.b2ox??0)",
+                        "((v.b2py??0)*16)+(v.fragment_y_correction_px??0)+(v.b2oy??0)",
+                        "((v.b2pz??0)*16)+(v.b2oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b2rx??0)*90",
+                        "(v.b2ry??0)*90",
+                        "(v.b2rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b2s??1)",
+                        "(v.b2s??1)",
+                        "(v.b2s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b3": {
+            "loop": true,
+            "bones": {
+                "b3": {
+                    "position": [
+                        "((v.b3px??0)*16)+(v.b3ox??0)",
+                        "((v.b3py??0)*16)+(v.fragment_y_correction_px??0)+(v.b3oy??0)",
+                        "((v.b3pz??0)*16)+(v.b3oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b3rx??0)*90",
+                        "(v.b3ry??0)*90",
+                        "(v.b3rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b3s??1)",
+                        "(v.b3s??1)",
+                        "(v.b3s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b4": {
+            "loop": true,
+            "bones": {
+                "b4": {
+                    "position": [
+                        "((v.b4px??0)*16)+(v.b4ox??0)",
+                        "((v.b4py??0)*16)+(v.fragment_y_correction_px??0)+(v.b4oy??0)",
+                        "((v.b4pz??0)*16)+(v.b4oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b4rx??0)*90",
+                        "(v.b4ry??0)*90",
+                        "(v.b4rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b4s??1)",
+                        "(v.b4s??1)",
+                        "(v.b4s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b5": {
+            "loop": true,
+            "bones": {
+                "b5": {
+                    "position": [
+                        "((v.b5px??0)*16)+(v.b5ox??0)",
+                        "((v.b5py??0)*16)+(v.fragment_y_correction_px??0)+(v.b5oy??0)",
+                        "((v.b5pz??0)*16)+(v.b5oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b5rx??0)*90",
+                        "(v.b5ry??0)*90",
+                        "(v.b5rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b5s??1)",
+                        "(v.b5s??1)",
+                        "(v.b5s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b6": {
+            "loop": true,
+            "bones": {
+                "b6": {
+                    "position": [
+                        "((v.b6px??0)*16)+(v.b6ox??0)",
+                        "((v.b6py??0)*16)+(v.fragment_y_correction_px??0)+(v.b6oy??0)",
+                        "((v.b6pz??0)*16)+(v.b6oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b6rx??0)*90",
+                        "(v.b6ry??0)*90",
+                        "(v.b6rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b6s??1)",
+                        "(v.b6s??1)",
+                        "(v.b6s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b7": {
+            "loop": true,
+            "bones": {
+                "b7": {
+                    "position": [
+                        "((v.b7px??0)*16)+(v.b7ox??0)",
+                        "((v.b7py??0)*16)+(v.fragment_y_correction_px??0)+(v.b7oy??0)",
+                        "((v.b7pz??0)*16)+(v.b7oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b7rx??0)*90",
+                        "(v.b7ry??0)*90",
+                        "(v.b7rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b7s??1)",
+                        "(v.b7s??1)",
+                        "(v.b7s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b8": {
+            "loop": true,
+            "bones": {
+                "b8": {
+                    "position": [
+                        "((v.b8px??0)*16)+(v.b8ox??0)",
+                        "((v.b8py??0)*16)+(v.fragment_y_correction_px??0)+(v.b8oy??0)",
+                        "((v.b8pz??0)*16)+(v.b8oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b8rx??0)*90",
+                        "(v.b8ry??0)*90",
+                        "(v.b8rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b8s??1)",
+                        "(v.b8s??1)",
+                        "(v.b8s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b9": {
+            "loop": true,
+            "bones": {
+                "b9": {
+                    "position": [
+                        "((v.b9px??0)*16)+(v.b9ox??0)",
+                        "((v.b9py??0)*16)+(v.fragment_y_correction_px??0)+(v.b9oy??0)",
+                        "((v.b9pz??0)*16)+(v.b9oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b9rx??0)*90",
+                        "(v.b9ry??0)*90",
+                        "(v.b9rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b9s??1)",
+                        "(v.b9s??1)",
+                        "(v.b9s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b10": {
+            "loop": true,
+            "bones": {
+                "b10": {
+                    "position": [
+                        "((v.b10px??0)*16)+(v.b10ox??0)",
+                        "((v.b10py??0)*16)+(v.fragment_y_correction_px??0)+(v.b10oy??0)",
+                        "((v.b10pz??0)*16)+(v.b10oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b10rx??0)*90",
+                        "(v.b10ry??0)*90",
+                        "(v.b10rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b10s??1)",
+                        "(v.b10s??1)",
+                        "(v.b10s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b11": {
+            "loop": true,
+            "bones": {
+                "b11": {
+                    "position": [
+                        "((v.b11px??0)*16)+(v.b11ox??0)",
+                        "((v.b11py??0)*16)+(v.fragment_y_correction_px??0)+(v.b11oy??0)",
+                        "((v.b11pz??0)*16)+(v.b11oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b11rx??0)*90",
+                        "(v.b11ry??0)*90",
+                        "(v.b11rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b11s??1)",
+                        "(v.b11s??1)",
+                        "(v.b11s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b12": {
+            "loop": true,
+            "bones": {
+                "b12": {
+                    "position": [
+                        "((v.b12px??0)*16)+(v.b12ox??0)",
+                        "((v.b12py??0)*16)+(v.fragment_y_correction_px??0)+(v.b12oy??0)",
+                        "((v.b12pz??0)*16)+(v.b12oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b12rx??0)*90",
+                        "(v.b12ry??0)*90",
+                        "(v.b12rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b12s??1)",
+                        "(v.b12s??1)",
+                        "(v.b12s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b13": {
+            "loop": true,
+            "bones": {
+                "b13": {
+                    "position": [
+                        "((v.b13px??0)*16)+(v.b13ox??0)",
+                        "((v.b13py??0)*16)+(v.fragment_y_correction_px??0)+(v.b13oy??0)",
+                        "((v.b13pz??0)*16)+(v.b13oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b13rx??0)*90",
+                        "(v.b13ry??0)*90",
+                        "(v.b13rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b13s??1)",
+                        "(v.b13s??1)",
+                        "(v.b13s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b14": {
+            "loop": true,
+            "bones": {
+                "b14": {
+                    "position": [
+                        "((v.b14px??0)*16)+(v.b14ox??0)",
+                        "((v.b14py??0)*16)+(v.fragment_y_correction_px??0)+(v.b14oy??0)",
+                        "((v.b14pz??0)*16)+(v.b14oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b14rx??0)*90",
+                        "(v.b14ry??0)*90",
+                        "(v.b14rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b14s??1)",
+                        "(v.b14s??1)",
+                        "(v.b14s??1)"
+                    ]
+                }
+            }
+        },
+        "animation.template_plugin_bmni1tmc5.train_fragment.b15": {
+            "loop": true,
+            "bones": {
+                "b15": {
+                    "position": [
+                        "((v.b15px??0)*16)+(v.b15ox??0)",
+                        "((v.b15py??0)*16)+(v.fragment_y_correction_px??0)+(v.b15oy??0)",
+                        "((v.b15pz??0)*16)+(v.b15oz??0)"
+                    ],
+                    "rotation": [
+                        "(v.b15rx??0)*90",
+                        "(v.b15ry??0)*90",
+                        "(v.b15rz??0)*90"
+                    ],
+                    "scale": [
+                        "(v.b15s??1)",
+                        "(v.b15s??1)",
+                        "(v.b15s??1)"
+                    ]
+                }
+            }
+        }
+    }
+}

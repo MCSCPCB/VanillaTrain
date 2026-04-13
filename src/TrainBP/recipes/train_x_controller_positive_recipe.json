@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "train:x_controller_positive_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "   ",
+            "LCR",
+            "   "
+        ],
+        "key": {
+            "L": {
+                "item": "train:lead"
+            },
+            "C": {
+                "item": "minecraft:compass"
+            },
+            "R": {
+                "item": "minecraft:redstone"
+            }
+        },
+        "result": {
+            "item": "train:x_controller_positive",
+            "count": 1
+        }
+    }
+}

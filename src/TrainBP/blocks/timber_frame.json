@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "train:timber_frame", //木构架
+            "menu_category": {
+                "group": "train:itemGroup.name.train",
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "timber_frame",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                }
+            },
+            "minecraft:light_dampening": 1,
+            "minecraft:display_name": "%timber_frame.name1\n%timber_frame.name2",
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 1
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.3
+            },
+            "tag:minecraft:is_axe_item_destructible": {}
+        }
+    }
+}

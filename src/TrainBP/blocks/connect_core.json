@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "train:connect_core",
+            "menu_category": {
+                "group": "train:itemGroup.name.train",
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "%connect_core.name1\n%connect_core.name2",
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 1
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 4.3
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {}
+        }
+    }
+}

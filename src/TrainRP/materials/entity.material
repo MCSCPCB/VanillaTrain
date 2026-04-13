@@ -1,0 +1,42 @@
+{
+    "materials": {
+        "version": "1.0.0",
+        "fragment_block:entity_alphatest": {
+            "+defines": [
+                "USE_UV_ANIM"
+            ]
+        },
+        "fragment_block_glass_blend:entity": {
+            "+defines": [
+                "ALPHA_TEST",
+                "USE_UV_ANIM"
+            ],
+            "+states": [
+                "EnableAlphaToCoverage",
+                "Blending"
+            ]
+        },
+        "fragment_block_slime_outer_blend:entity": {
+            "+defines": [
+                "USE_UV_ANIM"
+            ],
+            "+states": [
+                "Blending"
+            ]
+        },
+        "fragment_block_redstone_torch:entity_emissive_alpha_one_sided": {
+            "+defines": [
+                "USE_UV_ANIM"
+            ],
+            "-defines": [
+                "FANCY"
+            ]
+        },
+        "fragment_block_glow:entity": {
+            "+defines": [
+                "USE_EMISSIVE",
+                "USE_UV_ANIM"
+            ]
+        }
+    }
+}

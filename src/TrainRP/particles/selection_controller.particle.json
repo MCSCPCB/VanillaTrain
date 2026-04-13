@@ -1,0 +1,78 @@
+{
+    "format_version": "1.10.0",
+    "particle_effect": {
+        "description": {
+            "identifier": "train:selection_controller",
+            "basic_render_parameters": {
+                "material": "particles_alpha",
+                "texture": "textures/particle/selection_face"
+            }
+        },
+        "events": {
+            "box": {
+                "sequence": [
+                    {
+                        "particle_effect": {
+                            "effect": "train:selection_face_x1",
+                            "type": "emitter"
+                        }
+                    },
+                    {
+                        "particle_effect": {
+                            "effect": "train:selection_face_x2",
+                            "type": "emitter"
+                        }
+                    },
+                    {
+                        "particle_effect": {
+                            "effect": "train:selection_face_z1",
+                            "type": "emitter"
+                        }
+                    },
+                    {
+                        "particle_effect": {
+                            "effect": "train:selection_face_z2",
+                            "type": "emitter"
+                        }
+                    },
+                    {
+                        "particle_effect": {
+                            "effect": "train:selection_face_top",
+                            "type": "emitter"
+                        }
+                    },
+                    {
+                        "particle_effect": {
+                            "effect": "train:selection_face_bottom",
+                            "type": "emitter"
+                        }
+                    }
+                ]
+            }
+        },
+        "components": {
+            "minecraft:emitter_rate_instant": {
+                "num_particles": 1
+            },
+            "minecraft:emitter_lifetime_once": {
+                "active_time": 0.5
+            },
+            "minecraft:emitter_lifetime_events": {
+                "creation_event": "box"
+            },
+            "minecraft:emitter_shape_point": {},
+            "minecraft:particle_lifetime_expression": {
+                "max_lifetime": 0.05
+            },
+            "minecraft:particle_initial_speed": 0,
+            "minecraft:particle_motion_dynamic": {},
+            "minecraft:particle_appearance_billboard": {
+                "size": [
+                    0.01,
+                    0.01
+                ],
+                "facing_camera_mode": "rotate_xyz"
+            }
+        }
+    }
+}

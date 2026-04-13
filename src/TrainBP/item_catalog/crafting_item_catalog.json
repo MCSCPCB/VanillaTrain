@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "train:connect_core",
+              "name": "train:itemGroup.name.train"
+            },
+            "items": [
+              "train:connect_core",
+              "train:timber_frame",
+              "train:wrench",
+              "train:minecart_handbook",
+              "train:lead",
+              "train:x_controller_positive",
+              "train:z_controller_positive"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

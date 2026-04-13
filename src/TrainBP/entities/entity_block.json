@@ -1,0 +1,170 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "train:entity_block",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "no_AABB": {
+                "minecraft:collision_box": {
+                    "width": 0.0,
+                    "height": 0.0
+                },
+                "minecraft:mark_variant": {
+                    "value": 0
+                }
+            },
+            "AABB": {
+                "minecraft:collision_box": {
+                    "width": 1.0,
+                    "height": 1.0
+                },
+                "minecraft:rideable": {
+                    "family_types": [
+                        "inanimate",
+                        "temp_seat"
+                    ],
+                    "seat_count": 1,
+                    "dismount_mode": "on_top_center",
+                    "seats": [
+                        {
+                            "position": [
+                                0.0,
+                                1,
+                                0.0
+                            ]
+                        }
+                    ]
+                },
+                "minecraft:is_collidable": {},
+                "minecraft:mark_variant": {
+                    "value": 1
+                }
+            },
+            "AABB_SLAB_BOTTOM": {
+                "minecraft:collision_box": {
+                    "width": 1.0,
+                    "height": 0.5
+                },
+                "minecraft:rideable": {
+                    "family_types": [
+                        "inanimate",
+                        "temp_seat"
+                    ],
+                    "seat_count": 1,
+                    "dismount_mode": "on_top_center",
+                    "seats": [
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        }
+                    ]
+                },
+                "minecraft:is_collidable": {},
+                "minecraft:mark_variant": {
+                    "value": 2
+                }
+            },
+            "AABB_INTERACT_ONLY": {
+                "minecraft:collision_box": {
+                    "width": 1.0,
+                    "height": 1.0
+                },
+                "minecraft:mark_variant": {
+                    "value": 3
+                }
+            }
+        },
+        "components": {
+            "minecraft:rideable": {
+                "family_types": [
+                    "inanimate",
+                    "temp_seat"
+                ],
+                "seat_count": 1,
+                "dismount_mode": "on_top_center",
+                "seats": [
+                    {
+                        "position": [
+                            0.0,
+                            1,
+                            0.0
+                        ]
+                    }
+                ]
+            },
+            "minecraft:mark_variant": {
+                "value": 0
+            },
+            "minecraft:collision_box": {
+                "width": 0.0,
+                "height": 0.0
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "inanimate",
+                    "temp_seat"
+                ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:physics": {
+                "has_gravity": false,
+                "has_collision": false
+            },
+            "minecraft:renders_when_invisible": {},
+            "minecraft:conditional_bandwidth_optimization": {
+                "default_values": {
+                    "max_optimized_distance": 0,
+                    "max_dropped_ticks": 0
+                }
+            }
+        },
+        "events": {
+            "no_AABB": {
+                "add": {
+                    "component_groups": "no_AABB"
+                }
+            },
+            "AABB": {
+                "add": {
+                    "component_groups": "AABB"
+                }
+            },
+            "AABB_SLAB_BOTTOM": {
+                "add": {
+                    "component_groups": "AABB_SLAB_BOTTOM"
+                }
+            },
+            "AABB_INTERACT_ONLY": {
+                "add": {
+                    "component_groups": "AABB_INTERACT_ONLY"
+                }
+            },
+            "minecraft:entity_spawned": {
+                "queue_command": {
+                    "command": [
+                        "effect @s invisibility infinite 0 true"
+                    ]
+                }
+            }
+        }
+    }
+}

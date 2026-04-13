@@ -1,0 +1,2325 @@
+{
+    "format_version": "1.20.60",
+    "animations": {
+        "animation.fragment.update": {
+            "loop": true,
+            "bones": {
+                "root": {
+                    "scale": 1
+                }
+            }
+        },
+        "animation.fragment.b0": {
+            "loop": true,
+            "bones": {
+                "b0": {
+                    "position": [
+                        "(v.b0px??0)*16",
+                        "((v.b0py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b0pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b0rx??0)*90",
+                        "(v.b0ry??0)*90",
+                        "(v.b0rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b1": {
+            "loop": true,
+            "bones": {
+                "b1": {
+                    "position": [
+                        "(v.b1px??0)*16",
+                        "((v.b1py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b1pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b1rx??0)*90",
+                        "(v.b1ry??0)*90",
+                        "(v.b1rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b2": {
+            "loop": true,
+            "bones": {
+                "b2": {
+                    "position": [
+                        "(v.b2px??0)*16",
+                        "((v.b2py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b2pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b2rx??0)*90",
+                        "(v.b2ry??0)*90",
+                        "(v.b2rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b3": {
+            "loop": true,
+            "bones": {
+                "b3": {
+                    "position": [
+                        "(v.b3px??0)*16",
+                        "((v.b3py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b3pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b3rx??0)*90",
+                        "(v.b3ry??0)*90",
+                        "(v.b3rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b4": {
+            "loop": true,
+            "bones": {
+                "b4": {
+                    "position": [
+                        "(v.b4px??0)*16",
+                        "((v.b4py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b4pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b4rx??0)*90",
+                        "(v.b4ry??0)*90",
+                        "(v.b4rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b5": {
+            "loop": true,
+            "bones": {
+                "b5": {
+                    "position": [
+                        "(v.b5px??0)*16",
+                        "((v.b5py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b5pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b5rx??0)*90",
+                        "(v.b5ry??0)*90",
+                        "(v.b5rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b6": {
+            "loop": true,
+            "bones": {
+                "b6": {
+                    "position": [
+                        "(v.b6px??0)*16",
+                        "((v.b6py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b6pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b6rx??0)*90",
+                        "(v.b6ry??0)*90",
+                        "(v.b6rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b7": {
+            "loop": true,
+            "bones": {
+                "b7": {
+                    "position": [
+                        "(v.b7px??0)*16",
+                        "((v.b7py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b7pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b7rx??0)*90",
+                        "(v.b7ry??0)*90",
+                        "(v.b7rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b8": {
+            "loop": true,
+            "bones": {
+                "b8": {
+                    "position": [
+                        "(v.b8px??0)*16",
+                        "((v.b8py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b8pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b8rx??0)*90",
+                        "(v.b8ry??0)*90",
+                        "(v.b8rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b9": {
+            "loop": true,
+            "bones": {
+                "b9": {
+                    "position": [
+                        "(v.b9px??0)*16",
+                        "((v.b9py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b9pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b9rx??0)*90",
+                        "(v.b9ry??0)*90",
+                        "(v.b9rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b10": {
+            "loop": true,
+            "bones": {
+                "b10": {
+                    "position": [
+                        "(v.b10px??0)*16",
+                        "((v.b10py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b10pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b10rx??0)*90",
+                        "(v.b10ry??0)*90",
+                        "(v.b10rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b11": {
+            "loop": true,
+            "bones": {
+                "b11": {
+                    "position": [
+                        "(v.b11px??0)*16",
+                        "((v.b11py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b11pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b11rx??0)*90",
+                        "(v.b11ry??0)*90",
+                        "(v.b11rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b12": {
+            "loop": true,
+            "bones": {
+                "b12": {
+                    "position": [
+                        "(v.b12px??0)*16",
+                        "((v.b12py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b12pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b12rx??0)*90",
+                        "(v.b12ry??0)*90",
+                        "(v.b12rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b13": {
+            "loop": true,
+            "bones": {
+                "b13": {
+                    "position": [
+                        "(v.b13px??0)*16",
+                        "((v.b13py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b13pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b13rx??0)*90",
+                        "(v.b13ry??0)*90",
+                        "(v.b13rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b14": {
+            "loop": true,
+            "bones": {
+                "b14": {
+                    "position": [
+                        "(v.b14px??0)*16",
+                        "((v.b14py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b14pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b14rx??0)*90",
+                        "(v.b14ry??0)*90",
+                        "(v.b14rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.b15": {
+            "loop": true,
+            "bones": {
+                "b15": {
+                    "position": [
+                        "(v.b15px??0)*16",
+                        "((v.b15py??0)*16)+(v.fragment_y_correction_px??0)",
+                        "(v.b15pz??0)*16"
+                    ],
+                    "rotation": [
+                        "(v.b15rx??0)*90",
+                        "(v.b15ry??0)*90",
+                        "(v.b15rz??0)*90"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.fence_gate": {
+            "loop": true,
+            "bones": {
+                "gate0_b0": {
+                    "rotation": [
+                        0,
+                        "(v.b0data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b0": {
+                    "rotation": [
+                        0,
+                        "(v.b0data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b1": {
+                    "rotation": [
+                        0,
+                        "(v.b1data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b1": {
+                    "rotation": [
+                        0,
+                        "(v.b1data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b2": {
+                    "rotation": [
+                        0,
+                        "(v.b2data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b2": {
+                    "rotation": [
+                        0,
+                        "(v.b2data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b3": {
+                    "rotation": [
+                        0,
+                        "(v.b3data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b3": {
+                    "rotation": [
+                        0,
+                        "(v.b3data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b4": {
+                    "rotation": [
+                        0,
+                        "(v.b4data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b4": {
+                    "rotation": [
+                        0,
+                        "(v.b4data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b5": {
+                    "rotation": [
+                        0,
+                        "(v.b5data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b5": {
+                    "rotation": [
+                        0,
+                        "(v.b5data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b6": {
+                    "rotation": [
+                        0,
+                        "(v.b6data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b6": {
+                    "rotation": [
+                        0,
+                        "(v.b6data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b7": {
+                    "rotation": [
+                        0,
+                        "(v.b7data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b7": {
+                    "rotation": [
+                        0,
+                        "(v.b7data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b8": {
+                    "rotation": [
+                        0,
+                        "(v.b8data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b8": {
+                    "rotation": [
+                        0,
+                        "(v.b8data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b9": {
+                    "rotation": [
+                        0,
+                        "(v.b9data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b9": {
+                    "rotation": [
+                        0,
+                        "(v.b9data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b10": {
+                    "rotation": [
+                        0,
+                        "(v.b10data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b10": {
+                    "rotation": [
+                        0,
+                        "(v.b10data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b11": {
+                    "rotation": [
+                        0,
+                        "(v.b11data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b11": {
+                    "rotation": [
+                        0,
+                        "(v.b11data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b12": {
+                    "rotation": [
+                        0,
+                        "(v.b12data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b12": {
+                    "rotation": [
+                        0,
+                        "(v.b12data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b13": {
+                    "rotation": [
+                        0,
+                        "(v.b13data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b13": {
+                    "rotation": [
+                        0,
+                        "(v.b13data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b14": {
+                    "rotation": [
+                        0,
+                        "(v.b14data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b14": {
+                    "rotation": [
+                        0,
+                        "(v.b14data==7)*-90",
+                        0
+                    ]
+                },
+                "gate0_b15": {
+                    "rotation": [
+                        0,
+                        "(v.b15data==7)*90",
+                        0
+                    ]
+                },
+                "gate1_b15": {
+                    "rotation": [
+                        0,
+                        "(v.b15data==7)*-90",
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.fragment.trapdoor": {
+            "loop": true,
+            "bones": {
+                "trapdoor0_b0": {
+                    "rotation": [
+                        0,
+                        "(v.b0data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b1": {
+                    "rotation": [
+                        0,
+                        "(v.b1data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b2": {
+                    "rotation": [
+                        0,
+                        "(v.b2data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b3": {
+                    "rotation": [
+                        0,
+                        "(v.b3data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b4": {
+                    "rotation": [
+                        0,
+                        "(v.b4data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b5": {
+                    "rotation": [
+                        0,
+                        "(v.b5data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b6": {
+                    "rotation": [
+                        0,
+                        "(v.b6data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b7": {
+                    "rotation": [
+                        0,
+                        "(v.b7data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b8": {
+                    "rotation": [
+                        0,
+                        "(v.b8data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b9": {
+                    "rotation": [
+                        0,
+                        "(v.b9data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b10": {
+                    "rotation": [
+                        0,
+                        "(v.b10data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b11": {
+                    "rotation": [
+                        0,
+                        "(v.b11data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b12": {
+                    "rotation": [
+                        0,
+                        "(v.b12data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b13": {
+                    "rotation": [
+                        0,
+                        "(v.b13data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b14": {
+                    "rotation": [
+                        0,
+                        "(v.b14data??0)*-90",
+                        0
+                    ]
+                },
+                "trapdoor0_b15": {
+                    "rotation": [
+                        0,
+                        "(v.b15data??0)*-90",
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.fragment.door": {
+            "loop": true,
+            "bones": {
+                "door_b0": {
+                    "rotation": [
+                        0,
+                        "(v.b0data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b1": {
+                    "rotation": [
+                        0,
+                        "(v.b1data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b2": {
+                    "rotation": [
+                        0,
+                        "(v.b2data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b3": {
+                    "rotation": [
+                        0,
+                        "(v.b3data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b4": {
+                    "rotation": [
+                        0,
+                        "(v.b4data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b5": {
+                    "rotation": [
+                        0,
+                        "(v.b5data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b6": {
+                    "rotation": [
+                        0,
+                        "(v.b6data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b7": {
+                    "rotation": [
+                        0,
+                        "(v.b7data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b8": {
+                    "rotation": [
+                        0,
+                        "(v.b8data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b9": {
+                    "rotation": [
+                        0,
+                        "(v.b9data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b10": {
+                    "rotation": [
+                        0,
+                        "(v.b10data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b11": {
+                    "rotation": [
+                        0,
+                        "(v.b11data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b12": {
+                    "rotation": [
+                        0,
+                        "(v.b12data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b13": {
+                    "rotation": [
+                        0,
+                        "(v.b13data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b14": {
+                    "rotation": [
+                        0,
+                        "(v.b14data??0)*-90",
+                        0
+                    ]
+                },
+                "door_b15": {
+                    "rotation": [
+                        0,
+                        "(v.b15data??0)*-90",
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.fragment.lantern": {
+            "loop": true,
+            "bones": {
+                "chain_b0": {
+                    "position": [
+                        0,
+                        "(v.b0data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b0": {
+                    "position": [
+                        0,
+                        "(v.b0data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b1": {
+                    "position": [
+                        0,
+                        "(v.b1data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b1": {
+                    "position": [
+                        0,
+                        "(v.b1data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b2": {
+                    "position": [
+                        0,
+                        "(v.b2data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b2": {
+                    "position": [
+                        0,
+                        "(v.b2data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b3": {
+                    "position": [
+                        0,
+                        "(v.b3data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b3": {
+                    "position": [
+                        0,
+                        "(v.b3data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b4": {
+                    "position": [
+                        0,
+                        "(v.b4data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b4": {
+                    "position": [
+                        0,
+                        "(v.b4data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b5": {
+                    "position": [
+                        0,
+                        "(v.b5data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b5": {
+                    "position": [
+                        0,
+                        "(v.b5data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b6": {
+                    "position": [
+                        0,
+                        "(v.b6data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b6": {
+                    "position": [
+                        0,
+                        "(v.b6data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b7": {
+                    "position": [
+                        0,
+                        "(v.b7data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b7": {
+                    "position": [
+                        0,
+                        "(v.b7data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b8": {
+                    "position": [
+                        0,
+                        "(v.b8data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b8": {
+                    "position": [
+                        0,
+                        "(v.b8data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b9": {
+                    "position": [
+                        0,
+                        "(v.b9data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b9": {
+                    "position": [
+                        0,
+                        "(v.b9data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b10": {
+                    "position": [
+                        0,
+                        "(v.b10data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b10": {
+                    "position": [
+                        0,
+                        "(v.b10data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b11": {
+                    "position": [
+                        0,
+                        "(v.b11data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b11": {
+                    "position": [
+                        0,
+                        "(v.b11data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b12": {
+                    "position": [
+                        0,
+                        "(v.b12data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b12": {
+                    "position": [
+                        0,
+                        "(v.b12data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b13": {
+                    "position": [
+                        0,
+                        "(v.b13data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b13": {
+                    "position": [
+                        0,
+                        "(v.b13data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b14": {
+                    "position": [
+                        0,
+                        "(v.b14data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b14": {
+                    "position": [
+                        0,
+                        "(v.b14data??0)*2",
+                        0
+                    ]
+                },
+                "chain_b15": {
+                    "position": [
+                        0,
+                        "(v.b15data??0)*9",
+                        0
+                    ]
+                },
+                "lantern_b15": {
+                    "position": [
+                        0,
+                        "(v.b15data??0)*2",
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.fragment.torch": {
+            "loop": true,
+            "bones": {
+                "torch_b0": {
+                    "rotation": [
+                        "(v.b0data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b0data??0)*4",
+                        "(v.b0data??0)*-8"
+                    ]
+                },
+                "torch_b1": {
+                    "rotation": [
+                        "(v.b1data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b1data??0)*4",
+                        "(v.b1data??0)*-8"
+                    ]
+                },
+                "torch_b2": {
+                    "rotation": [
+                        "(v.b2data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b2data??0)*4",
+                        "(v.b2data??0)*-8"
+                    ]
+                },
+                "torch_b3": {
+                    "rotation": [
+                        "(v.b3data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b3data??0)*4",
+                        "(v.b3data??0)*-8"
+                    ]
+                },
+                "torch_b4": {
+                    "rotation": [
+                        "(v.b4data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b4data??0)*4",
+                        "(v.b4data??0)*-8"
+                    ]
+                },
+                "torch_b5": {
+                    "rotation": [
+                        "(v.b5data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b5data??0)*4",
+                        "(v.b5data??0)*-8"
+                    ]
+                },
+                "torch_b6": {
+                    "rotation": [
+                        "(v.b6data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b6data??0)*4",
+                        "(v.b6data??0)*-8"
+                    ]
+                },
+                "torch_b7": {
+                    "rotation": [
+                        "(v.b7data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b7data??0)*4",
+                        "(v.b7data??0)*-8"
+                    ]
+                },
+                "torch_b8": {
+                    "rotation": [
+                        "(v.b8data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b8data??0)*4",
+                        "(v.b8data??0)*-8"
+                    ]
+                },
+                "torch_b9": {
+                    "rotation": [
+                        "(v.b9data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b9data??0)*4",
+                        "(v.b9data??0)*-8"
+                    ]
+                },
+                "torch_b10": {
+                    "rotation": [
+                        "(v.b10data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b10data??0)*4",
+                        "(v.b10data??0)*-8"
+                    ]
+                },
+                "torch_b11": {
+                    "rotation": [
+                        "(v.b11data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b11data??0)*4",
+                        "(v.b11data??0)*-8"
+                    ]
+                },
+                "torch_b12": {
+                    "rotation": [
+                        "(v.b12data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b12data??0)*4",
+                        "(v.b12data??0)*-8"
+                    ]
+                },
+                "torch_b13": {
+                    "rotation": [
+                        "(v.b13data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b13data??0)*4",
+                        "(v.b13data??0)*-8"
+                    ]
+                },
+                "torch_b14": {
+                    "rotation": [
+                        "(v.b14data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b14data??0)*4",
+                        "(v.b14data??0)*-8"
+                    ]
+                },
+                "torch_b15": {
+                    "rotation": [
+                        "(v.b15data??0)*-30",
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        "(v.b15data??0)*4",
+                        "(v.b15data??0)*-8"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.enchanting_table": {
+            "loop": true,
+            "bones": {
+                "book_b0": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b1": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b2": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b3": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b4": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b5": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b6": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b7": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b8": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b9": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b10": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b11": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b12": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b13": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b14": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                },
+                "book_b15": {
+                    "rotation": [
+                        -15,
+                        "q.life_time * 24",
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.fragment.brewing_stand": {
+            "loop": true,
+            "bones": {
+                "bottle0_b0": {
+                    "scale": [
+                        "q.any(v.b0data??0,1,4,5,7)",
+                        "q.any(v.b0data??0,1,4,5,7)",
+                        "q.any(v.b0data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b0": {
+                    "scale": [
+                        "q.any(v.b0data??0,2,4,6,7)",
+                        "q.any(v.b0data??0,2,4,6,7)",
+                        "q.any(v.b0data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b0": {
+                    "scale": [
+                        "q.any(v.b0data??0,3,5,6,7)",
+                        "q.any(v.b0data??0,3,5,6,7)",
+                        "q.any(v.b0data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b1": {
+                    "scale": [
+                        "q.any(v.b1data??0,1,4,5,7)",
+                        "q.any(v.b1data??0,1,4,5,7)",
+                        "q.any(v.b1data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b1": {
+                    "scale": [
+                        "q.any(v.b1data??0,2,4,6,7)",
+                        "q.any(v.b1data??0,2,4,6,7)",
+                        "q.any(v.b1data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b1": {
+                    "scale": [
+                        "q.any(v.b1data??0,3,5,6,7)",
+                        "q.any(v.b1data??0,3,5,6,7)",
+                        "q.any(v.b1data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b2": {
+                    "scale": [
+                        "q.any(v.b2data??0,1,4,5,7)",
+                        "q.any(v.b2data??0,1,4,5,7)",
+                        "q.any(v.b2data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b2": {
+                    "scale": [
+                        "q.any(v.b2data??0,2,4,6,7)",
+                        "q.any(v.b2data??0,2,4,6,7)",
+                        "q.any(v.b2data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b2": {
+                    "scale": [
+                        "q.any(v.b2data??0,3,5,6,7)",
+                        "q.any(v.b2data??0,3,5,6,7)",
+                        "q.any(v.b2data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b3": {
+                    "scale": [
+                        "q.any(v.b3data??0,1,4,5,7)",
+                        "q.any(v.b3data??0,1,4,5,7)",
+                        "q.any(v.b3data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b3": {
+                    "scale": [
+                        "q.any(v.b3data??0,2,4,6,7)",
+                        "q.any(v.b3data??0,2,4,6,7)",
+                        "q.any(v.b3data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b3": {
+                    "scale": [
+                        "q.any(v.b3data??0,3,5,6,7)",
+                        "q.any(v.b3data??0,3,5,6,7)",
+                        "q.any(v.b3data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b4": {
+                    "scale": [
+                        "q.any(v.b4data??0,1,4,5,7)",
+                        "q.any(v.b4data??0,1,4,5,7)",
+                        "q.any(v.b4data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b4": {
+                    "scale": [
+                        "q.any(v.b4data??0,2,4,6,7)",
+                        "q.any(v.b4data??0,2,4,6,7)",
+                        "q.any(v.b4data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b4": {
+                    "scale": [
+                        "q.any(v.b4data??0,3,5,6,7)",
+                        "q.any(v.b4data??0,3,5,6,7)",
+                        "q.any(v.b4data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b5": {
+                    "scale": [
+                        "q.any(v.b5data??0,1,4,5,7)",
+                        "q.any(v.b5data??0,1,4,5,7)",
+                        "q.any(v.b5data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b5": {
+                    "scale": [
+                        "q.any(v.b5data??0,2,4,6,7)",
+                        "q.any(v.b5data??0,2,4,6,7)",
+                        "q.any(v.b5data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b5": {
+                    "scale": [
+                        "q.any(v.b5data??0,3,5,6,7)",
+                        "q.any(v.b5data??0,3,5,6,7)",
+                        "q.any(v.b5data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b6": {
+                    "scale": [
+                        "q.any(v.b6data??0,1,4,5,7)",
+                        "q.any(v.b6data??0,1,4,5,7)",
+                        "q.any(v.b6data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b6": {
+                    "scale": [
+                        "q.any(v.b6data??0,2,4,6,7)",
+                        "q.any(v.b6data??0,2,4,6,7)",
+                        "q.any(v.b6data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b6": {
+                    "scale": [
+                        "q.any(v.b6data??0,3,5,6,7)",
+                        "q.any(v.b6data??0,3,5,6,7)",
+                        "q.any(v.b6data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b7": {
+                    "scale": [
+                        "q.any(v.b7data??0,1,4,5,7)",
+                        "q.any(v.b7data??0,1,4,5,7)",
+                        "q.any(v.b7data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b7": {
+                    "scale": [
+                        "q.any(v.b7data??0,2,4,6,7)",
+                        "q.any(v.b7data??0,2,4,6,7)",
+                        "q.any(v.b7data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b7": {
+                    "scale": [
+                        "q.any(v.b7data??0,3,5,6,7)",
+                        "q.any(v.b7data??0,3,5,6,7)",
+                        "q.any(v.b7data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b8": {
+                    "scale": [
+                        "q.any(v.b8data??0,1,4,5,7)",
+                        "q.any(v.b8data??0,1,4,5,7)",
+                        "q.any(v.b8data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b8": {
+                    "scale": [
+                        "q.any(v.b8data??0,2,4,6,7)",
+                        "q.any(v.b8data??0,2,4,6,7)",
+                        "q.any(v.b8data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b8": {
+                    "scale": [
+                        "q.any(v.b8data??0,3,5,6,7)",
+                        "q.any(v.b8data??0,3,5,6,7)",
+                        "q.any(v.b8data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b9": {
+                    "scale": [
+                        "q.any(v.b9data??0,1,4,5,7)",
+                        "q.any(v.b9data??0,1,4,5,7)",
+                        "q.any(v.b9data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b9": {
+                    "scale": [
+                        "q.any(v.b9data??0,2,4,6,7)",
+                        "q.any(v.b9data??0,2,4,6,7)",
+                        "q.any(v.b9data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b9": {
+                    "scale": [
+                        "q.any(v.b9data??0,3,5,6,7)",
+                        "q.any(v.b9data??0,3,5,6,7)",
+                        "q.any(v.b9data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b10": {
+                    "scale": [
+                        "q.any(v.b10data??0,1,4,5,7)",
+                        "q.any(v.b10data??0,1,4,5,7)",
+                        "q.any(v.b10data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b10": {
+                    "scale": [
+                        "q.any(v.b10data??0,2,4,6,7)",
+                        "q.any(v.b10data??0,2,4,6,7)",
+                        "q.any(v.b10data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b10": {
+                    "scale": [
+                        "q.any(v.b10data??0,3,5,6,7)",
+                        "q.any(v.b10data??0,3,5,6,7)",
+                        "q.any(v.b10data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b11": {
+                    "scale": [
+                        "q.any(v.b11data??0,1,4,5,7)",
+                        "q.any(v.b11data??0,1,4,5,7)",
+                        "q.any(v.b11data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b11": {
+                    "scale": [
+                        "q.any(v.b11data??0,2,4,6,7)",
+                        "q.any(v.b11data??0,2,4,6,7)",
+                        "q.any(v.b11data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b11": {
+                    "scale": [
+                        "q.any(v.b11data??0,3,5,6,7)",
+                        "q.any(v.b11data??0,3,5,6,7)",
+                        "q.any(v.b11data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b12": {
+                    "scale": [
+                        "q.any(v.b12data??0,1,4,5,7)",
+                        "q.any(v.b12data??0,1,4,5,7)",
+                        "q.any(v.b12data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b12": {
+                    "scale": [
+                        "q.any(v.b12data??0,2,4,6,7)",
+                        "q.any(v.b12data??0,2,4,6,7)",
+                        "q.any(v.b12data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b12": {
+                    "scale": [
+                        "q.any(v.b12data??0,3,5,6,7)",
+                        "q.any(v.b12data??0,3,5,6,7)",
+                        "q.any(v.b12data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b13": {
+                    "scale": [
+                        "q.any(v.b13data??0,1,4,5,7)",
+                        "q.any(v.b13data??0,1,4,5,7)",
+                        "q.any(v.b13data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b13": {
+                    "scale": [
+                        "q.any(v.b13data??0,2,4,6,7)",
+                        "q.any(v.b13data??0,2,4,6,7)",
+                        "q.any(v.b13data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b13": {
+                    "scale": [
+                        "q.any(v.b13data??0,3,5,6,7)",
+                        "q.any(v.b13data??0,3,5,6,7)",
+                        "q.any(v.b13data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b14": {
+                    "scale": [
+                        "q.any(v.b14data??0,1,4,5,7)",
+                        "q.any(v.b14data??0,1,4,5,7)",
+                        "q.any(v.b14data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b14": {
+                    "scale": [
+                        "q.any(v.b14data??0,2,4,6,7)",
+                        "q.any(v.b14data??0,2,4,6,7)",
+                        "q.any(v.b14data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b14": {
+                    "scale": [
+                        "q.any(v.b14data??0,3,5,6,7)",
+                        "q.any(v.b14data??0,3,5,6,7)",
+                        "q.any(v.b14data??0,3,5,6,7)"
+                    ]
+                },
+                "bottle0_b15": {
+                    "scale": [
+                        "q.any(v.b15data??0,1,4,5,7)",
+                        "q.any(v.b15data??0,1,4,5,7)",
+                        "q.any(v.b15data??0,1,4,5,7)"
+                    ]
+                },
+                "bottle1_b15": {
+                    "scale": [
+                        "q.any(v.b15data??0,2,4,6,7)",
+                        "q.any(v.b15data??0,2,4,6,7)",
+                        "q.any(v.b15data??0,2,4,6,7)"
+                    ]
+                },
+                "bottle2_b15": {
+                    "scale": [
+                        "q.any(v.b15data??0,3,5,6,7)",
+                        "q.any(v.b15data??0,3,5,6,7)",
+                        "q.any(v.b15data??0,3,5,6,7)"
+                    ]
+                }
+            }
+        },
+        "animation.fragment.candle": {
+            "loop": true,
+            "bones": {
+                "candle_b0": {
+                    "position": [
+                        "v.b0data==1?2:(v.b0data==2?1:(v.b0data==3?1:0))",
+                        0,
+                        "v.b0data==2?1:(v.b0data==3?2:0)"
+                    ]
+                },
+                "candle0_b0": {
+                    "position": [
+                        "v.b0data==1?-2:(q.any(v.b0data,2,3)?-2:0)",
+                        0,
+                        "v.b0data==1?-1:(v.b0data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b0data,1,2,3)",
+                        "q.any(v.b0data,1,2,3)",
+                        "q.any(v.b0data,1,2,3)"
+                    ]
+                },
+                "candle1_b0": {
+                    "position": [
+                        "v.b0data==3?-1:0",
+                        0,
+                        "v.b0data==2?-2:(v.b0data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b0data,2,3)",
+                        "q.any(v.b0data,2,3)",
+                        "q.any(v.b0data,2,3)"
+                    ]
+                },
+                "candle2_b0": {
+                    "position": [
+                        "v.b0data==3?2:0",
+                        0,
+                        "v.b0data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b0data==3",
+                        "v.b0data==3",
+                        "v.b0data==3"
+                    ]
+                },
+                "candle_b1": {
+                    "position": [
+                        "v.b1data==1?2:(v.b1data==2?1:(v.b1data==3?1:0))",
+                        0,
+                        "v.b1data==2?1:(v.b1data==3?2:0)"
+                    ]
+                },
+                "candle0_b1": {
+                    "position": [
+                        "v.b1data==1?-2:(q.any(v.b1data,2,3)?-2:0)",
+                        0,
+                        "v.b1data==1?-1:(v.b1data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b1data,1,2,3)",
+                        "q.any(v.b1data,1,2,3)",
+                        "q.any(v.b1data,1,2,3)"
+                    ]
+                },
+                "candle1_b1": {
+                    "position": [
+                        "v.b1data==3?-1:0",
+                        0,
+                        "v.b1data==2?-2:(v.b1data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b1data,2,3)",
+                        "q.any(v.b1data,2,3)",
+                        "q.any(v.b1data,2,3)"
+                    ]
+                },
+                "candle2_b1": {
+                    "position": [
+                        "v.b1data==3?2:0",
+                        0,
+                        "v.b1data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b1data==3",
+                        "v.b1data==3",
+                        "v.b1data==3"
+                    ]
+                },
+                "candle_b2": {
+                    "position": [
+                        "v.b2data==1?2:(v.b2data==2?1:(v.b2data==3?1:0))",
+                        0,
+                        "v.b2data==2?1:(v.b2data==3?2:0)"
+                    ]
+                },
+                "candle0_b2": {
+                    "position": [
+                        "v.b2data==1?-2:(q.any(v.b2data,2,3)?-2:0)",
+                        0,
+                        "v.b2data==1?-1:(v.b2data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b2data,1,2,3)",
+                        "q.any(v.b2data,1,2,3)",
+                        "q.any(v.b2data,1,2,3)"
+                    ]
+                },
+                "candle1_b2": {
+                    "position": [
+                        "v.b2data==3?-1:0",
+                        0,
+                        "v.b2data==2?-2:(v.b2data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b2data,2,3)",
+                        "q.any(v.b2data,2,3)",
+                        "q.any(v.b2data,2,3)"
+                    ]
+                },
+                "candle2_b2": {
+                    "position": [
+                        "v.b2data==3?2:0",
+                        0,
+                        "v.b2data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b2data==3",
+                        "v.b2data==3",
+                        "v.b2data==3"
+                    ]
+                },
+                "candle_b3": {
+                    "position": [
+                        "v.b3data==1?2:(v.b3data==2?1:(v.b3data==3?1:0))",
+                        0,
+                        "v.b3data==2?1:(v.b3data==3?2:0)"
+                    ]
+                },
+                "candle0_b3": {
+                    "position": [
+                        "v.b3data==1?-2:(q.any(v.b3data,2,3)?-2:0)",
+                        0,
+                        "v.b3data==1?-1:(v.b3data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b3data,1,2,3)",
+                        "q.any(v.b3data,1,2,3)",
+                        "q.any(v.b3data,1,2,3)"
+                    ]
+                },
+                "candle1_b3": {
+                    "position": [
+                        "v.b3data==3?-1:0",
+                        0,
+                        "v.b3data==2?-2:(v.b3data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b3data,2,3)",
+                        "q.any(v.b3data,2,3)",
+                        "q.any(v.b3data,2,3)"
+                    ]
+                },
+                "candle2_b3": {
+                    "position": [
+                        "v.b3data==3?2:0",
+                        0,
+                        "v.b3data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b3data==3",
+                        "v.b3data==3",
+                        "v.b3data==3"
+                    ]
+                },
+                "candle_b4": {
+                    "position": [
+                        "v.b4data==1?2:(v.b4data==2?1:(v.b4data==3?1:0))",
+                        0,
+                        "v.b4data==2?1:(v.b4data==3?2:0)"
+                    ]
+                },
+                "candle0_b4": {
+                    "position": [
+                        "v.b4data==1?-2:(q.any(v.b4data,2,3)?-2:0)",
+                        0,
+                        "v.b4data==1?-1:(v.b4data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b4data,1,2,3)",
+                        "q.any(v.b4data,1,2,3)",
+                        "q.any(v.b4data,1,2,3)"
+                    ]
+                },
+                "candle1_b4": {
+                    "position": [
+                        "v.b4data==3?-1:0",
+                        0,
+                        "v.b4data==2?-2:(v.b4data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b4data,2,3)",
+                        "q.any(v.b4data,2,3)",
+                        "q.any(v.b4data,2,3)"
+                    ]
+                },
+                "candle2_b4": {
+                    "position": [
+                        "v.b4data==3?2:0",
+                        0,
+                        "v.b4data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b4data==3",
+                        "v.b4data==3",
+                        "v.b4data==3"
+                    ]
+                },
+                "candle_b5": {
+                    "position": [
+                        "v.b5data==1?2:(v.b5data==2?1:(v.b5data==3?1:0))",
+                        0,
+                        "v.b5data==2?1:(v.b5data==3?2:0)"
+                    ]
+                },
+                "candle0_b5": {
+                    "position": [
+                        "v.b5data==1?-2:(q.any(v.b5data,2,3)?-2:0)",
+                        0,
+                        "v.b5data==1?-1:(v.b5data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b5data,1,2,3)",
+                        "q.any(v.b5data,1,2,3)",
+                        "q.any(v.b5data,1,2,3)"
+                    ]
+                },
+                "candle1_b5": {
+                    "position": [
+                        "v.b5data==3?-1:0",
+                        0,
+                        "v.b5data==2?-2:(v.b5data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b5data,2,3)",
+                        "q.any(v.b5data,2,3)",
+                        "q.any(v.b5data,2,3)"
+                    ]
+                },
+                "candle2_b5": {
+                    "position": [
+                        "v.b5data==3?2:0",
+                        0,
+                        "v.b5data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b5data==3",
+                        "v.b5data==3",
+                        "v.b5data==3"
+                    ]
+                },
+                "candle_b6": {
+                    "position": [
+                        "v.b6data==1?2:(v.b6data==2?1:(v.b6data==3?1:0))",
+                        0,
+                        "v.b6data==2?1:(v.b6data==3?2:0)"
+                    ]
+                },
+                "candle0_b6": {
+                    "position": [
+                        "v.b6data==1?-2:(q.any(v.b6data,2,3)?-2:0)",
+                        0,
+                        "v.b6data==1?-1:(v.b6data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b6data,1,2,3)",
+                        "q.any(v.b6data,1,2,3)",
+                        "q.any(v.b6data,1,2,3)"
+                    ]
+                },
+                "candle1_b6": {
+                    "position": [
+                        "v.b6data==3?-1:0",
+                        0,
+                        "v.b6data==2?-2:(v.b6data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b6data,2,3)",
+                        "q.any(v.b6data,2,3)",
+                        "q.any(v.b6data,2,3)"
+                    ]
+                },
+                "candle2_b6": {
+                    "position": [
+                        "v.b6data==3?2:0",
+                        0,
+                        "v.b6data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b6data==3",
+                        "v.b6data==3",
+                        "v.b6data==3"
+                    ]
+                },
+                "candle_b7": {
+                    "position": [
+                        "v.b7data==1?2:(v.b7data==2?1:(v.b7data==3?1:0))",
+                        0,
+                        "v.b7data==2?1:(v.b7data==3?2:0)"
+                    ]
+                },
+                "candle0_b7": {
+                    "position": [
+                        "v.b7data==1?-2:(q.any(v.b7data,2,3)?-2:0)",
+                        0,
+                        "v.b7data==1?-1:(v.b7data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b7data,1,2,3)",
+                        "q.any(v.b7data,1,2,3)",
+                        "q.any(v.b7data,1,2,3)"
+                    ]
+                },
+                "candle1_b7": {
+                    "position": [
+                        "v.b7data==3?-1:0",
+                        0,
+                        "v.b7data==2?-2:(v.b7data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b7data,2,3)",
+                        "q.any(v.b7data,2,3)",
+                        "q.any(v.b7data,2,3)"
+                    ]
+                },
+                "candle2_b7": {
+                    "position": [
+                        "v.b7data==3?2:0",
+                        0,
+                        "v.b7data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b7data==3",
+                        "v.b7data==3",
+                        "v.b7data==3"
+                    ]
+                },
+                "candle_b8": {
+                    "position": [
+                        "v.b8data==1?2:(v.b8data==2?1:(v.b8data==3?1:0))",
+                        0,
+                        "v.b8data==2?1:(v.b8data==3?2:0)"
+                    ]
+                },
+                "candle0_b8": {
+                    "position": [
+                        "v.b8data==1?-2:(q.any(v.b8data,2,3)?-2:0)",
+                        0,
+                        "v.b8data==1?-1:(v.b8data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b8data,1,2,3)",
+                        "q.any(v.b8data,1,2,3)",
+                        "q.any(v.b8data,1,2,3)"
+                    ]
+                },
+                "candle1_b8": {
+                    "position": [
+                        "v.b8data==3?-1:0",
+                        0,
+                        "v.b8data==2?-2:(v.b8data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b8data,2,3)",
+                        "q.any(v.b8data,2,3)",
+                        "q.any(v.b8data,2,3)"
+                    ]
+                },
+                "candle2_b8": {
+                    "position": [
+                        "v.b8data==3?2:0",
+                        0,
+                        "v.b8data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b8data==3",
+                        "v.b8data==3",
+                        "v.b8data==3"
+                    ]
+                },
+                "candle_b9": {
+                    "position": [
+                        "v.b9data==1?2:(v.b9data==2?1:(v.b9data==3?1:0))",
+                        0,
+                        "v.b9data==2?1:(v.b9data==3?2:0)"
+                    ]
+                },
+                "candle0_b9": {
+                    "position": [
+                        "v.b9data==1?-2:(q.any(v.b9data,2,3)?-2:0)",
+                        0,
+                        "v.b9data==1?-1:(v.b9data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b9data,1,2,3)",
+                        "q.any(v.b9data,1,2,3)",
+                        "q.any(v.b9data,1,2,3)"
+                    ]
+                },
+                "candle1_b9": {
+                    "position": [
+                        "v.b9data==3?-1:0",
+                        0,
+                        "v.b9data==2?-2:(v.b9data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b9data,2,3)",
+                        "q.any(v.b9data,2,3)",
+                        "q.any(v.b9data,2,3)"
+                    ]
+                },
+                "candle2_b9": {
+                    "position": [
+                        "v.b9data==3?2:0",
+                        0,
+                        "v.b9data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b9data==3",
+                        "v.b9data==3",
+                        "v.b9data==3"
+                    ]
+                },
+                "candle_b10": {
+                    "position": [
+                        "v.b10data==1?2:(v.b10data==2?1:(v.b10data==3?1:0))",
+                        0,
+                        "v.b10data==2?1:(v.b10data==3?2:0)"
+                    ]
+                },
+                "candle0_b10": {
+                    "position": [
+                        "v.b10data==1?-2:(q.any(v.b10data,2,3)?-2:0)",
+                        0,
+                        "v.b10data==1?-1:(v.b10data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b10data,1,2,3)",
+                        "q.any(v.b10data,1,2,3)",
+                        "q.any(v.b10data,1,2,3)"
+                    ]
+                },
+                "candle1_b10": {
+                    "position": [
+                        "v.b10data==3?-1:0",
+                        0,
+                        "v.b10data==2?-2:(v.b10data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b10data,2,3)",
+                        "q.any(v.b10data,2,3)",
+                        "q.any(v.b10data,2,3)"
+                    ]
+                },
+                "candle2_b10": {
+                    "position": [
+                        "v.b10data==3?2:0",
+                        0,
+                        "v.b10data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b10data==3",
+                        "v.b10data==3",
+                        "v.b10data==3"
+                    ]
+                },
+                "candle_b11": {
+                    "position": [
+                        "v.b11data==1?2:(v.b11data==2?1:(v.b11data==3?1:0))",
+                        0,
+                        "v.b11data==2?1:(v.b11data==3?2:0)"
+                    ]
+                },
+                "candle0_b11": {
+                    "position": [
+                        "v.b11data==1?-2:(q.any(v.b11data,2,3)?-2:0)",
+                        0,
+                        "v.b11data==1?-1:(v.b11data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b11data,1,2,3)",
+                        "q.any(v.b11data,1,2,3)",
+                        "q.any(v.b11data,1,2,3)"
+                    ]
+                },
+                "candle1_b11": {
+                    "position": [
+                        "v.b11data==3?-1:0",
+                        0,
+                        "v.b11data==2?-2:(v.b11data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b11data,2,3)",
+                        "q.any(v.b11data,2,3)",
+                        "q.any(v.b11data,2,3)"
+                    ]
+                },
+                "candle2_b11": {
+                    "position": [
+                        "v.b11data==3?2:0",
+                        0,
+                        "v.b11data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b11data==3",
+                        "v.b11data==3",
+                        "v.b11data==3"
+                    ]
+                },
+                "candle_b12": {
+                    "position": [
+                        "v.b12data==1?2:(v.b12data==2?1:(v.b12data==3?1:0))",
+                        0,
+                        "v.b12data==2?1:(v.b12data==3?2:0)"
+                    ]
+                },
+                "candle0_b12": {
+                    "position": [
+                        "v.b12data==1?-2:(q.any(v.b12data,2,3)?-2:0)",
+                        0,
+                        "v.b12data==1?-1:(v.b12data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b12data,1,2,3)",
+                        "q.any(v.b12data,1,2,3)",
+                        "q.any(v.b12data,1,2,3)"
+                    ]
+                },
+                "candle1_b12": {
+                    "position": [
+                        "v.b12data==3?-1:0",
+                        0,
+                        "v.b12data==2?-2:(v.b12data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b12data,2,3)",
+                        "q.any(v.b12data,2,3)",
+                        "q.any(v.b12data,2,3)"
+                    ]
+                },
+                "candle2_b12": {
+                    "position": [
+                        "v.b12data==3?2:0",
+                        0,
+                        "v.b12data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b12data==3",
+                        "v.b12data==3",
+                        "v.b12data==3"
+                    ]
+                },
+                "candle_b13": {
+                    "position": [
+                        "v.b13data==1?2:(v.b13data==2?1:(v.b13data==3?1:0))",
+                        0,
+                        "v.b13data==2?1:(v.b13data==3?2:0)"
+                    ]
+                },
+                "candle0_b13": {
+                    "position": [
+                        "v.b13data==1?-2:(q.any(v.b13data,2,3)?-2:0)",
+                        0,
+                        "v.b13data==1?-1:(v.b13data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b13data,1,2,3)",
+                        "q.any(v.b13data,1,2,3)",
+                        "q.any(v.b13data,1,2,3)"
+                    ]
+                },
+                "candle1_b13": {
+                    "position": [
+                        "v.b13data==3?-1:0",
+                        0,
+                        "v.b13data==2?-2:(v.b13data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b13data,2,3)",
+                        "q.any(v.b13data,2,3)",
+                        "q.any(v.b13data,2,3)"
+                    ]
+                },
+                "candle2_b13": {
+                    "position": [
+                        "v.b13data==3?2:0",
+                        0,
+                        "v.b13data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b13data==3",
+                        "v.b13data==3",
+                        "v.b13data==3"
+                    ]
+                },
+                "candle_b14": {
+                    "position": [
+                        "v.b14data==1?2:(v.b14data==2?1:(v.b14data==3?1:0))",
+                        0,
+                        "v.b14data==2?1:(v.b14data==3?2:0)"
+                    ]
+                },
+                "candle0_b14": {
+                    "position": [
+                        "v.b14data==1?-2:(q.any(v.b14data,2,3)?-2:0)",
+                        0,
+                        "v.b14data==1?-1:(v.b14data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b14data,1,2,3)",
+                        "q.any(v.b14data,1,2,3)",
+                        "q.any(v.b14data,1,2,3)"
+                    ]
+                },
+                "candle1_b14": {
+                    "position": [
+                        "v.b14data==3?-1:0",
+                        0,
+                        "v.b14data==2?-2:(v.b14data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b14data,2,3)",
+                        "q.any(v.b14data,2,3)",
+                        "q.any(v.b14data,2,3)"
+                    ]
+                },
+                "candle2_b14": {
+                    "position": [
+                        "v.b14data==3?2:0",
+                        0,
+                        "v.b14data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b14data==3",
+                        "v.b14data==3",
+                        "v.b14data==3"
+                    ]
+                },
+                "candle_b15": {
+                    "position": [
+                        "v.b15data==1?2:(v.b15data==2?1:(v.b15data==3?1:0))",
+                        0,
+                        "v.b15data==2?1:(v.b15data==3?2:0)"
+                    ]
+                },
+                "candle0_b15": {
+                    "position": [
+                        "v.b15data==1?-2:(q.any(v.b15data,2,3)?-2:0)",
+                        0,
+                        "v.b15data==1?-1:(v.b15data==3?2:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b15data,1,2,3)",
+                        "q.any(v.b15data,1,2,3)",
+                        "q.any(v.b15data,1,2,3)"
+                    ]
+                },
+                "candle1_b15": {
+                    "position": [
+                        "v.b15data==3?-1:0",
+                        0,
+                        "v.b15data==2?-2:(v.b15data==3?-1:0)"
+                    ],
+                    "scale": [
+                        "q.any(v.b15data,2,3)",
+                        "q.any(v.b15data,2,3)",
+                        "q.any(v.b15data,2,3)"
+                    ]
+                },
+                "candle2_b15": {
+                    "position": [
+                        "v.b15data==3?2:0",
+                        0,
+                        "v.b15data==3?-1:0"
+                    ],
+                    "scale": [
+                        "v.b15data==3",
+                        "v.b15data==3",
+                        "v.b15data==3"
+                    ]
+                }
+            }
+        }
+    }
+}

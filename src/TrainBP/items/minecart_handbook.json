@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "train:minecart_handbook",
+      "menu_category": {
+        "group": "train:itemGroup.name.train",
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:display_name": {
+        "value": "%minecart_handbook.name1\n%minecart_handbook.name2"
+      },
+      "minecraft:icon": "minecart_handbook"
+    }
+  }
+}

@@ -1,0 +1,533 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_0",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b0",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b1",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_2",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b2",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_3",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b3",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_4",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b4",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_5",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b5",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_6",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b6",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_7",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b7",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_8",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b8",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_9",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b9",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_10",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b10",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_11",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b11",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_12",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b12",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_13",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b13",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_14",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b14",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_plugin_bmni1tmc5.train_fragment.placeholder_15",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "b15",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}

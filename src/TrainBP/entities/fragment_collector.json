@@ -1,0 +1,1230 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "train:fragment_collector",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "fragment_collector",
+                    "inanimate"
+                ]
+            },
+            "minecraft:rideable": {
+                "seat_count": 128,
+                "family_types": [
+                    "fragment",
+                    "simple_fragment"
+                ],
+                "seats": [
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    },
+                    {
+                        "position": [
+                            0,
+                            -0.25,
+                            0
+                        ],
+                        "min_rider_count": 1,
+                        "lock_rider_rotation": 0
+                    }
+                ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:despawn": {
+                "filters": {
+                    "all_of": [
+                        {
+                            "test": "is_riding",
+                            "value": false
+                        },
+                        {
+                            "test": "has_tag",
+                            "value": "train_fragment_active"
+                        }
+                    ]
+                }
+            },
+            "minecraft:collision_box": {
+                "width": 0,
+                "height": 0
+            },
+            "minecraft:health": {
+                "value": 1,
+                "max": 0
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:persistent": {},
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:fire_immune": {},
+            "minecraft:conditional_bandwidth_optimization": {
+                "default_values": {
+                    "max_optimized_distance": 0,
+                    "max_dropped_ticks": 0
+                }
+            }
+        },
+        "events": {}
+    }
+}

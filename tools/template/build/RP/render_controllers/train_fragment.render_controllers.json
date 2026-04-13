@@ -1,0 +1,677 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_0": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_0"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b0_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b0material??0)==1) ? Material.default : (((v.b0material??0)==2) ? Material.glass : (((v.b0material??0)==3) ? Material.slime_outer : (((v.b0material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b0_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_1": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_1"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b1_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b1material??0)==1) ? Material.default : (((v.b1material??0)==2) ? Material.glass : (((v.b1material??0)==3) ? Material.slime_outer : (((v.b1material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b1_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_2": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_2"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b2_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b2material??0)==1) ? Material.default : (((v.b2material??0)==2) ? Material.glass : (((v.b2material??0)==3) ? Material.slime_outer : (((v.b2material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b2_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_3": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_3"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b3_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b3material??0)==1) ? Material.default : (((v.b3material??0)==2) ? Material.glass : (((v.b3material??0)==3) ? Material.slime_outer : (((v.b3material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b3_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_4": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_4"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b4_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b4material??0)==1) ? Material.default : (((v.b4material??0)==2) ? Material.glass : (((v.b4material??0)==3) ? Material.slime_outer : (((v.b4material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b4_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_5": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_5"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b5_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b5material??0)==1) ? Material.default : (((v.b5material??0)==2) ? Material.glass : (((v.b5material??0)==3) ? Material.slime_outer : (((v.b5material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b5_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_6": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_6"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b6_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b6material??0)==1) ? Material.default : (((v.b6material??0)==2) ? Material.glass : (((v.b6material??0)==3) ? Material.slime_outer : (((v.b6material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b6_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_7": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_7"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b7_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b7material??0)==1) ? Material.default : (((v.b7material??0)==2) ? Material.glass : (((v.b7material??0)==3) ? Material.slime_outer : (((v.b7material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b7_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_8": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_8"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b8_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b8material??0)==1) ? Material.default : (((v.b8material??0)==2) ? Material.glass : (((v.b8material??0)==3) ? Material.slime_outer : (((v.b8material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b8_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_9": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_9"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b9_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b9material??0)==1) ? Material.default : (((v.b9material??0)==2) ? Material.glass : (((v.b9material??0)==3) ? Material.slime_outer : (((v.b9material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b9_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_10": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_10"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b10_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b10material??0)==1) ? Material.default : (((v.b10material??0)==2) ? Material.glass : (((v.b10material??0)==3) ? Material.slime_outer : (((v.b10material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b10_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_11": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_11"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b11_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b11material??0)==1) ? Material.default : (((v.b11material??0)==2) ? Material.glass : (((v.b11material??0)==3) ? Material.slime_outer : (((v.b11material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b11_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_12": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_12"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b12_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b12material??0)==1) ? Material.default : (((v.b12material??0)==2) ? Material.glass : (((v.b12material??0)==3) ? Material.slime_outer : (((v.b12material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b12_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_13": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_13"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b13_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b13material??0)==1) ? Material.default : (((v.b13material??0)==2) ? Material.glass : (((v.b13material??0)==3) ? Material.slime_outer : (((v.b13material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b13_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_14": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_14"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b14_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b14material??0)==1) ? Material.default : (((v.b14material??0)==2) ? Material.glass : (((v.b14material??0)==3) ? Material.slime_outer : (((v.b14material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b14_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        },
+        "controller.render.template_plugin_bmni1tmc5.train_fragment_15": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometry_list": [
+                        "Geometry.placeholder_15"
+                    ]
+                },
+                "textures": {
+                    "Array.texture_list": [
+                        "Texture.placeholder"
+                    ]
+                }
+            },
+            "geometry": "Array.geometry_list[v.b15_model]",
+            "materials": [
+                {
+                    "*": "return ((v.b15material??0)==1) ? Material.default : (((v.b15material??0)==2) ? Material.glass : (((v.b15material??0)==3) ? Material.slime_outer : (((v.b15material??0)==4) ? Material.redstone_torch : Material.default)));"
+                }
+            ],
+            "textures": [
+                "Array.texture_list[v.b15_texture]"
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            }
+        }
+    }
+}

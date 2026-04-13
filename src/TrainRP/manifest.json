@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§pBuild your own train!\n§iMade by: MINECRAFT-SCPCB",
+        "name": "§p[§b1.0.0§p] §pVanilla Train Addon",
+        "uuid": "12d3aace-4a73-4627-bc0d-d0f47536ef61",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            101
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "e9763433-7d93-43c3-b303-69b2f2e34cd0",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "6605dddd-00c3-4848-ad59-3bf4cf072cee",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

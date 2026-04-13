@@ -1,0 +1,14 @@
+{
+    "train:connect_core": {
+        "textures": "connect_core",
+        "sound": "metal"
+    },
+    "train:timber_frame": {
+        "sound": "wood"
+    },
+    "format_version": [
+        1,
+        21,
+        20
+    ]
+}

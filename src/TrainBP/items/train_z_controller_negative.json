@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "train:z_controller_negative",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:display_name": {
+        "value": "%z_controller_negative.name1\n%z_controller_negative.name2"
+      },
+      "minecraft:icon": "train_controller"
+    }
+  }
+}

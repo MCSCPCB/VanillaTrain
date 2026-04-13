@@ -1,0 +1,2069 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.fragment_0": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_0",
+                        "Geometry.slab_bottom_0",
+                        "Geometry.slab_top_0",
+                        "Geometry.campfire_0",
+                        "Geometry.bell_0",
+                        "Geometry.ladder_north_0",
+                        "Geometry.ladder_south_0",
+                        "Geometry.ladder_west_0",
+                        "Geometry.ladder_east_0",
+                        "Geometry.multi_face_block_0",
+                        "Geometry.multi_face_slab_bottom_0",
+                        "Geometry.multi_face_slab_top_0",
+                        "Geometry.fence_gate_0",
+                        "Geometry.trapdoor_0",
+                        "Geometry.door_0",
+                        "Geometry.lantern_0",
+                        "Geometry.torch_0",
+                        "Geometry.redstone_torch_0",
+                        "Geometry.end_rod_0",
+                        "Geometry.chain_0",
+                        "Geometry.anvil_0",
+                        "Geometry.stonecutter_0",
+                        "Geometry.grindstone_0",
+                        "Geometry.enchanting_table_0",
+                        "Geometry.brewing_stand_0",
+                        "Geometry.lectern_0",
+                        "Geometry.cauldron_0",
+                        "Geometry.chest_0",
+                        "Geometry.bed_0",
+                        "Geometry.candle_0",
+                        "Geometry.glass_pane_0",
+                        "Geometry.glass_panea_0",
+                        "Geometry.glass_paneb_0",
+                        "Geometry.glass_panec_0",
+                        "Geometry.glass_paned_0",
+                        "Geometry.glass_panee_0",
+                        "Geometry.bar_pane_0",
+                        "Geometry.bar_panea_0",
+                        "Geometry.bar_paneb_0",
+                        "Geometry.bar_panec_0",
+                        "Geometry.bar_paned_0",
+                        "Geometry.bar_panee_0",
+                        "Geometry.stone_wall_0",
+                        "Geometry.stone_walla_0",
+                        "Geometry.stone_wallb_0",
+                        "Geometry.stone_wallc_0",
+                        "Geometry.stone_walld_0",
+                        "Geometry.stone_walle_0",
+                        "Geometry.fence_0",
+                        "Geometry.fencea_0",
+                        "Geometry.fenceb_0",
+                        "Geometry.fencec_0",
+                        "Geometry.fenced_0",
+                        "Geometry.fencee_0",
+                        "Geometry.stairs_0",
+                        "Geometry.stairsa_0",
+                        "Geometry.stairsb_0",
+                        "Geometry.stairsc_0",
+                        "Geometry.stairsd_0",
+                        "Geometry.dragon_egg_0",
+                        "Geometry.carpet_0",
+                        "Geometry.pressure_plate_0",
+                        "Geometry.beacon_0",
+                        "Geometry.daylight_detector_0",
+                        "Geometry.hopper_down_0",
+                        "Geometry.hopper_side_0",
+                        "Geometry.sign_standing_0",
+                        "Geometry.sign_wall_0",
+                        "Geometry.hanging_sign_0",
+                        "Geometry.head_0",
+                        "Geometry.head_wall_0",
+                        "Geometry.dragon_head_0",
+                        "Geometry.dragon_head_wall_0",
+                        "Geometry.layered_cube_0",
+                        "Geometry.piglin_head_0",
+                        "Geometry.piglin_head_wall_0"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b0_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b0": "return ((v.b0_type==10 || v.b0_type==37 || v.b0_type==127 || v.b0_type==128 || v.b0_type==215 || v.b0_type==216 || v.b0_type==265 || v.b0_type==266 || v.b0_type==267 || v.b0_type==273 || v.b0_type==275 || v.b0_type==277 || v.b0_type==283 || v.b0_type==309 || v.b0_type==310 || v.b0_type==311 || v.b0_type==312 || v.b0_type==313 || v.b0_type==352 || v.b0_type==353 || v.b0_type==354 || v.b0_type==355 || v.b0_type==356 || v.b0_type==384) ? Material.glow : ((v.b0_type==350 || v.b0_type==351) ? Material.redstone_torch : (((v.b0_type==18 || v.b0_type==19 || v.b0_type==20 || v.b0_type==21 || v.b0_type==22 || v.b0_type==23 || v.b0_type==24 || v.b0_type==25 || v.b0_type==26 || v.b0_type==27 || v.b0_type==28 || v.b0_type==29 || v.b0_type==30 || v.b0_type==31 || v.b0_type==32 || v.b0_type==33 || v.b0_type==34 || v.b0_type==35 || v.b0_type==210 || v.b0_type==365 || v.b0_type==366 || v.b0_type==367 || v.b0_type==368) || (v.b0_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b0": "return ((v.b0_type==10 || v.b0_type==37 || v.b0_type==127 || v.b0_type==128 || v.b0_type==215 || v.b0_type==216 || v.b0_type==265 || v.b0_type==266 || v.b0_type==267 || v.b0_type==273 || v.b0_type==275 || v.b0_type==277 || v.b0_type==283 || v.b0_type==309 || v.b0_type==310 || v.b0_type==311 || v.b0_type==312 || v.b0_type==313 || v.b0_type==352 || v.b0_type==353 || v.b0_type==354 || v.b0_type==355 || v.b0_type==356 || v.b0_type==384) ? Material.glow : ((v.b0_type==350 || v.b0_type==351) ? Material.redstone_torch : (((v.b0_type==18 || v.b0_type==19 || v.b0_type==20 || v.b0_type==21 || v.b0_type==22 || v.b0_type==23 || v.b0_type==24 || v.b0_type==25 || v.b0_type==26 || v.b0_type==27 || v.b0_type==28 || v.b0_type==29 || v.b0_type==30 || v.b0_type==31 || v.b0_type==32 || v.b0_type==33 || v.b0_type==34 || v.b0_type==35 || v.b0_type==210 || v.b0_type==365 || v.b0_type==366 || v.b0_type==367 || v.b0_type==368) || (v.b0_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b0": "return ((v.b0_type==377) ? Material.glass : Material.default);",
+                    "outer_b0": "return ((v.b0_type==377) ? Material.glass : ((v.b0_type==378 || v.b0_type==427) ? Material.slime_outer : Material.default));",
+                    "door0_b0": "Material.glass",
+                    "trapdoor0_b0": "Material.glass",
+                    "beacon_outer_b0": "return ((v.b0_type==378 || v.b0_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b0_type/20)/25",
+                    "Math.mod(v.b0_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_1": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_1",
+                        "Geometry.slab_bottom_1",
+                        "Geometry.slab_top_1",
+                        "Geometry.campfire_1",
+                        "Geometry.bell_1",
+                        "Geometry.ladder_north_1",
+                        "Geometry.ladder_south_1",
+                        "Geometry.ladder_west_1",
+                        "Geometry.ladder_east_1",
+                        "Geometry.multi_face_block_1",
+                        "Geometry.multi_face_slab_bottom_1",
+                        "Geometry.multi_face_slab_top_1",
+                        "Geometry.fence_gate_1",
+                        "Geometry.trapdoor_1",
+                        "Geometry.door_1",
+                        "Geometry.lantern_1",
+                        "Geometry.torch_1",
+                        "Geometry.redstone_torch_1",
+                        "Geometry.end_rod_1",
+                        "Geometry.chain_1",
+                        "Geometry.anvil_1",
+                        "Geometry.stonecutter_1",
+                        "Geometry.grindstone_1",
+                        "Geometry.enchanting_table_1",
+                        "Geometry.brewing_stand_1",
+                        "Geometry.lectern_1",
+                        "Geometry.cauldron_1",
+                        "Geometry.chest_1",
+                        "Geometry.bed_1",
+                        "Geometry.candle_1",
+                        "Geometry.glass_pane_1",
+                        "Geometry.glass_panea_1",
+                        "Geometry.glass_paneb_1",
+                        "Geometry.glass_panec_1",
+                        "Geometry.glass_paned_1",
+                        "Geometry.glass_panee_1",
+                        "Geometry.bar_pane_1",
+                        "Geometry.bar_panea_1",
+                        "Geometry.bar_paneb_1",
+                        "Geometry.bar_panec_1",
+                        "Geometry.bar_paned_1",
+                        "Geometry.bar_panee_1",
+                        "Geometry.stone_wall_1",
+                        "Geometry.stone_walla_1",
+                        "Geometry.stone_wallb_1",
+                        "Geometry.stone_wallc_1",
+                        "Geometry.stone_walld_1",
+                        "Geometry.stone_walle_1",
+                        "Geometry.fence_1",
+                        "Geometry.fencea_1",
+                        "Geometry.fenceb_1",
+                        "Geometry.fencec_1",
+                        "Geometry.fenced_1",
+                        "Geometry.fencee_1",
+                        "Geometry.stairs_1",
+                        "Geometry.stairsa_1",
+                        "Geometry.stairsb_1",
+                        "Geometry.stairsc_1",
+                        "Geometry.stairsd_1",
+                        "Geometry.dragon_egg_1",
+                        "Geometry.carpet_1",
+                        "Geometry.pressure_plate_1",
+                        "Geometry.beacon_1",
+                        "Geometry.daylight_detector_1",
+                        "Geometry.hopper_down_1",
+                        "Geometry.hopper_side_1",
+                        "Geometry.sign_standing_1",
+                        "Geometry.sign_wall_1",
+                        "Geometry.hanging_sign_1",
+                        "Geometry.head_1",
+                        "Geometry.head_wall_1",
+                        "Geometry.dragon_head_1",
+                        "Geometry.dragon_head_wall_1",
+                        "Geometry.layered_cube_1",
+                        "Geometry.piglin_head_1",
+                        "Geometry.piglin_head_wall_1"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b1_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b1": "return ((v.b1_type==10 || v.b1_type==37 || v.b1_type==127 || v.b1_type==128 || v.b1_type==215 || v.b1_type==216 || v.b1_type==265 || v.b1_type==266 || v.b1_type==267 || v.b1_type==273 || v.b1_type==275 || v.b1_type==277 || v.b1_type==283 || v.b1_type==309 || v.b1_type==310 || v.b1_type==311 || v.b1_type==312 || v.b1_type==313 || v.b1_type==352 || v.b1_type==353 || v.b1_type==354 || v.b1_type==355 || v.b1_type==356 || v.b1_type==384) ? Material.glow : ((v.b1_type==350 || v.b1_type==351) ? Material.redstone_torch : (((v.b1_type==18 || v.b1_type==19 || v.b1_type==20 || v.b1_type==21 || v.b1_type==22 || v.b1_type==23 || v.b1_type==24 || v.b1_type==25 || v.b1_type==26 || v.b1_type==27 || v.b1_type==28 || v.b1_type==29 || v.b1_type==30 || v.b1_type==31 || v.b1_type==32 || v.b1_type==33 || v.b1_type==34 || v.b1_type==35 || v.b1_type==210 || v.b1_type==365 || v.b1_type==366 || v.b1_type==367 || v.b1_type==368) || (v.b1_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b1": "return ((v.b1_type==10 || v.b1_type==37 || v.b1_type==127 || v.b1_type==128 || v.b1_type==215 || v.b1_type==216 || v.b1_type==265 || v.b1_type==266 || v.b1_type==267 || v.b1_type==273 || v.b1_type==275 || v.b1_type==277 || v.b1_type==283 || v.b1_type==309 || v.b1_type==310 || v.b1_type==311 || v.b1_type==312 || v.b1_type==313 || v.b1_type==352 || v.b1_type==353 || v.b1_type==354 || v.b1_type==355 || v.b1_type==356 || v.b1_type==384) ? Material.glow : ((v.b1_type==350 || v.b1_type==351) ? Material.redstone_torch : (((v.b1_type==18 || v.b1_type==19 || v.b1_type==20 || v.b1_type==21 || v.b1_type==22 || v.b1_type==23 || v.b1_type==24 || v.b1_type==25 || v.b1_type==26 || v.b1_type==27 || v.b1_type==28 || v.b1_type==29 || v.b1_type==30 || v.b1_type==31 || v.b1_type==32 || v.b1_type==33 || v.b1_type==34 || v.b1_type==35 || v.b1_type==210 || v.b1_type==365 || v.b1_type==366 || v.b1_type==367 || v.b1_type==368) || (v.b1_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b1": "return ((v.b1_type==377) ? Material.glass : Material.default);",
+                    "outer_b1": "return ((v.b1_type==377) ? Material.glass : ((v.b1_type==378 || v.b1_type==427) ? Material.slime_outer : Material.default));",
+                    "door1_b1": "Material.glass",
+                    "trapdoor0_b1": "Material.glass",
+                    "beacon_outer_b1": "return ((v.b1_type==378 || v.b1_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b1_type/20)/25",
+                    "Math.mod(v.b1_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_2": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_2",
+                        "Geometry.slab_bottom_2",
+                        "Geometry.slab_top_2",
+                        "Geometry.campfire_2",
+                        "Geometry.bell_2",
+                        "Geometry.ladder_north_2",
+                        "Geometry.ladder_south_2",
+                        "Geometry.ladder_west_2",
+                        "Geometry.ladder_east_2",
+                        "Geometry.multi_face_block_2",
+                        "Geometry.multi_face_slab_bottom_2",
+                        "Geometry.multi_face_slab_top_2",
+                        "Geometry.fence_gate_2",
+                        "Geometry.trapdoor_2",
+                        "Geometry.door_2",
+                        "Geometry.lantern_2",
+                        "Geometry.torch_2",
+                        "Geometry.redstone_torch_2",
+                        "Geometry.end_rod_2",
+                        "Geometry.chain_2",
+                        "Geometry.anvil_2",
+                        "Geometry.stonecutter_2",
+                        "Geometry.grindstone_2",
+                        "Geometry.enchanting_table_2",
+                        "Geometry.brewing_stand_2",
+                        "Geometry.lectern_2",
+                        "Geometry.cauldron_2",
+                        "Geometry.chest_2",
+                        "Geometry.bed_2",
+                        "Geometry.candle_2",
+                        "Geometry.glass_pane_2",
+                        "Geometry.glass_panea_2",
+                        "Geometry.glass_paneb_2",
+                        "Geometry.glass_panec_2",
+                        "Geometry.glass_paned_2",
+                        "Geometry.glass_panee_2",
+                        "Geometry.bar_pane_2",
+                        "Geometry.bar_panea_2",
+                        "Geometry.bar_paneb_2",
+                        "Geometry.bar_panec_2",
+                        "Geometry.bar_paned_2",
+                        "Geometry.bar_panee_2",
+                        "Geometry.stone_wall_2",
+                        "Geometry.stone_walla_2",
+                        "Geometry.stone_wallb_2",
+                        "Geometry.stone_wallc_2",
+                        "Geometry.stone_walld_2",
+                        "Geometry.stone_walle_2",
+                        "Geometry.fence_2",
+                        "Geometry.fencea_2",
+                        "Geometry.fenceb_2",
+                        "Geometry.fencec_2",
+                        "Geometry.fenced_2",
+                        "Geometry.fencee_2",
+                        "Geometry.stairs_2",
+                        "Geometry.stairsa_2",
+                        "Geometry.stairsb_2",
+                        "Geometry.stairsc_2",
+                        "Geometry.stairsd_2",
+                        "Geometry.dragon_egg_2",
+                        "Geometry.carpet_2",
+                        "Geometry.pressure_plate_2",
+                        "Geometry.beacon_2",
+                        "Geometry.daylight_detector_2",
+                        "Geometry.hopper_down_2",
+                        "Geometry.hopper_side_2",
+                        "Geometry.sign_standing_2",
+                        "Geometry.sign_wall_2",
+                        "Geometry.hanging_sign_2",
+                        "Geometry.head_2",
+                        "Geometry.head_wall_2",
+                        "Geometry.dragon_head_2",
+                        "Geometry.dragon_head_wall_2",
+                        "Geometry.layered_cube_2",
+                        "Geometry.piglin_head_2",
+                        "Geometry.piglin_head_wall_2"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b2_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b2": "return ((v.b2_type==10 || v.b2_type==37 || v.b2_type==127 || v.b2_type==128 || v.b2_type==215 || v.b2_type==216 || v.b2_type==265 || v.b2_type==266 || v.b2_type==267 || v.b2_type==273 || v.b2_type==275 || v.b2_type==277 || v.b2_type==283 || v.b2_type==309 || v.b2_type==310 || v.b2_type==311 || v.b2_type==312 || v.b2_type==313 || v.b2_type==352 || v.b2_type==353 || v.b2_type==354 || v.b2_type==355 || v.b2_type==356 || v.b2_type==384) ? Material.glow : ((v.b2_type==350 || v.b2_type==351) ? Material.redstone_torch : (((v.b2_type==18 || v.b2_type==19 || v.b2_type==20 || v.b2_type==21 || v.b2_type==22 || v.b2_type==23 || v.b2_type==24 || v.b2_type==25 || v.b2_type==26 || v.b2_type==27 || v.b2_type==28 || v.b2_type==29 || v.b2_type==30 || v.b2_type==31 || v.b2_type==32 || v.b2_type==33 || v.b2_type==34 || v.b2_type==35 || v.b2_type==210 || v.b2_type==365 || v.b2_type==366 || v.b2_type==367 || v.b2_type==368) || (v.b2_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b2": "return ((v.b2_type==10 || v.b2_type==37 || v.b2_type==127 || v.b2_type==128 || v.b2_type==215 || v.b2_type==216 || v.b2_type==265 || v.b2_type==266 || v.b2_type==267 || v.b2_type==273 || v.b2_type==275 || v.b2_type==277 || v.b2_type==283 || v.b2_type==309 || v.b2_type==310 || v.b2_type==311 || v.b2_type==312 || v.b2_type==313 || v.b2_type==352 || v.b2_type==353 || v.b2_type==354 || v.b2_type==355 || v.b2_type==356 || v.b2_type==384) ? Material.glow : ((v.b2_type==350 || v.b2_type==351) ? Material.redstone_torch : (((v.b2_type==18 || v.b2_type==19 || v.b2_type==20 || v.b2_type==21 || v.b2_type==22 || v.b2_type==23 || v.b2_type==24 || v.b2_type==25 || v.b2_type==26 || v.b2_type==27 || v.b2_type==28 || v.b2_type==29 || v.b2_type==30 || v.b2_type==31 || v.b2_type==32 || v.b2_type==33 || v.b2_type==34 || v.b2_type==35 || v.b2_type==210 || v.b2_type==365 || v.b2_type==366 || v.b2_type==367 || v.b2_type==368) || (v.b2_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b2": "return ((v.b2_type==377) ? Material.glass : Material.default);",
+                    "outer_b2": "return ((v.b2_type==377) ? Material.glass : ((v.b2_type==378 || v.b2_type==427) ? Material.slime_outer : Material.default));",
+                    "door2_b2": "Material.glass",
+                    "trapdoor0_b2": "Material.glass",
+                    "beacon_outer_b2": "return ((v.b2_type==378 || v.b2_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b2_type/20)/25",
+                    "Math.mod(v.b2_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_3": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_3",
+                        "Geometry.slab_bottom_3",
+                        "Geometry.slab_top_3",
+                        "Geometry.campfire_3",
+                        "Geometry.bell_3",
+                        "Geometry.ladder_north_3",
+                        "Geometry.ladder_south_3",
+                        "Geometry.ladder_west_3",
+                        "Geometry.ladder_east_3",
+                        "Geometry.multi_face_block_3",
+                        "Geometry.multi_face_slab_bottom_3",
+                        "Geometry.multi_face_slab_top_3",
+                        "Geometry.fence_gate_3",
+                        "Geometry.trapdoor_3",
+                        "Geometry.door_3",
+                        "Geometry.lantern_3",
+                        "Geometry.torch_3",
+                        "Geometry.redstone_torch_3",
+                        "Geometry.end_rod_3",
+                        "Geometry.chain_3",
+                        "Geometry.anvil_3",
+                        "Geometry.stonecutter_3",
+                        "Geometry.grindstone_3",
+                        "Geometry.enchanting_table_3",
+                        "Geometry.brewing_stand_3",
+                        "Geometry.lectern_3",
+                        "Geometry.cauldron_3",
+                        "Geometry.chest_3",
+                        "Geometry.bed_3",
+                        "Geometry.candle_3",
+                        "Geometry.glass_pane_3",
+                        "Geometry.glass_panea_3",
+                        "Geometry.glass_paneb_3",
+                        "Geometry.glass_panec_3",
+                        "Geometry.glass_paned_3",
+                        "Geometry.glass_panee_3",
+                        "Geometry.bar_pane_3",
+                        "Geometry.bar_panea_3",
+                        "Geometry.bar_paneb_3",
+                        "Geometry.bar_panec_3",
+                        "Geometry.bar_paned_3",
+                        "Geometry.bar_panee_3",
+                        "Geometry.stone_wall_3",
+                        "Geometry.stone_walla_3",
+                        "Geometry.stone_wallb_3",
+                        "Geometry.stone_wallc_3",
+                        "Geometry.stone_walld_3",
+                        "Geometry.stone_walle_3",
+                        "Geometry.fence_3",
+                        "Geometry.fencea_3",
+                        "Geometry.fenceb_3",
+                        "Geometry.fencec_3",
+                        "Geometry.fenced_3",
+                        "Geometry.fencee_3",
+                        "Geometry.stairs_3",
+                        "Geometry.stairsa_3",
+                        "Geometry.stairsb_3",
+                        "Geometry.stairsc_3",
+                        "Geometry.stairsd_3",
+                        "Geometry.dragon_egg_3",
+                        "Geometry.carpet_3",
+                        "Geometry.pressure_plate_3",
+                        "Geometry.beacon_3",
+                        "Geometry.daylight_detector_3",
+                        "Geometry.hopper_down_3",
+                        "Geometry.hopper_side_3",
+                        "Geometry.sign_standing_3",
+                        "Geometry.sign_wall_3",
+                        "Geometry.hanging_sign_3",
+                        "Geometry.head_3",
+                        "Geometry.head_wall_3",
+                        "Geometry.dragon_head_3",
+                        "Geometry.dragon_head_wall_3",
+                        "Geometry.layered_cube_3",
+                        "Geometry.piglin_head_3",
+                        "Geometry.piglin_head_wall_3"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b3_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b3": "return ((v.b3_type==10 || v.b3_type==37 || v.b3_type==127 || v.b3_type==128 || v.b3_type==215 || v.b3_type==216 || v.b3_type==265 || v.b3_type==266 || v.b3_type==267 || v.b3_type==273 || v.b3_type==275 || v.b3_type==277 || v.b3_type==283 || v.b3_type==309 || v.b3_type==310 || v.b3_type==311 || v.b3_type==312 || v.b3_type==313 || v.b3_type==352 || v.b3_type==353 || v.b3_type==354 || v.b3_type==355 || v.b3_type==356 || v.b3_type==384) ? Material.glow : ((v.b3_type==350 || v.b3_type==351) ? Material.redstone_torch : (((v.b3_type==18 || v.b3_type==19 || v.b3_type==20 || v.b3_type==21 || v.b3_type==22 || v.b3_type==23 || v.b3_type==24 || v.b3_type==25 || v.b3_type==26 || v.b3_type==27 || v.b3_type==28 || v.b3_type==29 || v.b3_type==30 || v.b3_type==31 || v.b3_type==32 || v.b3_type==33 || v.b3_type==34 || v.b3_type==35 || v.b3_type==210 || v.b3_type==365 || v.b3_type==366 || v.b3_type==367 || v.b3_type==368) || (v.b3_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b3": "return ((v.b3_type==10 || v.b3_type==37 || v.b3_type==127 || v.b3_type==128 || v.b3_type==215 || v.b3_type==216 || v.b3_type==265 || v.b3_type==266 || v.b3_type==267 || v.b3_type==273 || v.b3_type==275 || v.b3_type==277 || v.b3_type==283 || v.b3_type==309 || v.b3_type==310 || v.b3_type==311 || v.b3_type==312 || v.b3_type==313 || v.b3_type==352 || v.b3_type==353 || v.b3_type==354 || v.b3_type==355 || v.b3_type==356 || v.b3_type==384) ? Material.glow : ((v.b3_type==350 || v.b3_type==351) ? Material.redstone_torch : (((v.b3_type==18 || v.b3_type==19 || v.b3_type==20 || v.b3_type==21 || v.b3_type==22 || v.b3_type==23 || v.b3_type==24 || v.b3_type==25 || v.b3_type==26 || v.b3_type==27 || v.b3_type==28 || v.b3_type==29 || v.b3_type==30 || v.b3_type==31 || v.b3_type==32 || v.b3_type==33 || v.b3_type==34 || v.b3_type==35 || v.b3_type==210 || v.b3_type==365 || v.b3_type==366 || v.b3_type==367 || v.b3_type==368) || (v.b3_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b3": "return ((v.b3_type==377) ? Material.glass : Material.default);",
+                    "outer_b3": "return ((v.b3_type==377) ? Material.glass : ((v.b3_type==378 || v.b3_type==427) ? Material.slime_outer : Material.default));",
+                    "door3_b3": "Material.glass",
+                    "trapdoor0_b3": "Material.glass",
+                    "beacon_outer_b3": "return ((v.b3_type==378 || v.b3_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b3_type/20)/25",
+                    "Math.mod(v.b3_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_4": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_4",
+                        "Geometry.slab_bottom_4",
+                        "Geometry.slab_top_4",
+                        "Geometry.campfire_4",
+                        "Geometry.bell_4",
+                        "Geometry.ladder_north_4",
+                        "Geometry.ladder_south_4",
+                        "Geometry.ladder_west_4",
+                        "Geometry.ladder_east_4",
+                        "Geometry.multi_face_block_4",
+                        "Geometry.multi_face_slab_bottom_4",
+                        "Geometry.multi_face_slab_top_4",
+                        "Geometry.fence_gate_4",
+                        "Geometry.trapdoor_4",
+                        "Geometry.door_4",
+                        "Geometry.lantern_4",
+                        "Geometry.torch_4",
+                        "Geometry.redstone_torch_4",
+                        "Geometry.end_rod_4",
+                        "Geometry.chain_4",
+                        "Geometry.anvil_4",
+                        "Geometry.stonecutter_4",
+                        "Geometry.grindstone_4",
+                        "Geometry.enchanting_table_4",
+                        "Geometry.brewing_stand_4",
+                        "Geometry.lectern_4",
+                        "Geometry.cauldron_4",
+                        "Geometry.chest_4",
+                        "Geometry.bed_4",
+                        "Geometry.candle_4",
+                        "Geometry.glass_pane_4",
+                        "Geometry.glass_panea_4",
+                        "Geometry.glass_paneb_4",
+                        "Geometry.glass_panec_4",
+                        "Geometry.glass_paned_4",
+                        "Geometry.glass_panee_4",
+                        "Geometry.bar_pane_4",
+                        "Geometry.bar_panea_4",
+                        "Geometry.bar_paneb_4",
+                        "Geometry.bar_panec_4",
+                        "Geometry.bar_paned_4",
+                        "Geometry.bar_panee_4",
+                        "Geometry.stone_wall_4",
+                        "Geometry.stone_walla_4",
+                        "Geometry.stone_wallb_4",
+                        "Geometry.stone_wallc_4",
+                        "Geometry.stone_walld_4",
+                        "Geometry.stone_walle_4",
+                        "Geometry.fence_4",
+                        "Geometry.fencea_4",
+                        "Geometry.fenceb_4",
+                        "Geometry.fencec_4",
+                        "Geometry.fenced_4",
+                        "Geometry.fencee_4",
+                        "Geometry.stairs_4",
+                        "Geometry.stairsa_4",
+                        "Geometry.stairsb_4",
+                        "Geometry.stairsc_4",
+                        "Geometry.stairsd_4",
+                        "Geometry.dragon_egg_4",
+                        "Geometry.carpet_4",
+                        "Geometry.pressure_plate_4",
+                        "Geometry.beacon_4",
+                        "Geometry.daylight_detector_4",
+                        "Geometry.hopper_down_4",
+                        "Geometry.hopper_side_4",
+                        "Geometry.sign_standing_4",
+                        "Geometry.sign_wall_4",
+                        "Geometry.hanging_sign_4",
+                        "Geometry.head_4",
+                        "Geometry.head_wall_4",
+                        "Geometry.dragon_head_4",
+                        "Geometry.dragon_head_wall_4",
+                        "Geometry.layered_cube_4",
+                        "Geometry.piglin_head_4",
+                        "Geometry.piglin_head_wall_4"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b4_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b4": "return ((v.b4_type==10 || v.b4_type==37 || v.b4_type==127 || v.b4_type==128 || v.b4_type==215 || v.b4_type==216 || v.b4_type==265 || v.b4_type==266 || v.b4_type==267 || v.b4_type==273 || v.b4_type==275 || v.b4_type==277 || v.b4_type==283 || v.b4_type==309 || v.b4_type==310 || v.b4_type==311 || v.b4_type==312 || v.b4_type==313 || v.b4_type==352 || v.b4_type==353 || v.b4_type==354 || v.b4_type==355 || v.b4_type==356 || v.b4_type==384) ? Material.glow : ((v.b4_type==350 || v.b4_type==351) ? Material.redstone_torch : (((v.b4_type==18 || v.b4_type==19 || v.b4_type==20 || v.b4_type==21 || v.b4_type==22 || v.b4_type==23 || v.b4_type==24 || v.b4_type==25 || v.b4_type==26 || v.b4_type==27 || v.b4_type==28 || v.b4_type==29 || v.b4_type==30 || v.b4_type==31 || v.b4_type==32 || v.b4_type==33 || v.b4_type==34 || v.b4_type==35 || v.b4_type==210 || v.b4_type==365 || v.b4_type==366 || v.b4_type==367 || v.b4_type==368) || (v.b4_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b4": "return ((v.b4_type==10 || v.b4_type==37 || v.b4_type==127 || v.b4_type==128 || v.b4_type==215 || v.b4_type==216 || v.b4_type==265 || v.b4_type==266 || v.b4_type==267 || v.b4_type==273 || v.b4_type==275 || v.b4_type==277 || v.b4_type==283 || v.b4_type==309 || v.b4_type==310 || v.b4_type==311 || v.b4_type==312 || v.b4_type==313 || v.b4_type==352 || v.b4_type==353 || v.b4_type==354 || v.b4_type==355 || v.b4_type==356 || v.b4_type==384) ? Material.glow : ((v.b4_type==350 || v.b4_type==351) ? Material.redstone_torch : (((v.b4_type==18 || v.b4_type==19 || v.b4_type==20 || v.b4_type==21 || v.b4_type==22 || v.b4_type==23 || v.b4_type==24 || v.b4_type==25 || v.b4_type==26 || v.b4_type==27 || v.b4_type==28 || v.b4_type==29 || v.b4_type==30 || v.b4_type==31 || v.b4_type==32 || v.b4_type==33 || v.b4_type==34 || v.b4_type==35 || v.b4_type==210 || v.b4_type==365 || v.b4_type==366 || v.b4_type==367 || v.b4_type==368) || (v.b4_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b4": "return ((v.b4_type==377) ? Material.glass : Material.default);",
+                    "outer_b4": "return ((v.b4_type==377) ? Material.glass : ((v.b4_type==378 || v.b4_type==427) ? Material.slime_outer : Material.default));",
+                    "door4_b4": "Material.glass",
+                    "trapdoor0_b4": "Material.glass",
+                    "beacon_outer_b4": "return ((v.b4_type==378 || v.b4_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b4_type/20)/25",
+                    "Math.mod(v.b4_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_5": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_5",
+                        "Geometry.slab_bottom_5",
+                        "Geometry.slab_top_5",
+                        "Geometry.campfire_5",
+                        "Geometry.bell_5",
+                        "Geometry.ladder_north_5",
+                        "Geometry.ladder_south_5",
+                        "Geometry.ladder_west_5",
+                        "Geometry.ladder_east_5",
+                        "Geometry.multi_face_block_5",
+                        "Geometry.multi_face_slab_bottom_5",
+                        "Geometry.multi_face_slab_top_5",
+                        "Geometry.fence_gate_5",
+                        "Geometry.trapdoor_5",
+                        "Geometry.door_5",
+                        "Geometry.lantern_5",
+                        "Geometry.torch_5",
+                        "Geometry.redstone_torch_5",
+                        "Geometry.end_rod_5",
+                        "Geometry.chain_5",
+                        "Geometry.anvil_5",
+                        "Geometry.stonecutter_5",
+                        "Geometry.grindstone_5",
+                        "Geometry.enchanting_table_5",
+                        "Geometry.brewing_stand_5",
+                        "Geometry.lectern_5",
+                        "Geometry.cauldron_5",
+                        "Geometry.chest_5",
+                        "Geometry.bed_5",
+                        "Geometry.candle_5",
+                        "Geometry.glass_pane_5",
+                        "Geometry.glass_panea_5",
+                        "Geometry.glass_paneb_5",
+                        "Geometry.glass_panec_5",
+                        "Geometry.glass_paned_5",
+                        "Geometry.glass_panee_5",
+                        "Geometry.bar_pane_5",
+                        "Geometry.bar_panea_5",
+                        "Geometry.bar_paneb_5",
+                        "Geometry.bar_panec_5",
+                        "Geometry.bar_paned_5",
+                        "Geometry.bar_panee_5",
+                        "Geometry.stone_wall_5",
+                        "Geometry.stone_walla_5",
+                        "Geometry.stone_wallb_5",
+                        "Geometry.stone_wallc_5",
+                        "Geometry.stone_walld_5",
+                        "Geometry.stone_walle_5",
+                        "Geometry.fence_5",
+                        "Geometry.fencea_5",
+                        "Geometry.fenceb_5",
+                        "Geometry.fencec_5",
+                        "Geometry.fenced_5",
+                        "Geometry.fencee_5",
+                        "Geometry.stairs_5",
+                        "Geometry.stairsa_5",
+                        "Geometry.stairsb_5",
+                        "Geometry.stairsc_5",
+                        "Geometry.stairsd_5",
+                        "Geometry.dragon_egg_5",
+                        "Geometry.carpet_5",
+                        "Geometry.pressure_plate_5",
+                        "Geometry.beacon_5",
+                        "Geometry.daylight_detector_5",
+                        "Geometry.hopper_down_5",
+                        "Geometry.hopper_side_5",
+                        "Geometry.sign_standing_5",
+                        "Geometry.sign_wall_5",
+                        "Geometry.hanging_sign_5",
+                        "Geometry.head_5",
+                        "Geometry.head_wall_5",
+                        "Geometry.dragon_head_5",
+                        "Geometry.dragon_head_wall_5",
+                        "Geometry.layered_cube_5",
+                        "Geometry.piglin_head_5",
+                        "Geometry.piglin_head_wall_5"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b5_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b5": "return ((v.b5_type==10 || v.b5_type==37 || v.b5_type==127 || v.b5_type==128 || v.b5_type==215 || v.b5_type==216 || v.b5_type==265 || v.b5_type==266 || v.b5_type==267 || v.b5_type==273 || v.b5_type==275 || v.b5_type==277 || v.b5_type==283 || v.b5_type==309 || v.b5_type==310 || v.b5_type==311 || v.b5_type==312 || v.b5_type==313 || v.b5_type==352 || v.b5_type==353 || v.b5_type==354 || v.b5_type==355 || v.b5_type==356 || v.b5_type==384) ? Material.glow : ((v.b5_type==350 || v.b5_type==351) ? Material.redstone_torch : (((v.b5_type==18 || v.b5_type==19 || v.b5_type==20 || v.b5_type==21 || v.b5_type==22 || v.b5_type==23 || v.b5_type==24 || v.b5_type==25 || v.b5_type==26 || v.b5_type==27 || v.b5_type==28 || v.b5_type==29 || v.b5_type==30 || v.b5_type==31 || v.b5_type==32 || v.b5_type==33 || v.b5_type==34 || v.b5_type==35 || v.b5_type==210 || v.b5_type==365 || v.b5_type==366 || v.b5_type==367 || v.b5_type==368) || (v.b5_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b5": "return ((v.b5_type==10 || v.b5_type==37 || v.b5_type==127 || v.b5_type==128 || v.b5_type==215 || v.b5_type==216 || v.b5_type==265 || v.b5_type==266 || v.b5_type==267 || v.b5_type==273 || v.b5_type==275 || v.b5_type==277 || v.b5_type==283 || v.b5_type==309 || v.b5_type==310 || v.b5_type==311 || v.b5_type==312 || v.b5_type==313 || v.b5_type==352 || v.b5_type==353 || v.b5_type==354 || v.b5_type==355 || v.b5_type==356 || v.b5_type==384) ? Material.glow : ((v.b5_type==350 || v.b5_type==351) ? Material.redstone_torch : (((v.b5_type==18 || v.b5_type==19 || v.b5_type==20 || v.b5_type==21 || v.b5_type==22 || v.b5_type==23 || v.b5_type==24 || v.b5_type==25 || v.b5_type==26 || v.b5_type==27 || v.b5_type==28 || v.b5_type==29 || v.b5_type==30 || v.b5_type==31 || v.b5_type==32 || v.b5_type==33 || v.b5_type==34 || v.b5_type==35 || v.b5_type==210 || v.b5_type==365 || v.b5_type==366 || v.b5_type==367 || v.b5_type==368) || (v.b5_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b5": "return ((v.b5_type==377) ? Material.glass : Material.default);",
+                    "outer_b5": "return ((v.b5_type==377) ? Material.glass : ((v.b5_type==378 || v.b5_type==427) ? Material.slime_outer : Material.default));",
+                    "door5_b5": "Material.glass",
+                    "trapdoor0_b5": "Material.glass",
+                    "beacon_outer_b5": "return ((v.b5_type==378 || v.b5_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b5_type/20)/25",
+                    "Math.mod(v.b5_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_6": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_6",
+                        "Geometry.slab_bottom_6",
+                        "Geometry.slab_top_6",
+                        "Geometry.campfire_6",
+                        "Geometry.bell_6",
+                        "Geometry.ladder_north_6",
+                        "Geometry.ladder_south_6",
+                        "Geometry.ladder_west_6",
+                        "Geometry.ladder_east_6",
+                        "Geometry.multi_face_block_6",
+                        "Geometry.multi_face_slab_bottom_6",
+                        "Geometry.multi_face_slab_top_6",
+                        "Geometry.fence_gate_6",
+                        "Geometry.trapdoor_6",
+                        "Geometry.door_6",
+                        "Geometry.lantern_6",
+                        "Geometry.torch_6",
+                        "Geometry.redstone_torch_6",
+                        "Geometry.end_rod_6",
+                        "Geometry.chain_6",
+                        "Geometry.anvil_6",
+                        "Geometry.stonecutter_6",
+                        "Geometry.grindstone_6",
+                        "Geometry.enchanting_table_6",
+                        "Geometry.brewing_stand_6",
+                        "Geometry.lectern_6",
+                        "Geometry.cauldron_6",
+                        "Geometry.chest_6",
+                        "Geometry.bed_6",
+                        "Geometry.candle_6",
+                        "Geometry.glass_pane_6",
+                        "Geometry.glass_panea_6",
+                        "Geometry.glass_paneb_6",
+                        "Geometry.glass_panec_6",
+                        "Geometry.glass_paned_6",
+                        "Geometry.glass_panee_6",
+                        "Geometry.bar_pane_6",
+                        "Geometry.bar_panea_6",
+                        "Geometry.bar_paneb_6",
+                        "Geometry.bar_panec_6",
+                        "Geometry.bar_paned_6",
+                        "Geometry.bar_panee_6",
+                        "Geometry.stone_wall_6",
+                        "Geometry.stone_walla_6",
+                        "Geometry.stone_wallb_6",
+                        "Geometry.stone_wallc_6",
+                        "Geometry.stone_walld_6",
+                        "Geometry.stone_walle_6",
+                        "Geometry.fence_6",
+                        "Geometry.fencea_6",
+                        "Geometry.fenceb_6",
+                        "Geometry.fencec_6",
+                        "Geometry.fenced_6",
+                        "Geometry.fencee_6",
+                        "Geometry.stairs_6",
+                        "Geometry.stairsa_6",
+                        "Geometry.stairsb_6",
+                        "Geometry.stairsc_6",
+                        "Geometry.stairsd_6",
+                        "Geometry.dragon_egg_6",
+                        "Geometry.carpet_6",
+                        "Geometry.pressure_plate_6",
+                        "Geometry.beacon_6",
+                        "Geometry.daylight_detector_6",
+                        "Geometry.hopper_down_6",
+                        "Geometry.hopper_side_6",
+                        "Geometry.sign_standing_6",
+                        "Geometry.sign_wall_6",
+                        "Geometry.hanging_sign_6",
+                        "Geometry.head_6",
+                        "Geometry.head_wall_6",
+                        "Geometry.dragon_head_6",
+                        "Geometry.dragon_head_wall_6",
+                        "Geometry.layered_cube_6",
+                        "Geometry.piglin_head_6",
+                        "Geometry.piglin_head_wall_6"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b6_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b6": "return ((v.b6_type==10 || v.b6_type==37 || v.b6_type==127 || v.b6_type==128 || v.b6_type==215 || v.b6_type==216 || v.b6_type==265 || v.b6_type==266 || v.b6_type==267 || v.b6_type==273 || v.b6_type==275 || v.b6_type==277 || v.b6_type==283 || v.b6_type==309 || v.b6_type==310 || v.b6_type==311 || v.b6_type==312 || v.b6_type==313 || v.b6_type==352 || v.b6_type==353 || v.b6_type==354 || v.b6_type==355 || v.b6_type==356 || v.b6_type==384) ? Material.glow : ((v.b6_type==350 || v.b6_type==351) ? Material.redstone_torch : (((v.b6_type==18 || v.b6_type==19 || v.b6_type==20 || v.b6_type==21 || v.b6_type==22 || v.b6_type==23 || v.b6_type==24 || v.b6_type==25 || v.b6_type==26 || v.b6_type==27 || v.b6_type==28 || v.b6_type==29 || v.b6_type==30 || v.b6_type==31 || v.b6_type==32 || v.b6_type==33 || v.b6_type==34 || v.b6_type==35 || v.b6_type==210 || v.b6_type==365 || v.b6_type==366 || v.b6_type==367 || v.b6_type==368) || (v.b6_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b6": "return ((v.b6_type==10 || v.b6_type==37 || v.b6_type==127 || v.b6_type==128 || v.b6_type==215 || v.b6_type==216 || v.b6_type==265 || v.b6_type==266 || v.b6_type==267 || v.b6_type==273 || v.b6_type==275 || v.b6_type==277 || v.b6_type==283 || v.b6_type==309 || v.b6_type==310 || v.b6_type==311 || v.b6_type==312 || v.b6_type==313 || v.b6_type==352 || v.b6_type==353 || v.b6_type==354 || v.b6_type==355 || v.b6_type==356 || v.b6_type==384) ? Material.glow : ((v.b6_type==350 || v.b6_type==351) ? Material.redstone_torch : (((v.b6_type==18 || v.b6_type==19 || v.b6_type==20 || v.b6_type==21 || v.b6_type==22 || v.b6_type==23 || v.b6_type==24 || v.b6_type==25 || v.b6_type==26 || v.b6_type==27 || v.b6_type==28 || v.b6_type==29 || v.b6_type==30 || v.b6_type==31 || v.b6_type==32 || v.b6_type==33 || v.b6_type==34 || v.b6_type==35 || v.b6_type==210 || v.b6_type==365 || v.b6_type==366 || v.b6_type==367 || v.b6_type==368) || (v.b6_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b6": "return ((v.b6_type==377) ? Material.glass : Material.default);",
+                    "outer_b6": "return ((v.b6_type==377) ? Material.glass : ((v.b6_type==378 || v.b6_type==427) ? Material.slime_outer : Material.default));",
+                    "door6_b6": "Material.glass",
+                    "trapdoor0_b6": "Material.glass",
+                    "beacon_outer_b6": "return ((v.b6_type==378 || v.b6_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b6_type/20)/25",
+                    "Math.mod(v.b6_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_7": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_7",
+                        "Geometry.slab_bottom_7",
+                        "Geometry.slab_top_7",
+                        "Geometry.campfire_7",
+                        "Geometry.bell_7",
+                        "Geometry.ladder_north_7",
+                        "Geometry.ladder_south_7",
+                        "Geometry.ladder_west_7",
+                        "Geometry.ladder_east_7",
+                        "Geometry.multi_face_block_7",
+                        "Geometry.multi_face_slab_bottom_7",
+                        "Geometry.multi_face_slab_top_7",
+                        "Geometry.fence_gate_7",
+                        "Geometry.trapdoor_7",
+                        "Geometry.door_7",
+                        "Geometry.lantern_7",
+                        "Geometry.torch_7",
+                        "Geometry.redstone_torch_7",
+                        "Geometry.end_rod_7",
+                        "Geometry.chain_7",
+                        "Geometry.anvil_7",
+                        "Geometry.stonecutter_7",
+                        "Geometry.grindstone_7",
+                        "Geometry.enchanting_table_7",
+                        "Geometry.brewing_stand_7",
+                        "Geometry.lectern_7",
+                        "Geometry.cauldron_7",
+                        "Geometry.chest_7",
+                        "Geometry.bed_7",
+                        "Geometry.candle_7",
+                        "Geometry.glass_pane_7",
+                        "Geometry.glass_panea_7",
+                        "Geometry.glass_paneb_7",
+                        "Geometry.glass_panec_7",
+                        "Geometry.glass_paned_7",
+                        "Geometry.glass_panee_7",
+                        "Geometry.bar_pane_7",
+                        "Geometry.bar_panea_7",
+                        "Geometry.bar_paneb_7",
+                        "Geometry.bar_panec_7",
+                        "Geometry.bar_paned_7",
+                        "Geometry.bar_panee_7",
+                        "Geometry.stone_wall_7",
+                        "Geometry.stone_walla_7",
+                        "Geometry.stone_wallb_7",
+                        "Geometry.stone_wallc_7",
+                        "Geometry.stone_walld_7",
+                        "Geometry.stone_walle_7",
+                        "Geometry.fence_7",
+                        "Geometry.fencea_7",
+                        "Geometry.fenceb_7",
+                        "Geometry.fencec_7",
+                        "Geometry.fenced_7",
+                        "Geometry.fencee_7",
+                        "Geometry.stairs_7",
+                        "Geometry.stairsa_7",
+                        "Geometry.stairsb_7",
+                        "Geometry.stairsc_7",
+                        "Geometry.stairsd_7",
+                        "Geometry.dragon_egg_7",
+                        "Geometry.carpet_7",
+                        "Geometry.pressure_plate_7",
+                        "Geometry.beacon_7",
+                        "Geometry.daylight_detector_7",
+                        "Geometry.hopper_down_7",
+                        "Geometry.hopper_side_7",
+                        "Geometry.sign_standing_7",
+                        "Geometry.sign_wall_7",
+                        "Geometry.hanging_sign_7",
+                        "Geometry.head_7",
+                        "Geometry.head_wall_7",
+                        "Geometry.dragon_head_7",
+                        "Geometry.dragon_head_wall_7",
+                        "Geometry.layered_cube_7",
+                        "Geometry.piglin_head_7",
+                        "Geometry.piglin_head_wall_7"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b7_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b7": "return ((v.b7_type==10 || v.b7_type==37 || v.b7_type==127 || v.b7_type==128 || v.b7_type==215 || v.b7_type==216 || v.b7_type==265 || v.b7_type==266 || v.b7_type==267 || v.b7_type==273 || v.b7_type==275 || v.b7_type==277 || v.b7_type==283 || v.b7_type==309 || v.b7_type==310 || v.b7_type==311 || v.b7_type==312 || v.b7_type==313 || v.b7_type==352 || v.b7_type==353 || v.b7_type==354 || v.b7_type==355 || v.b7_type==356 || v.b7_type==384) ? Material.glow : ((v.b7_type==350 || v.b7_type==351) ? Material.redstone_torch : (((v.b7_type==18 || v.b7_type==19 || v.b7_type==20 || v.b7_type==21 || v.b7_type==22 || v.b7_type==23 || v.b7_type==24 || v.b7_type==25 || v.b7_type==26 || v.b7_type==27 || v.b7_type==28 || v.b7_type==29 || v.b7_type==30 || v.b7_type==31 || v.b7_type==32 || v.b7_type==33 || v.b7_type==34 || v.b7_type==35 || v.b7_type==210 || v.b7_type==365 || v.b7_type==366 || v.b7_type==367 || v.b7_type==368) || (v.b7_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b7": "return ((v.b7_type==10 || v.b7_type==37 || v.b7_type==127 || v.b7_type==128 || v.b7_type==215 || v.b7_type==216 || v.b7_type==265 || v.b7_type==266 || v.b7_type==267 || v.b7_type==273 || v.b7_type==275 || v.b7_type==277 || v.b7_type==283 || v.b7_type==309 || v.b7_type==310 || v.b7_type==311 || v.b7_type==312 || v.b7_type==313 || v.b7_type==352 || v.b7_type==353 || v.b7_type==354 || v.b7_type==355 || v.b7_type==356 || v.b7_type==384) ? Material.glow : ((v.b7_type==350 || v.b7_type==351) ? Material.redstone_torch : (((v.b7_type==18 || v.b7_type==19 || v.b7_type==20 || v.b7_type==21 || v.b7_type==22 || v.b7_type==23 || v.b7_type==24 || v.b7_type==25 || v.b7_type==26 || v.b7_type==27 || v.b7_type==28 || v.b7_type==29 || v.b7_type==30 || v.b7_type==31 || v.b7_type==32 || v.b7_type==33 || v.b7_type==34 || v.b7_type==35 || v.b7_type==210 || v.b7_type==365 || v.b7_type==366 || v.b7_type==367 || v.b7_type==368) || (v.b7_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b7": "return ((v.b7_type==377) ? Material.glass : Material.default);",
+                    "outer_b7": "return ((v.b7_type==377) ? Material.glass : ((v.b7_type==378 || v.b7_type==427) ? Material.slime_outer : Material.default));",
+                    "door7_b7": "Material.glass",
+                    "trapdoor0_b7": "Material.glass",
+                    "beacon_outer_b7": "return ((v.b7_type==378 || v.b7_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b7_type/20)/25",
+                    "Math.mod(v.b7_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_8": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_8",
+                        "Geometry.slab_bottom_8",
+                        "Geometry.slab_top_8",
+                        "Geometry.campfire_8",
+                        "Geometry.bell_8",
+                        "Geometry.ladder_north_8",
+                        "Geometry.ladder_south_8",
+                        "Geometry.ladder_west_8",
+                        "Geometry.ladder_east_8",
+                        "Geometry.multi_face_block_8",
+                        "Geometry.multi_face_slab_bottom_8",
+                        "Geometry.multi_face_slab_top_8",
+                        "Geometry.fence_gate_8",
+                        "Geometry.trapdoor_8",
+                        "Geometry.door_8",
+                        "Geometry.lantern_8",
+                        "Geometry.torch_8",
+                        "Geometry.redstone_torch_8",
+                        "Geometry.end_rod_8",
+                        "Geometry.chain_8",
+                        "Geometry.anvil_8",
+                        "Geometry.stonecutter_8",
+                        "Geometry.grindstone_8",
+                        "Geometry.enchanting_table_8",
+                        "Geometry.brewing_stand_8",
+                        "Geometry.lectern_8",
+                        "Geometry.cauldron_8",
+                        "Geometry.chest_8",
+                        "Geometry.bed_8",
+                        "Geometry.candle_8",
+                        "Geometry.glass_pane_8",
+                        "Geometry.glass_panea_8",
+                        "Geometry.glass_paneb_8",
+                        "Geometry.glass_panec_8",
+                        "Geometry.glass_paned_8",
+                        "Geometry.glass_panee_8",
+                        "Geometry.bar_pane_8",
+                        "Geometry.bar_panea_8",
+                        "Geometry.bar_paneb_8",
+                        "Geometry.bar_panec_8",
+                        "Geometry.bar_paned_8",
+                        "Geometry.bar_panee_8",
+                        "Geometry.stone_wall_8",
+                        "Geometry.stone_walla_8",
+                        "Geometry.stone_wallb_8",
+                        "Geometry.stone_wallc_8",
+                        "Geometry.stone_walld_8",
+                        "Geometry.stone_walle_8",
+                        "Geometry.fence_8",
+                        "Geometry.fencea_8",
+                        "Geometry.fenceb_8",
+                        "Geometry.fencec_8",
+                        "Geometry.fenced_8",
+                        "Geometry.fencee_8",
+                        "Geometry.stairs_8",
+                        "Geometry.stairsa_8",
+                        "Geometry.stairsb_8",
+                        "Geometry.stairsc_8",
+                        "Geometry.stairsd_8",
+                        "Geometry.dragon_egg_8",
+                        "Geometry.carpet_8",
+                        "Geometry.pressure_plate_8",
+                        "Geometry.beacon_8",
+                        "Geometry.daylight_detector_8",
+                        "Geometry.hopper_down_8",
+                        "Geometry.hopper_side_8",
+                        "Geometry.sign_standing_8",
+                        "Geometry.sign_wall_8",
+                        "Geometry.hanging_sign_8",
+                        "Geometry.head_8",
+                        "Geometry.head_wall_8",
+                        "Geometry.dragon_head_8",
+                        "Geometry.dragon_head_wall_8",
+                        "Geometry.layered_cube_8",
+                        "Geometry.piglin_head_8",
+                        "Geometry.piglin_head_wall_8"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b8_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b8": "return ((v.b8_type==10 || v.b8_type==37 || v.b8_type==127 || v.b8_type==128 || v.b8_type==215 || v.b8_type==216 || v.b8_type==265 || v.b8_type==266 || v.b8_type==267 || v.b8_type==273 || v.b8_type==275 || v.b8_type==277 || v.b8_type==283 || v.b8_type==309 || v.b8_type==310 || v.b8_type==311 || v.b8_type==312 || v.b8_type==313 || v.b8_type==352 || v.b8_type==353 || v.b8_type==354 || v.b8_type==355 || v.b8_type==356 || v.b8_type==384) ? Material.glow : ((v.b8_type==350 || v.b8_type==351) ? Material.redstone_torch : (((v.b8_type==18 || v.b8_type==19 || v.b8_type==20 || v.b8_type==21 || v.b8_type==22 || v.b8_type==23 || v.b8_type==24 || v.b8_type==25 || v.b8_type==26 || v.b8_type==27 || v.b8_type==28 || v.b8_type==29 || v.b8_type==30 || v.b8_type==31 || v.b8_type==32 || v.b8_type==33 || v.b8_type==34 || v.b8_type==35 || v.b8_type==210 || v.b8_type==365 || v.b8_type==366 || v.b8_type==367 || v.b8_type==368) || (v.b8_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b8": "return ((v.b8_type==10 || v.b8_type==37 || v.b8_type==127 || v.b8_type==128 || v.b8_type==215 || v.b8_type==216 || v.b8_type==265 || v.b8_type==266 || v.b8_type==267 || v.b8_type==273 || v.b8_type==275 || v.b8_type==277 || v.b8_type==283 || v.b8_type==309 || v.b8_type==310 || v.b8_type==311 || v.b8_type==312 || v.b8_type==313 || v.b8_type==352 || v.b8_type==353 || v.b8_type==354 || v.b8_type==355 || v.b8_type==356 || v.b8_type==384) ? Material.glow : ((v.b8_type==350 || v.b8_type==351) ? Material.redstone_torch : (((v.b8_type==18 || v.b8_type==19 || v.b8_type==20 || v.b8_type==21 || v.b8_type==22 || v.b8_type==23 || v.b8_type==24 || v.b8_type==25 || v.b8_type==26 || v.b8_type==27 || v.b8_type==28 || v.b8_type==29 || v.b8_type==30 || v.b8_type==31 || v.b8_type==32 || v.b8_type==33 || v.b8_type==34 || v.b8_type==35 || v.b8_type==210 || v.b8_type==365 || v.b8_type==366 || v.b8_type==367 || v.b8_type==368) || (v.b8_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b8": "return ((v.b8_type==377) ? Material.glass : Material.default);",
+                    "outer_b8": "return ((v.b8_type==377) ? Material.glass : ((v.b8_type==378 || v.b8_type==427) ? Material.slime_outer : Material.default));",
+                    "door8_b8": "Material.glass",
+                    "trapdoor0_b8": "Material.glass",
+                    "beacon_outer_b8": "return ((v.b8_type==378 || v.b8_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b8_type/20)/25",
+                    "Math.mod(v.b8_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_9": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_9",
+                        "Geometry.slab_bottom_9",
+                        "Geometry.slab_top_9",
+                        "Geometry.campfire_9",
+                        "Geometry.bell_9",
+                        "Geometry.ladder_north_9",
+                        "Geometry.ladder_south_9",
+                        "Geometry.ladder_west_9",
+                        "Geometry.ladder_east_9",
+                        "Geometry.multi_face_block_9",
+                        "Geometry.multi_face_slab_bottom_9",
+                        "Geometry.multi_face_slab_top_9",
+                        "Geometry.fence_gate_9",
+                        "Geometry.trapdoor_9",
+                        "Geometry.door_9",
+                        "Geometry.lantern_9",
+                        "Geometry.torch_9",
+                        "Geometry.redstone_torch_9",
+                        "Geometry.end_rod_9",
+                        "Geometry.chain_9",
+                        "Geometry.anvil_9",
+                        "Geometry.stonecutter_9",
+                        "Geometry.grindstone_9",
+                        "Geometry.enchanting_table_9",
+                        "Geometry.brewing_stand_9",
+                        "Geometry.lectern_9",
+                        "Geometry.cauldron_9",
+                        "Geometry.chest_9",
+                        "Geometry.bed_9",
+                        "Geometry.candle_9",
+                        "Geometry.glass_pane_9",
+                        "Geometry.glass_panea_9",
+                        "Geometry.glass_paneb_9",
+                        "Geometry.glass_panec_9",
+                        "Geometry.glass_paned_9",
+                        "Geometry.glass_panee_9",
+                        "Geometry.bar_pane_9",
+                        "Geometry.bar_panea_9",
+                        "Geometry.bar_paneb_9",
+                        "Geometry.bar_panec_9",
+                        "Geometry.bar_paned_9",
+                        "Geometry.bar_panee_9",
+                        "Geometry.stone_wall_9",
+                        "Geometry.stone_walla_9",
+                        "Geometry.stone_wallb_9",
+                        "Geometry.stone_wallc_9",
+                        "Geometry.stone_walld_9",
+                        "Geometry.stone_walle_9",
+                        "Geometry.fence_9",
+                        "Geometry.fencea_9",
+                        "Geometry.fenceb_9",
+                        "Geometry.fencec_9",
+                        "Geometry.fenced_9",
+                        "Geometry.fencee_9",
+                        "Geometry.stairs_9",
+                        "Geometry.stairsa_9",
+                        "Geometry.stairsb_9",
+                        "Geometry.stairsc_9",
+                        "Geometry.stairsd_9",
+                        "Geometry.dragon_egg_9",
+                        "Geometry.carpet_9",
+                        "Geometry.pressure_plate_9",
+                        "Geometry.beacon_9",
+                        "Geometry.daylight_detector_9",
+                        "Geometry.hopper_down_9",
+                        "Geometry.hopper_side_9",
+                        "Geometry.sign_standing_9",
+                        "Geometry.sign_wall_9",
+                        "Geometry.hanging_sign_9",
+                        "Geometry.head_9",
+                        "Geometry.head_wall_9",
+                        "Geometry.dragon_head_9",
+                        "Geometry.dragon_head_wall_9",
+                        "Geometry.layered_cube_9",
+                        "Geometry.piglin_head_9",
+                        "Geometry.piglin_head_wall_9"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b9_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b9": "return ((v.b9_type==10 || v.b9_type==37 || v.b9_type==127 || v.b9_type==128 || v.b9_type==215 || v.b9_type==216 || v.b9_type==265 || v.b9_type==266 || v.b9_type==267 || v.b9_type==273 || v.b9_type==275 || v.b9_type==277 || v.b9_type==283 || v.b9_type==309 || v.b9_type==310 || v.b9_type==311 || v.b9_type==312 || v.b9_type==313 || v.b9_type==352 || v.b9_type==353 || v.b9_type==354 || v.b9_type==355 || v.b9_type==356 || v.b9_type==384) ? Material.glow : ((v.b9_type==350 || v.b9_type==351) ? Material.redstone_torch : (((v.b9_type==18 || v.b9_type==19 || v.b9_type==20 || v.b9_type==21 || v.b9_type==22 || v.b9_type==23 || v.b9_type==24 || v.b9_type==25 || v.b9_type==26 || v.b9_type==27 || v.b9_type==28 || v.b9_type==29 || v.b9_type==30 || v.b9_type==31 || v.b9_type==32 || v.b9_type==33 || v.b9_type==34 || v.b9_type==35 || v.b9_type==210 || v.b9_type==365 || v.b9_type==366 || v.b9_type==367 || v.b9_type==368) || (v.b9_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b9": "return ((v.b9_type==10 || v.b9_type==37 || v.b9_type==127 || v.b9_type==128 || v.b9_type==215 || v.b9_type==216 || v.b9_type==265 || v.b9_type==266 || v.b9_type==267 || v.b9_type==273 || v.b9_type==275 || v.b9_type==277 || v.b9_type==283 || v.b9_type==309 || v.b9_type==310 || v.b9_type==311 || v.b9_type==312 || v.b9_type==313 || v.b9_type==352 || v.b9_type==353 || v.b9_type==354 || v.b9_type==355 || v.b9_type==356 || v.b9_type==384) ? Material.glow : ((v.b9_type==350 || v.b9_type==351) ? Material.redstone_torch : (((v.b9_type==18 || v.b9_type==19 || v.b9_type==20 || v.b9_type==21 || v.b9_type==22 || v.b9_type==23 || v.b9_type==24 || v.b9_type==25 || v.b9_type==26 || v.b9_type==27 || v.b9_type==28 || v.b9_type==29 || v.b9_type==30 || v.b9_type==31 || v.b9_type==32 || v.b9_type==33 || v.b9_type==34 || v.b9_type==35 || v.b9_type==210 || v.b9_type==365 || v.b9_type==366 || v.b9_type==367 || v.b9_type==368) || (v.b9_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b9": "return ((v.b9_type==377) ? Material.glass : Material.default);",
+                    "outer_b9": "return ((v.b9_type==377) ? Material.glass : ((v.b9_type==378 || v.b9_type==427) ? Material.slime_outer : Material.default));",
+                    "door9_b9": "Material.glass",
+                    "trapdoor0_b9": "Material.glass",
+                    "beacon_outer_b9": "return ((v.b9_type==378 || v.b9_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b9_type/20)/25",
+                    "Math.mod(v.b9_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_10": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_10",
+                        "Geometry.slab_bottom_10",
+                        "Geometry.slab_top_10",
+                        "Geometry.campfire_10",
+                        "Geometry.bell_10",
+                        "Geometry.ladder_north_10",
+                        "Geometry.ladder_south_10",
+                        "Geometry.ladder_west_10",
+                        "Geometry.ladder_east_10",
+                        "Geometry.multi_face_block_10",
+                        "Geometry.multi_face_slab_bottom_10",
+                        "Geometry.multi_face_slab_top_10",
+                        "Geometry.fence_gate_10",
+                        "Geometry.trapdoor_10",
+                        "Geometry.door_10",
+                        "Geometry.lantern_10",
+                        "Geometry.torch_10",
+                        "Geometry.redstone_torch_10",
+                        "Geometry.end_rod_10",
+                        "Geometry.chain_10",
+                        "Geometry.anvil_10",
+                        "Geometry.stonecutter_10",
+                        "Geometry.grindstone_10",
+                        "Geometry.enchanting_table_10",
+                        "Geometry.brewing_stand_10",
+                        "Geometry.lectern_10",
+                        "Geometry.cauldron_10",
+                        "Geometry.chest_10",
+                        "Geometry.bed_10",
+                        "Geometry.candle_10",
+                        "Geometry.glass_pane_10",
+                        "Geometry.glass_panea_10",
+                        "Geometry.glass_paneb_10",
+                        "Geometry.glass_panec_10",
+                        "Geometry.glass_paned_10",
+                        "Geometry.glass_panee_10",
+                        "Geometry.bar_pane_10",
+                        "Geometry.bar_panea_10",
+                        "Geometry.bar_paneb_10",
+                        "Geometry.bar_panec_10",
+                        "Geometry.bar_paned_10",
+                        "Geometry.bar_panee_10",
+                        "Geometry.stone_wall_10",
+                        "Geometry.stone_walla_10",
+                        "Geometry.stone_wallb_10",
+                        "Geometry.stone_wallc_10",
+                        "Geometry.stone_walld_10",
+                        "Geometry.stone_walle_10",
+                        "Geometry.fence_10",
+                        "Geometry.fencea_10",
+                        "Geometry.fenceb_10",
+                        "Geometry.fencec_10",
+                        "Geometry.fenced_10",
+                        "Geometry.fencee_10",
+                        "Geometry.stairs_10",
+                        "Geometry.stairsa_10",
+                        "Geometry.stairsb_10",
+                        "Geometry.stairsc_10",
+                        "Geometry.stairsd_10",
+                        "Geometry.dragon_egg_10",
+                        "Geometry.carpet_10",
+                        "Geometry.pressure_plate_10",
+                        "Geometry.beacon_10",
+                        "Geometry.daylight_detector_10",
+                        "Geometry.hopper_down_10",
+                        "Geometry.hopper_side_10",
+                        "Geometry.sign_standing_10",
+                        "Geometry.sign_wall_10",
+                        "Geometry.hanging_sign_10",
+                        "Geometry.head_10",
+                        "Geometry.head_wall_10",
+                        "Geometry.dragon_head_10",
+                        "Geometry.dragon_head_wall_10",
+                        "Geometry.layered_cube_10",
+                        "Geometry.piglin_head_10",
+                        "Geometry.piglin_head_wall_10"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b10_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b10": "return ((v.b10_type==10 || v.b10_type==37 || v.b10_type==127 || v.b10_type==128 || v.b10_type==215 || v.b10_type==216 || v.b10_type==265 || v.b10_type==266 || v.b10_type==267 || v.b10_type==273 || v.b10_type==275 || v.b10_type==277 || v.b10_type==283 || v.b10_type==309 || v.b10_type==310 || v.b10_type==311 || v.b10_type==312 || v.b10_type==313 || v.b10_type==352 || v.b10_type==353 || v.b10_type==354 || v.b10_type==355 || v.b10_type==356 || v.b10_type==384) ? Material.glow : ((v.b10_type==350 || v.b10_type==351) ? Material.redstone_torch : (((v.b10_type==18 || v.b10_type==19 || v.b10_type==20 || v.b10_type==21 || v.b10_type==22 || v.b10_type==23 || v.b10_type==24 || v.b10_type==25 || v.b10_type==26 || v.b10_type==27 || v.b10_type==28 || v.b10_type==29 || v.b10_type==30 || v.b10_type==31 || v.b10_type==32 || v.b10_type==33 || v.b10_type==34 || v.b10_type==35 || v.b10_type==210 || v.b10_type==365 || v.b10_type==366 || v.b10_type==367 || v.b10_type==368) || (v.b10_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b10": "return ((v.b10_type==10 || v.b10_type==37 || v.b10_type==127 || v.b10_type==128 || v.b10_type==215 || v.b10_type==216 || v.b10_type==265 || v.b10_type==266 || v.b10_type==267 || v.b10_type==273 || v.b10_type==275 || v.b10_type==277 || v.b10_type==283 || v.b10_type==309 || v.b10_type==310 || v.b10_type==311 || v.b10_type==312 || v.b10_type==313 || v.b10_type==352 || v.b10_type==353 || v.b10_type==354 || v.b10_type==355 || v.b10_type==356 || v.b10_type==384) ? Material.glow : ((v.b10_type==350 || v.b10_type==351) ? Material.redstone_torch : (((v.b10_type==18 || v.b10_type==19 || v.b10_type==20 || v.b10_type==21 || v.b10_type==22 || v.b10_type==23 || v.b10_type==24 || v.b10_type==25 || v.b10_type==26 || v.b10_type==27 || v.b10_type==28 || v.b10_type==29 || v.b10_type==30 || v.b10_type==31 || v.b10_type==32 || v.b10_type==33 || v.b10_type==34 || v.b10_type==35 || v.b10_type==210 || v.b10_type==365 || v.b10_type==366 || v.b10_type==367 || v.b10_type==368) || (v.b10_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b10": "return ((v.b10_type==377) ? Material.glass : Material.default);",
+                    "outer_b10": "return ((v.b10_type==377) ? Material.glass : ((v.b10_type==378 || v.b10_type==427) ? Material.slime_outer : Material.default));",
+                    "door10_b10": "Material.glass",
+                    "trapdoor0_b10": "Material.glass",
+                    "beacon_outer_b10": "return ((v.b10_type==378 || v.b10_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b10_type/20)/25",
+                    "Math.mod(v.b10_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_11": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_11",
+                        "Geometry.slab_bottom_11",
+                        "Geometry.slab_top_11",
+                        "Geometry.campfire_11",
+                        "Geometry.bell_11",
+                        "Geometry.ladder_north_11",
+                        "Geometry.ladder_south_11",
+                        "Geometry.ladder_west_11",
+                        "Geometry.ladder_east_11",
+                        "Geometry.multi_face_block_11",
+                        "Geometry.multi_face_slab_bottom_11",
+                        "Geometry.multi_face_slab_top_11",
+                        "Geometry.fence_gate_11",
+                        "Geometry.trapdoor_11",
+                        "Geometry.door_11",
+                        "Geometry.lantern_11",
+                        "Geometry.torch_11",
+                        "Geometry.redstone_torch_11",
+                        "Geometry.end_rod_11",
+                        "Geometry.chain_11",
+                        "Geometry.anvil_11",
+                        "Geometry.stonecutter_11",
+                        "Geometry.grindstone_11",
+                        "Geometry.enchanting_table_11",
+                        "Geometry.brewing_stand_11",
+                        "Geometry.lectern_11",
+                        "Geometry.cauldron_11",
+                        "Geometry.chest_11",
+                        "Geometry.bed_11",
+                        "Geometry.candle_11",
+                        "Geometry.glass_pane_11",
+                        "Geometry.glass_panea_11",
+                        "Geometry.glass_paneb_11",
+                        "Geometry.glass_panec_11",
+                        "Geometry.glass_paned_11",
+                        "Geometry.glass_panee_11",
+                        "Geometry.bar_pane_11",
+                        "Geometry.bar_panea_11",
+                        "Geometry.bar_paneb_11",
+                        "Geometry.bar_panec_11",
+                        "Geometry.bar_paned_11",
+                        "Geometry.bar_panee_11",
+                        "Geometry.stone_wall_11",
+                        "Geometry.stone_walla_11",
+                        "Geometry.stone_wallb_11",
+                        "Geometry.stone_wallc_11",
+                        "Geometry.stone_walld_11",
+                        "Geometry.stone_walle_11",
+                        "Geometry.fence_11",
+                        "Geometry.fencea_11",
+                        "Geometry.fenceb_11",
+                        "Geometry.fencec_11",
+                        "Geometry.fenced_11",
+                        "Geometry.fencee_11",
+                        "Geometry.stairs_11",
+                        "Geometry.stairsa_11",
+                        "Geometry.stairsb_11",
+                        "Geometry.stairsc_11",
+                        "Geometry.stairsd_11",
+                        "Geometry.dragon_egg_11",
+                        "Geometry.carpet_11",
+                        "Geometry.pressure_plate_11",
+                        "Geometry.beacon_11",
+                        "Geometry.daylight_detector_11",
+                        "Geometry.hopper_down_11",
+                        "Geometry.hopper_side_11",
+                        "Geometry.sign_standing_11",
+                        "Geometry.sign_wall_11",
+                        "Geometry.hanging_sign_11",
+                        "Geometry.head_11",
+                        "Geometry.head_wall_11",
+                        "Geometry.dragon_head_11",
+                        "Geometry.dragon_head_wall_11",
+                        "Geometry.layered_cube_11",
+                        "Geometry.piglin_head_11",
+                        "Geometry.piglin_head_wall_11"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b11_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b11": "return ((v.b11_type==10 || v.b11_type==37 || v.b11_type==127 || v.b11_type==128 || v.b11_type==215 || v.b11_type==216 || v.b11_type==265 || v.b11_type==266 || v.b11_type==267 || v.b11_type==273 || v.b11_type==275 || v.b11_type==277 || v.b11_type==283 || v.b11_type==309 || v.b11_type==310 || v.b11_type==311 || v.b11_type==312 || v.b11_type==313 || v.b11_type==352 || v.b11_type==353 || v.b11_type==354 || v.b11_type==355 || v.b11_type==356 || v.b11_type==384) ? Material.glow : ((v.b11_type==350 || v.b11_type==351) ? Material.redstone_torch : (((v.b11_type==18 || v.b11_type==19 || v.b11_type==20 || v.b11_type==21 || v.b11_type==22 || v.b11_type==23 || v.b11_type==24 || v.b11_type==25 || v.b11_type==26 || v.b11_type==27 || v.b11_type==28 || v.b11_type==29 || v.b11_type==30 || v.b11_type==31 || v.b11_type==32 || v.b11_type==33 || v.b11_type==34 || v.b11_type==35 || v.b11_type==210 || v.b11_type==365 || v.b11_type==366 || v.b11_type==367 || v.b11_type==368) || (v.b11_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b11": "return ((v.b11_type==10 || v.b11_type==37 || v.b11_type==127 || v.b11_type==128 || v.b11_type==215 || v.b11_type==216 || v.b11_type==265 || v.b11_type==266 || v.b11_type==267 || v.b11_type==273 || v.b11_type==275 || v.b11_type==277 || v.b11_type==283 || v.b11_type==309 || v.b11_type==310 || v.b11_type==311 || v.b11_type==312 || v.b11_type==313 || v.b11_type==352 || v.b11_type==353 || v.b11_type==354 || v.b11_type==355 || v.b11_type==356 || v.b11_type==384) ? Material.glow : ((v.b11_type==350 || v.b11_type==351) ? Material.redstone_torch : (((v.b11_type==18 || v.b11_type==19 || v.b11_type==20 || v.b11_type==21 || v.b11_type==22 || v.b11_type==23 || v.b11_type==24 || v.b11_type==25 || v.b11_type==26 || v.b11_type==27 || v.b11_type==28 || v.b11_type==29 || v.b11_type==30 || v.b11_type==31 || v.b11_type==32 || v.b11_type==33 || v.b11_type==34 || v.b11_type==35 || v.b11_type==210 || v.b11_type==365 || v.b11_type==366 || v.b11_type==367 || v.b11_type==368) || (v.b11_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b11": "return ((v.b11_type==377) ? Material.glass : Material.default);",
+                    "outer_b11": "return ((v.b11_type==377) ? Material.glass : ((v.b11_type==378 || v.b11_type==427) ? Material.slime_outer : Material.default));",
+                    "door11_b11": "Material.glass",
+                    "trapdoor0_b11": "Material.glass",
+                    "beacon_outer_b11": "return ((v.b11_type==378 || v.b11_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b11_type/20)/25",
+                    "Math.mod(v.b11_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_12": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_12",
+                        "Geometry.slab_bottom_12",
+                        "Geometry.slab_top_12",
+                        "Geometry.campfire_12",
+                        "Geometry.bell_12",
+                        "Geometry.ladder_north_12",
+                        "Geometry.ladder_south_12",
+                        "Geometry.ladder_west_12",
+                        "Geometry.ladder_east_12",
+                        "Geometry.multi_face_block_12",
+                        "Geometry.multi_face_slab_bottom_12",
+                        "Geometry.multi_face_slab_top_12",
+                        "Geometry.fence_gate_12",
+                        "Geometry.trapdoor_12",
+                        "Geometry.door_12",
+                        "Geometry.lantern_12",
+                        "Geometry.torch_12",
+                        "Geometry.redstone_torch_12",
+                        "Geometry.end_rod_12",
+                        "Geometry.chain_12",
+                        "Geometry.anvil_12",
+                        "Geometry.stonecutter_12",
+                        "Geometry.grindstone_12",
+                        "Geometry.enchanting_table_12",
+                        "Geometry.brewing_stand_12",
+                        "Geometry.lectern_12",
+                        "Geometry.cauldron_12",
+                        "Geometry.chest_12",
+                        "Geometry.bed_12",
+                        "Geometry.candle_12",
+                        "Geometry.glass_pane_12",
+                        "Geometry.glass_panea_12",
+                        "Geometry.glass_paneb_12",
+                        "Geometry.glass_panec_12",
+                        "Geometry.glass_paned_12",
+                        "Geometry.glass_panee_12",
+                        "Geometry.bar_pane_12",
+                        "Geometry.bar_panea_12",
+                        "Geometry.bar_paneb_12",
+                        "Geometry.bar_panec_12",
+                        "Geometry.bar_paned_12",
+                        "Geometry.bar_panee_12",
+                        "Geometry.stone_wall_12",
+                        "Geometry.stone_walla_12",
+                        "Geometry.stone_wallb_12",
+                        "Geometry.stone_wallc_12",
+                        "Geometry.stone_walld_12",
+                        "Geometry.stone_walle_12",
+                        "Geometry.fence_12",
+                        "Geometry.fencea_12",
+                        "Geometry.fenceb_12",
+                        "Geometry.fencec_12",
+                        "Geometry.fenced_12",
+                        "Geometry.fencee_12",
+                        "Geometry.stairs_12",
+                        "Geometry.stairsa_12",
+                        "Geometry.stairsb_12",
+                        "Geometry.stairsc_12",
+                        "Geometry.stairsd_12",
+                        "Geometry.dragon_egg_12",
+                        "Geometry.carpet_12",
+                        "Geometry.pressure_plate_12",
+                        "Geometry.beacon_12",
+                        "Geometry.daylight_detector_12",
+                        "Geometry.hopper_down_12",
+                        "Geometry.hopper_side_12",
+                        "Geometry.sign_standing_12",
+                        "Geometry.sign_wall_12",
+                        "Geometry.hanging_sign_12",
+                        "Geometry.head_12",
+                        "Geometry.head_wall_12",
+                        "Geometry.dragon_head_12",
+                        "Geometry.dragon_head_wall_12",
+                        "Geometry.layered_cube_12",
+                        "Geometry.piglin_head_12",
+                        "Geometry.piglin_head_wall_12"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b12_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b12": "return ((v.b12_type==10 || v.b12_type==37 || v.b12_type==127 || v.b12_type==128 || v.b12_type==215 || v.b12_type==216 || v.b12_type==265 || v.b12_type==266 || v.b12_type==267 || v.b12_type==273 || v.b12_type==275 || v.b12_type==277 || v.b12_type==283 || v.b12_type==309 || v.b12_type==310 || v.b12_type==311 || v.b12_type==312 || v.b12_type==313 || v.b12_type==352 || v.b12_type==353 || v.b12_type==354 || v.b12_type==355 || v.b12_type==356 || v.b12_type==384) ? Material.glow : ((v.b12_type==350 || v.b12_type==351) ? Material.redstone_torch : (((v.b12_type==18 || v.b12_type==19 || v.b12_type==20 || v.b12_type==21 || v.b12_type==22 || v.b12_type==23 || v.b12_type==24 || v.b12_type==25 || v.b12_type==26 || v.b12_type==27 || v.b12_type==28 || v.b12_type==29 || v.b12_type==30 || v.b12_type==31 || v.b12_type==32 || v.b12_type==33 || v.b12_type==34 || v.b12_type==35 || v.b12_type==210 || v.b12_type==365 || v.b12_type==366 || v.b12_type==367 || v.b12_type==368) || (v.b12_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b12": "return ((v.b12_type==10 || v.b12_type==37 || v.b12_type==127 || v.b12_type==128 || v.b12_type==215 || v.b12_type==216 || v.b12_type==265 || v.b12_type==266 || v.b12_type==267 || v.b12_type==273 || v.b12_type==275 || v.b12_type==277 || v.b12_type==283 || v.b12_type==309 || v.b12_type==310 || v.b12_type==311 || v.b12_type==312 || v.b12_type==313 || v.b12_type==352 || v.b12_type==353 || v.b12_type==354 || v.b12_type==355 || v.b12_type==356 || v.b12_type==384) ? Material.glow : ((v.b12_type==350 || v.b12_type==351) ? Material.redstone_torch : (((v.b12_type==18 || v.b12_type==19 || v.b12_type==20 || v.b12_type==21 || v.b12_type==22 || v.b12_type==23 || v.b12_type==24 || v.b12_type==25 || v.b12_type==26 || v.b12_type==27 || v.b12_type==28 || v.b12_type==29 || v.b12_type==30 || v.b12_type==31 || v.b12_type==32 || v.b12_type==33 || v.b12_type==34 || v.b12_type==35 || v.b12_type==210 || v.b12_type==365 || v.b12_type==366 || v.b12_type==367 || v.b12_type==368) || (v.b12_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b12": "return ((v.b12_type==377) ? Material.glass : Material.default);",
+                    "outer_b12": "return ((v.b12_type==377) ? Material.glass : ((v.b12_type==378 || v.b12_type==427) ? Material.slime_outer : Material.default));",
+                    "door12_b12": "Material.glass",
+                    "trapdoor0_b12": "Material.glass",
+                    "beacon_outer_b12": "return ((v.b12_type==378 || v.b12_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b12_type/20)/25",
+                    "Math.mod(v.b12_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_13": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_13",
+                        "Geometry.slab_bottom_13",
+                        "Geometry.slab_top_13",
+                        "Geometry.campfire_13",
+                        "Geometry.bell_13",
+                        "Geometry.ladder_north_13",
+                        "Geometry.ladder_south_13",
+                        "Geometry.ladder_west_13",
+                        "Geometry.ladder_east_13",
+                        "Geometry.multi_face_block_13",
+                        "Geometry.multi_face_slab_bottom_13",
+                        "Geometry.multi_face_slab_top_13",
+                        "Geometry.fence_gate_13",
+                        "Geometry.trapdoor_13",
+                        "Geometry.door_13",
+                        "Geometry.lantern_13",
+                        "Geometry.torch_13",
+                        "Geometry.redstone_torch_13",
+                        "Geometry.end_rod_13",
+                        "Geometry.chain_13",
+                        "Geometry.anvil_13",
+                        "Geometry.stonecutter_13",
+                        "Geometry.grindstone_13",
+                        "Geometry.enchanting_table_13",
+                        "Geometry.brewing_stand_13",
+                        "Geometry.lectern_13",
+                        "Geometry.cauldron_13",
+                        "Geometry.chest_13",
+                        "Geometry.bed_13",
+                        "Geometry.candle_13",
+                        "Geometry.glass_pane_13",
+                        "Geometry.glass_panea_13",
+                        "Geometry.glass_paneb_13",
+                        "Geometry.glass_panec_13",
+                        "Geometry.glass_paned_13",
+                        "Geometry.glass_panee_13",
+                        "Geometry.bar_pane_13",
+                        "Geometry.bar_panea_13",
+                        "Geometry.bar_paneb_13",
+                        "Geometry.bar_panec_13",
+                        "Geometry.bar_paned_13",
+                        "Geometry.bar_panee_13",
+                        "Geometry.stone_wall_13",
+                        "Geometry.stone_walla_13",
+                        "Geometry.stone_wallb_13",
+                        "Geometry.stone_wallc_13",
+                        "Geometry.stone_walld_13",
+                        "Geometry.stone_walle_13",
+                        "Geometry.fence_13",
+                        "Geometry.fencea_13",
+                        "Geometry.fenceb_13",
+                        "Geometry.fencec_13",
+                        "Geometry.fenced_13",
+                        "Geometry.fencee_13",
+                        "Geometry.stairs_13",
+                        "Geometry.stairsa_13",
+                        "Geometry.stairsb_13",
+                        "Geometry.stairsc_13",
+                        "Geometry.stairsd_13",
+                        "Geometry.dragon_egg_13",
+                        "Geometry.carpet_13",
+                        "Geometry.pressure_plate_13",
+                        "Geometry.beacon_13",
+                        "Geometry.daylight_detector_13",
+                        "Geometry.hopper_down_13",
+                        "Geometry.hopper_side_13",
+                        "Geometry.sign_standing_13",
+                        "Geometry.sign_wall_13",
+                        "Geometry.hanging_sign_13",
+                        "Geometry.head_13",
+                        "Geometry.head_wall_13",
+                        "Geometry.dragon_head_13",
+                        "Geometry.dragon_head_wall_13",
+                        "Geometry.layered_cube_13",
+                        "Geometry.piglin_head_13",
+                        "Geometry.piglin_head_wall_13"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b13_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b13": "return ((v.b13_type==10 || v.b13_type==37 || v.b13_type==127 || v.b13_type==128 || v.b13_type==215 || v.b13_type==216 || v.b13_type==265 || v.b13_type==266 || v.b13_type==267 || v.b13_type==273 || v.b13_type==275 || v.b13_type==277 || v.b13_type==283 || v.b13_type==309 || v.b13_type==310 || v.b13_type==311 || v.b13_type==312 || v.b13_type==313 || v.b13_type==352 || v.b13_type==353 || v.b13_type==354 || v.b13_type==355 || v.b13_type==356 || v.b13_type==384) ? Material.glow : ((v.b13_type==350 || v.b13_type==351) ? Material.redstone_torch : (((v.b13_type==18 || v.b13_type==19 || v.b13_type==20 || v.b13_type==21 || v.b13_type==22 || v.b13_type==23 || v.b13_type==24 || v.b13_type==25 || v.b13_type==26 || v.b13_type==27 || v.b13_type==28 || v.b13_type==29 || v.b13_type==30 || v.b13_type==31 || v.b13_type==32 || v.b13_type==33 || v.b13_type==34 || v.b13_type==35 || v.b13_type==210 || v.b13_type==365 || v.b13_type==366 || v.b13_type==367 || v.b13_type==368) || (v.b13_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b13": "return ((v.b13_type==10 || v.b13_type==37 || v.b13_type==127 || v.b13_type==128 || v.b13_type==215 || v.b13_type==216 || v.b13_type==265 || v.b13_type==266 || v.b13_type==267 || v.b13_type==273 || v.b13_type==275 || v.b13_type==277 || v.b13_type==283 || v.b13_type==309 || v.b13_type==310 || v.b13_type==311 || v.b13_type==312 || v.b13_type==313 || v.b13_type==352 || v.b13_type==353 || v.b13_type==354 || v.b13_type==355 || v.b13_type==356 || v.b13_type==384) ? Material.glow : ((v.b13_type==350 || v.b13_type==351) ? Material.redstone_torch : (((v.b13_type==18 || v.b13_type==19 || v.b13_type==20 || v.b13_type==21 || v.b13_type==22 || v.b13_type==23 || v.b13_type==24 || v.b13_type==25 || v.b13_type==26 || v.b13_type==27 || v.b13_type==28 || v.b13_type==29 || v.b13_type==30 || v.b13_type==31 || v.b13_type==32 || v.b13_type==33 || v.b13_type==34 || v.b13_type==35 || v.b13_type==210 || v.b13_type==365 || v.b13_type==366 || v.b13_type==367 || v.b13_type==368) || (v.b13_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b13": "return ((v.b13_type==377) ? Material.glass : Material.default);",
+                    "outer_b13": "return ((v.b13_type==377) ? Material.glass : ((v.b13_type==378 || v.b13_type==427) ? Material.slime_outer : Material.default));",
+                    "door13_b13": "Material.glass",
+                    "trapdoor0_b13": "Material.glass",
+                    "beacon_outer_b13": "return ((v.b13_type==378 || v.b13_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b13_type/20)/25",
+                    "Math.mod(v.b13_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_14": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_14",
+                        "Geometry.slab_bottom_14",
+                        "Geometry.slab_top_14",
+                        "Geometry.campfire_14",
+                        "Geometry.bell_14",
+                        "Geometry.ladder_north_14",
+                        "Geometry.ladder_south_14",
+                        "Geometry.ladder_west_14",
+                        "Geometry.ladder_east_14",
+                        "Geometry.multi_face_block_14",
+                        "Geometry.multi_face_slab_bottom_14",
+                        "Geometry.multi_face_slab_top_14",
+                        "Geometry.fence_gate_14",
+                        "Geometry.trapdoor_14",
+                        "Geometry.door_14",
+                        "Geometry.lantern_14",
+                        "Geometry.torch_14",
+                        "Geometry.redstone_torch_14",
+                        "Geometry.end_rod_14",
+                        "Geometry.chain_14",
+                        "Geometry.anvil_14",
+                        "Geometry.stonecutter_14",
+                        "Geometry.grindstone_14",
+                        "Geometry.enchanting_table_14",
+                        "Geometry.brewing_stand_14",
+                        "Geometry.lectern_14",
+                        "Geometry.cauldron_14",
+                        "Geometry.chest_14",
+                        "Geometry.bed_14",
+                        "Geometry.candle_14",
+                        "Geometry.glass_pane_14",
+                        "Geometry.glass_panea_14",
+                        "Geometry.glass_paneb_14",
+                        "Geometry.glass_panec_14",
+                        "Geometry.glass_paned_14",
+                        "Geometry.glass_panee_14",
+                        "Geometry.bar_pane_14",
+                        "Geometry.bar_panea_14",
+                        "Geometry.bar_paneb_14",
+                        "Geometry.bar_panec_14",
+                        "Geometry.bar_paned_14",
+                        "Geometry.bar_panee_14",
+                        "Geometry.stone_wall_14",
+                        "Geometry.stone_walla_14",
+                        "Geometry.stone_wallb_14",
+                        "Geometry.stone_wallc_14",
+                        "Geometry.stone_walld_14",
+                        "Geometry.stone_walle_14",
+                        "Geometry.fence_14",
+                        "Geometry.fencea_14",
+                        "Geometry.fenceb_14",
+                        "Geometry.fencec_14",
+                        "Geometry.fenced_14",
+                        "Geometry.fencee_14",
+                        "Geometry.stairs_14",
+                        "Geometry.stairsa_14",
+                        "Geometry.stairsb_14",
+                        "Geometry.stairsc_14",
+                        "Geometry.stairsd_14",
+                        "Geometry.dragon_egg_14",
+                        "Geometry.carpet_14",
+                        "Geometry.pressure_plate_14",
+                        "Geometry.beacon_14",
+                        "Geometry.daylight_detector_14",
+                        "Geometry.hopper_down_14",
+                        "Geometry.hopper_side_14",
+                        "Geometry.sign_standing_14",
+                        "Geometry.sign_wall_14",
+                        "Geometry.hanging_sign_14",
+                        "Geometry.head_14",
+                        "Geometry.head_wall_14",
+                        "Geometry.dragon_head_14",
+                        "Geometry.dragon_head_wall_14",
+                        "Geometry.layered_cube_14",
+                        "Geometry.piglin_head_14",
+                        "Geometry.piglin_head_wall_14"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b14_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b14": "return ((v.b14_type==10 || v.b14_type==37 || v.b14_type==127 || v.b14_type==128 || v.b14_type==215 || v.b14_type==216 || v.b14_type==265 || v.b14_type==266 || v.b14_type==267 || v.b14_type==273 || v.b14_type==275 || v.b14_type==277 || v.b14_type==283 || v.b14_type==309 || v.b14_type==310 || v.b14_type==311 || v.b14_type==312 || v.b14_type==313 || v.b14_type==352 || v.b14_type==353 || v.b14_type==354 || v.b14_type==355 || v.b14_type==356 || v.b14_type==384) ? Material.glow : ((v.b14_type==350 || v.b14_type==351) ? Material.redstone_torch : (((v.b14_type==18 || v.b14_type==19 || v.b14_type==20 || v.b14_type==21 || v.b14_type==22 || v.b14_type==23 || v.b14_type==24 || v.b14_type==25 || v.b14_type==26 || v.b14_type==27 || v.b14_type==28 || v.b14_type==29 || v.b14_type==30 || v.b14_type==31 || v.b14_type==32 || v.b14_type==33 || v.b14_type==34 || v.b14_type==35 || v.b14_type==210 || v.b14_type==365 || v.b14_type==366 || v.b14_type==367 || v.b14_type==368) || (v.b14_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b14": "return ((v.b14_type==10 || v.b14_type==37 || v.b14_type==127 || v.b14_type==128 || v.b14_type==215 || v.b14_type==216 || v.b14_type==265 || v.b14_type==266 || v.b14_type==267 || v.b14_type==273 || v.b14_type==275 || v.b14_type==277 || v.b14_type==283 || v.b14_type==309 || v.b14_type==310 || v.b14_type==311 || v.b14_type==312 || v.b14_type==313 || v.b14_type==352 || v.b14_type==353 || v.b14_type==354 || v.b14_type==355 || v.b14_type==356 || v.b14_type==384) ? Material.glow : ((v.b14_type==350 || v.b14_type==351) ? Material.redstone_torch : (((v.b14_type==18 || v.b14_type==19 || v.b14_type==20 || v.b14_type==21 || v.b14_type==22 || v.b14_type==23 || v.b14_type==24 || v.b14_type==25 || v.b14_type==26 || v.b14_type==27 || v.b14_type==28 || v.b14_type==29 || v.b14_type==30 || v.b14_type==31 || v.b14_type==32 || v.b14_type==33 || v.b14_type==34 || v.b14_type==35 || v.b14_type==210 || v.b14_type==365 || v.b14_type==366 || v.b14_type==367 || v.b14_type==368) || (v.b14_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b14": "return ((v.b14_type==377) ? Material.glass : Material.default);",
+                    "outer_b14": "return ((v.b14_type==377) ? Material.glass : ((v.b14_type==378 || v.b14_type==427) ? Material.slime_outer : Material.default));",
+                    "door14_b14": "Material.glass",
+                    "trapdoor0_b14": "Material.glass",
+                    "beacon_outer_b14": "return ((v.b14_type==378 || v.b14_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b14_type/20)/25",
+                    "Math.mod(v.b14_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "controller.render.fragment_15": {
+            "arrays": {
+                "geometries": {
+                    "Array.list": [
+                        "Geometry.default_15",
+                        "Geometry.slab_bottom_15",
+                        "Geometry.slab_top_15",
+                        "Geometry.campfire_15",
+                        "Geometry.bell_15",
+                        "Geometry.ladder_north_15",
+                        "Geometry.ladder_south_15",
+                        "Geometry.ladder_west_15",
+                        "Geometry.ladder_east_15",
+                        "Geometry.multi_face_block_15",
+                        "Geometry.multi_face_slab_bottom_15",
+                        "Geometry.multi_face_slab_top_15",
+                        "Geometry.fence_gate_15",
+                        "Geometry.trapdoor_15",
+                        "Geometry.door_15",
+                        "Geometry.lantern_15",
+                        "Geometry.torch_15",
+                        "Geometry.redstone_torch_15",
+                        "Geometry.end_rod_15",
+                        "Geometry.chain_15",
+                        "Geometry.anvil_15",
+                        "Geometry.stonecutter_15",
+                        "Geometry.grindstone_15",
+                        "Geometry.enchanting_table_15",
+                        "Geometry.brewing_stand_15",
+                        "Geometry.lectern_15",
+                        "Geometry.cauldron_15",
+                        "Geometry.chest_15",
+                        "Geometry.bed_15",
+                        "Geometry.candle_15",
+                        "Geometry.glass_pane_15",
+                        "Geometry.glass_panea_15",
+                        "Geometry.glass_paneb_15",
+                        "Geometry.glass_panec_15",
+                        "Geometry.glass_paned_15",
+                        "Geometry.glass_panee_15",
+                        "Geometry.bar_pane_15",
+                        "Geometry.bar_panea_15",
+                        "Geometry.bar_paneb_15",
+                        "Geometry.bar_panec_15",
+                        "Geometry.bar_paned_15",
+                        "Geometry.bar_panee_15",
+                        "Geometry.stone_wall_15",
+                        "Geometry.stone_walla_15",
+                        "Geometry.stone_wallb_15",
+                        "Geometry.stone_wallc_15",
+                        "Geometry.stone_walld_15",
+                        "Geometry.stone_walle_15",
+                        "Geometry.fence_15",
+                        "Geometry.fencea_15",
+                        "Geometry.fenceb_15",
+                        "Geometry.fencec_15",
+                        "Geometry.fenced_15",
+                        "Geometry.fencee_15",
+                        "Geometry.stairs_15",
+                        "Geometry.stairsa_15",
+                        "Geometry.stairsb_15",
+                        "Geometry.stairsc_15",
+                        "Geometry.stairsd_15",
+                        "Geometry.dragon_egg_15",
+                        "Geometry.carpet_15",
+                        "Geometry.pressure_plate_15",
+                        "Geometry.beacon_15",
+                        "Geometry.daylight_detector_15",
+                        "Geometry.hopper_down_15",
+                        "Geometry.hopper_side_15",
+                        "Geometry.sign_standing_15",
+                        "Geometry.sign_wall_15",
+                        "Geometry.hanging_sign_15",
+                        "Geometry.head_15",
+                        "Geometry.head_wall_15",
+                        "Geometry.dragon_head_15",
+                        "Geometry.dragon_head_wall_15",
+                        "Geometry.layered_cube_15",
+                        "Geometry.piglin_head_15",
+                        "Geometry.piglin_head_wall_15"
+                    ]
+                }
+            },
+            "textures": [
+                "Texture.default"
+            ],
+            "geometry": "Array.list[v.b15_model]",
+            "materials": [
+                {
+                    "*": "Material.default",
+                    "b15": "return ((v.b15_type==10 || v.b15_type==37 || v.b15_type==127 || v.b15_type==128 || v.b15_type==215 || v.b15_type==216 || v.b15_type==265 || v.b15_type==266 || v.b15_type==267 || v.b15_type==273 || v.b15_type==275 || v.b15_type==277 || v.b15_type==283 || v.b15_type==309 || v.b15_type==310 || v.b15_type==311 || v.b15_type==312 || v.b15_type==313 || v.b15_type==352 || v.b15_type==353 || v.b15_type==354 || v.b15_type==355 || v.b15_type==356 || v.b15_type==384) ? Material.glow : ((v.b15_type==350 || v.b15_type==351) ? Material.redstone_torch : (((v.b15_type==18 || v.b15_type==19 || v.b15_type==20 || v.b15_type==21 || v.b15_type==22 || v.b15_type==23 || v.b15_type==24 || v.b15_type==25 || v.b15_type==26 || v.b15_type==27 || v.b15_type==28 || v.b15_type==29 || v.b15_type==30 || v.b15_type==31 || v.b15_type==32 || v.b15_type==33 || v.b15_type==34 || v.b15_type==35 || v.b15_type==210 || v.b15_type==365 || v.b15_type==366 || v.b15_type==367 || v.b15_type==368) || (v.b15_type==377)) ? Material.glass : Material.default)));",
+                    "torch_b15": "return ((v.b15_type==10 || v.b15_type==37 || v.b15_type==127 || v.b15_type==128 || v.b15_type==215 || v.b15_type==216 || v.b15_type==265 || v.b15_type==266 || v.b15_type==267 || v.b15_type==273 || v.b15_type==275 || v.b15_type==277 || v.b15_type==283 || v.b15_type==309 || v.b15_type==310 || v.b15_type==311 || v.b15_type==312 || v.b15_type==313 || v.b15_type==352 || v.b15_type==353 || v.b15_type==354 || v.b15_type==355 || v.b15_type==356 || v.b15_type==384) ? Material.glow : ((v.b15_type==350 || v.b15_type==351) ? Material.redstone_torch : (((v.b15_type==18 || v.b15_type==19 || v.b15_type==20 || v.b15_type==21 || v.b15_type==22 || v.b15_type==23 || v.b15_type==24 || v.b15_type==25 || v.b15_type==26 || v.b15_type==27 || v.b15_type==28 || v.b15_type==29 || v.b15_type==30 || v.b15_type==31 || v.b15_type==32 || v.b15_type==33 || v.b15_type==34 || v.b15_type==35 || v.b15_type==210 || v.b15_type==365 || v.b15_type==366 || v.b15_type==367 || v.b15_type==368) || (v.b15_type==377)) ? Material.glass : Material.default)));",
+                    "inner_b15": "return ((v.b15_type==377) ? Material.glass : Material.default);",
+                    "outer_b15": "return ((v.b15_type==377) ? Material.glass : ((v.b15_type==378 || v.b15_type==427) ? Material.slime_outer : Material.default));",
+                    "door15_b15": "Material.glass",
+                    "trapdoor0_b15": "Material.glass",
+                    "beacon_outer_b15": "return ((v.b15_type==378 || v.b15_type==427) ? Material.slime_outer : Material.default);"
+                }
+            ],
+            "light_color_multiplier": 0.8,
+            "overlay_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "-1.0"
+            },
+            "uv_anim": {
+                "offset": [
+                    "Math.floor(v.b15_type/20)/25",
+                    "Math.mod(v.b15_type,20)/20"
+                ],
+                "scale": [
+                    1,
+                    1
+                ]
+            }
+        }
+    }
+}

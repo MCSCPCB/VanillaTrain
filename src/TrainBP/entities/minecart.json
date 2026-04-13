@@ -1,0 +1,518 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "minecraft:minecart",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "default_type": {
+                "minecraft:rideable": {
+                    "seat_count": 1,
+                    "interact_text": "action.interact.ride.minecart",
+                    "pull_in_entities": true,
+                    "seats": {
+                        "position": [
+                            0.0,
+                            -0.2,
+                            0.0
+                        ]
+                    }
+                },
+                "minecraft:interact": {
+                    "interactions": {
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "domain": "hand",
+                                        "subject": "other",
+                                        "value": "train:connect_core"
+                                    }
+                                ]
+                            },
+                            "target": "self"
+                        },
+                        "swing": true,
+                        "play_sounds": "place.iron",
+                        "interact_text": "放置",
+                        "use_item": true
+                    }
+                },
+                "minecraft:pushable": {
+                    "is_pushable": true,
+                    "is_pushable_by_piston": true
+                }
+            },
+            "train_type": {
+                "minecraft:reflect_projectiles": {
+                    "reflected_projectiles": [
+                        "xp_bottle",
+                        "thrown_trident",
+                        "shulker_bullet",
+                        "dragon_fireball",
+                        "arrow",
+                        "snowball",
+                        "egg",
+                        "fireball",
+                        "splash_potion",
+                        "ender_pearl",
+                        "wither_skull",
+                        "wither_skull_dangerous",
+                        "small_fireball",
+                        "lingering_potion",
+                        "llama_spit",
+                        "fireworks_rocket",
+                        "fishing_hook"
+                    ],
+                    "azimuth_angle": "180.0 + Math.random(-20.0, 20.0)",
+                    "reflection_scale": "0"
+                },
+                "minecraft:damage_sensor": {
+                    "triggers": {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                },
+                "minecraft:addrider": {
+                    "entity_type": "train:minecart_block"
+                },
+                "minecraft:rideable": {
+                    "seat_count": 32,
+                    "family_types": [
+                        "inanimate"
+                    ],
+                    "seats": [
+                        {
+                            "position": [
+                                0.0,
+                                -0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        },
+                        {
+                            "position": [
+                                0.0,
+                                0.5,
+                                0.0
+                            ]
+                        }
+                    ]
+                },
+                "minecraft:pushable": {
+                    "is_pushable": false,
+                    "is_pushable_by_piston": true
+                }
+            }
+        },
+        "components": {
+            "minecraft:nameable": {},
+            "minecraft:leashable": {
+                "presets": [
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard1"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 0,
+                        "hard_distance": 1
+                    },
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard2"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 1,
+                        "hard_distance": 2
+                    },
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard3"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 2,
+                        "hard_distance": 3
+                    },
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard4"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 3,
+                        "hard_distance": 4
+                    },
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard5"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 4,
+                        "hard_distance": 5
+                    },
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard6"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 5,
+                        "hard_distance": 6
+                    },
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard7"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 6,
+                        "hard_distance": 7
+                    },
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard8"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 7,
+                        "hard_distance": 8
+                    },
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard9"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 8,
+                        "hard_distance": 9
+                    },
+                    {
+                        "filter": {
+                            "test": "has_tag",
+                            "subject": "self",
+                            "operator": "equals",
+                            "value": "hard10"
+                        },
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 9,
+                        "hard_distance": 10
+                    },
+                    {
+                        "rotation_adjustment": 90,
+                        "max_distance": 9223372036854775807,
+                        "spring_type": "quad_dampened",
+                        "soft_distance": 2,
+                        "hard_distance": 4
+                    }
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.98,
+                "height": 0.7
+            },
+            "minecraft:rail_movement": {},
+            "minecraft:timer": {
+                "looping": false,
+                "time": 0,
+                "time_down_event": {
+                    "event": "default_type"
+                }
+            },
+            "minecraft:is_stackable": {},
+            "minecraft:type_family": {
+                "family": [
+                    "minecart",
+                    "inanimate"
+                ]
+            },
+            "minecraft:rail_sensor": {
+                "eject_on_activate": true
+            },
+            "minecraft:physics": {}
+        },
+        "events": {
+            "default_type": {
+                "add": {
+                    "component_groups": "default_type"
+                },
+                "queue_command": {
+                    "command": [
+                        "tag @s remove train_type",
+                        "tag @s add default_type"
+                    ]
+                }
+            },
+            "train_type": {
+                "add": {
+                    "component_groups": "train_type"
+                },
+                "queue_command": {
+                    "command": [
+                        "tag @s remove default_type",
+                        "tag @s add train_type"
+                    ]
+                }
+            }
+        }
+    }
+}

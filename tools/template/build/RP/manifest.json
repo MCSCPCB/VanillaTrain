@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Template Train Render Plugin RP",
+        "description": "Template Train Render Plugin resource pack",
+        "uuid": "96702b8d-5a9c-43b6-923d-6910773b499b",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            101
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "662cbfd7-a75d-4f88-9e1c-3f4831bcf01f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "eb5ee932-71ff-4a7d-9156-5cba834d8dcc",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+  "plugin_namespace": "template_plugin",
+  "plugin_name": "Template Train Render Plugin",
+  "blocks": [
+    /*
+    手动模式示例：
+
+    {
+      "block_id": "example:panel_block",
+      "model_type": "vanilla",
+      "model": "full_block",
+      "material": "default",
+      "textures": {
+        "up": "assets/textures/panel_up.png",
+        "down": "assets/textures/panel_down.png",
+        "north": "assets/textures/panel_north.png",
+        "east": "assets/textures/panel_east.png",
+        "south": "assets/textures/panel_south.png",
+        "west": "assets/textures/panel_west.png"
+      }
+    },
+    {
+      "block_id": "example:stone_slab",
+      "model_type": "vanilla",
+      "model": "slab",
+      "textures": {
+        "up": "assets/textures/stone_slab_top.png",
+        "down": "assets/textures/stone_slab_bottom.png",
+        "north": "assets/textures/stone_slab_side.png",
+        "east": "assets/textures/stone_slab_side.png",
+        "south": "assets/textures/stone_slab_side.png",
+        "west": "assets/textures/stone_slab_side.png"
+      },
+      "special_interaction": "slab_bottom"
+    },
+    {
+      "block_id": "example:machine_door",
+      "model_type": "custom",
+      "model": "assets/models/machine_door.geo.json",
+      "texture": "assets/textures/machine_door.png",
+      "material": "glass",
+      "special_interaction": "door"
+    }
+    */
+  ]
+}

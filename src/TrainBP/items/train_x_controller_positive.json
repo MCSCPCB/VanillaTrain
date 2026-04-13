@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "train:x_controller_positive",
+      "menu_category": {
+        "group": "train:itemGroup.name.train",
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:display_name": {
+        "value": "%x_controller_positive.name1\n%x_controller_positive.name2"
+      },
+      "minecraft:icon": "train_controller"
+    }
+  }
+}

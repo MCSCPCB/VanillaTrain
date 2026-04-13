@@ -1,0 +1,81 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "train:temp_seat",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "train:released": {
+        "minecraft:physics": {
+          "has_collision": true,
+          "has_gravity": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:behavior.controlled_by_player": {
+        "fractional_rotation": 1.0,
+        "fractional_rotation_limit": 360.0,
+        "priority": 9999
+      },
+      //"minecraft:is_collidable": {},
+      /*
+          "minecraft:input_ground_controlled": {},
+          "minecraft:movement.basic": {},
+          "minecraft:movement": {
+              "value": 1.0
+          },
+          */
+      "minecraft:health": {
+        "value": 1,
+        "max": 0
+      },
+      "minecraft:type_family": {
+        "family": [
+          "temp_seat"
+        ]
+      },
+      "minecraft:can_climb": {},
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "dismount_mode": "on_top_center",
+        "seats": [
+          {
+            "position": [
+              0.0,
+              0.4,
+              0.0
+            ]
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.5
+      },
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": false
+      },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "events": {
+      "train:release": {
+        "add": {
+          "component_groups": [
+            "train:released"
+          ]
+        }
+      }
+    }
+  }
+}

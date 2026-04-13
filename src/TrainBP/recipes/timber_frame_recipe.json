@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "train:timber_frame_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "# #",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "train:timber_frame",
+            "count": 4
+        }
+    }
+}

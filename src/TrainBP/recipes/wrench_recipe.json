@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "train:wrench_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " CC",
+            " BC",
+            " A "
+        ],
+        "key": {
+            "C": "minecraft:iron_ingot",
+            "B": "minecraft:copper_ingot",
+            "A": "minecraft:stick"
+        },
+        "result": {
+            "item": "train:wrench",
+            "count": 1
+        }
+    }
+}
