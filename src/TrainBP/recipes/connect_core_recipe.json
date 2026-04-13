@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.20.10",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "train:connect_core_recipe"
@@ -20,6 +20,11 @@
                 "item": "minecraft:planks"
             }
         },
+        "unlock": [
+            {
+                "item": "minecraft:planks"
+            }
+        ],
         "result": [
             {
                 "item": "train:connect_core"

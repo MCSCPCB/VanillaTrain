@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.20.10",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "train:x_controller_positive_recipe"
@@ -8,21 +8,22 @@
             "crafting_table"
         ],
         "pattern": [
-            "   ",
-            "LCR",
-            "   "
+            "R",
+            "C"
         ],
         "key": {
-            "L": {
-                "item": "train:lead"
-            },
             "C": {
-                "item": "minecraft:compass"
+                "item": "minecraft:copper_ingot"
             },
             "R": {
                 "item": "minecraft:redstone"
             }
         },
+        "unlock": [
+            {
+                "item": "minecraft:minecart"
+            }
+        ],
         "result": {
             "item": "train:x_controller_positive",
             "count": 1
