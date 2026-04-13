@@ -17,9 +17,10 @@ const TEMP_SEAT_TYPE = "train:temp_seat";
 const PLAYER_OFFSET_ANIMATION = "animation.player_train_offset";
 const PLAYER_MOVE_ANIMATION = "animation.player_train_move";
 const OFFSET_ANIMATION_BLEND_OUT = 999999999999999;
+const MOVE_ANIMATION_STOP_EXPRESSION =
+     "!query.is_riding_any_entity_of_type('train:temp_seat')";
 const MOVEMENT_THRESHOLD = 0.5;
 const MOVE_SPEED = 0.25;
-const MOVE_ANIMATION_LENGTH = 0.5833;
 const GROUND_SEAT_OFFSET = 1.0;
 const JUMP_INITIAL_VELOCITY = 0.42;
 const JUMP_GRAVITY = 0.08;
@@ -57,6 +58,12 @@ const RELEASE_SUPPORT_OPTIONS = Object.freeze({
 });
 const RELEASE_GRAVITY_DELAY_TICKS = 6;
 const activeBindingControllers = new Map();
+const activeMoveAnimationPlayers = new Set();
+
+world.afterEvents.playerLeave.subscribe(({ playerId }) => {
+     activeBindingControllers.delete(playerId);
+     activeMoveAnimationPlayers.delete(playerId);
+});
 
 function setPlayerInputEnabled(player, enabled) {
      try {
@@ -108,6 +115,37 @@ function getPlayerControlMovement(player) {
      return "Unknown";
 }
 
+function startPlayerMoveAnimation(player) {
+     if (!player || activeMoveAnimationPlayers.has(player.id)) {
+          return;
+     }
+
+     player.playAnimation(PLAYER_MOVE_ANIMATION, {
+          stopExpression: MOVE_ANIMATION_STOP_EXPRESSION,
+     });
+     activeMoveAnimationPlayers.add(player.id);
+}
+
+function stopPlayerMoveAnimation(player) {
+     if (!player || !activeMoveAnimationPlayers.has(player.id)) {
+          return;
+     }
+
+     activeMoveAnimationPlayers.delete(player.id);
+     player.playAnimation(PLAYER_OFFSET_ANIMATION, {
+          blendOutTime: OFFSET_ANIMATION_BLEND_OUT,
+     });
+}
+
+function syncPlayerMoveAnimation(player, shouldPlay) {
+     if (shouldPlay) {
+          startPlayerMoveAnimation(player);
+          return;
+     }
+
+     stopPlayerMoveAnimation(player);
+}
+
 // 把玩家视角下的前后左右换成世界坐标，并驱动隐藏座位同步移动。
 function applyDirectionalMovement(player, playerSeat, movementState) {
      const inputVector = MOVEMENT_STATE_TO_VECTOR.get(movementState);
@@ -122,22 +160,6 @@ function applyDirectionalMovement(player, playerSeat, movementState) {
           x: -(inputVector.x * cosYaw + inputVector.z * sinYaw),
           z: -inputVector.x * sinYaw + inputVector.z * cosYaw,
      };
-
-     player.playAnimation(PLAYER_MOVE_ANIMATION, {
-          stopExpression:
-               "variable.tcos0 = 10.0 * math.sin(2.0 * 3.1415926535 * query.anim_time*100);",
-     });
-
-     system.runTimeout(() => {
-          const ridingComponent = player.getComponent("riding");
-          if (ridingComponent?.entityRidingOn?.typeId !== TEMP_SEAT_TYPE) {
-               return;
-          }
-
-          player.playAnimation(PLAYER_OFFSET_ANIMATION, {
-               blendOutTime: OFFSET_ANIMATION_BLEND_OUT,
-          });
-     }, MOVE_ANIMATION_LENGTH * 20);
 
      playerSeat.applyImpulse({
           x: worldVector.x * MOVE_SPEED,
@@ -446,6 +468,8 @@ function clearPlayerSeatBinding(player, seatId = null) {
           return;
      }
 
+     stopPlayerMoveAnimation(player);
+
      const stopToken = player.getDynamicProperty("stop");
      if (stopToken !== undefined && stopToken !== null) {
           system.clearRun(stopToken);
@@ -568,6 +592,9 @@ export class EntityWithPlayer {
                const actualSeatRise = seatStartY - lastSeatY;
                const currentJumpState =
                     player.inputInfo.getButtonState("Jump");
+               const wasMoveAnimationPlaying = activeMoveAnimationPlayers.has(
+                    player.id
+               );
 
                if (seatReleased) {
                     lastJumpState = currentJumpState;
@@ -681,6 +708,13 @@ export class EntityWithPlayer {
                }
                const isJump =
                     isJumpPressed && lastJumpState !== "Pressed";
+               const shouldPreserveMoveAnimation =
+                    wasMoveAnimationPlaying &&
+                    (isJump || verticalState !== "grounded");
+               syncPlayerMoveAnimation(
+                    player,
+                    hasMovementInput || shouldPreserveMoveAnimation
+               );
 
                if (
                     !retainedSupportInfo &&
@@ -975,6 +1009,7 @@ export class EntityWithPlayerStop {
 
      stopPlayerMoving() {
           // 解绑时先停止循环，再等待玩家落稳后移除隐藏座位。
+          stopPlayerMoveAnimation(this.player);
           system.clearRun(this.player.getDynamicProperty("stop"));
           activeBindingControllers.delete(this.player.id);
 

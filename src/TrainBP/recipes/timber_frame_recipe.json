@@ -17,6 +17,11 @@
                 "item": "minecraft:stick"
             }
         },
+        "unlock": [
+            {
+                "item": "minecraft:stick"
+            }
+        ],
         "result": {
             "item": "train:timber_frame",
             "count": 4
