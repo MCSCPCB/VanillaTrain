@@ -23,7 +23,7 @@ const RIDING_STATE_CHECK_INTERVAL = 1;
 initializeTrainPluginRegistry();
 cleanupTrainPluginRuntimeResidue();
 
-// 启动列车相关模块，入口文件本身不承载业务逻辑。
+// 启动列车相关模块，入口文件本身不承载业务逻辑
 new RegionSelector();
 const binder = new AutoBinder();
 new TrainBuild();
@@ -35,13 +35,13 @@ new TrainUpdater();
 new TrainStructureManager(binder);
 new TrainLeashManager();
 
-// 读取玩家当前骑乘的实体类型，用于切换隐藏座位的外观动画。
+// 读取玩家当前骑乘的实体类型，用于切换隐藏座位的外观动画
 function getCurrentRideType(player) {
      const ridingComponent = player.getComponent("riding");
      return ridingComponent?.entityRidingOn?.typeId ?? null;
 }
 
-// 隐藏座位只保留 offset 动画，原版骑乘姿势交给资源包控制器处理。
+// 隐藏座位只保留 offset 动画，原版骑乘姿势交给资源包控制器处理
 function syncSeatOffsetAnimation(player, currentRideType) {
      if (currentRideType === TEMP_SEAT_TYPE) {
           player.playAnimation(PLAYER_OFFSET_ANIMATION, {
@@ -62,14 +62,14 @@ for (const player of world.getAllPlayers()) {
      );
 }
 
-// 仅在骑乘目标变化时重播动画，减少无效调用。
+// 仅在骑乘目标变化时重播动画，减少无效调用
 const playerRidingStates = new Map();
 
 world.afterEvents.playerLeave.subscribe(({ playerId }) => {
      playerRidingStates.delete(playerId);
 });
 
-// 根据骑乘目标切换隐藏座位的 offset 表现。
+// 根据骑乘目标切换隐藏座位的 offset 表现
 system.runInterval(() => {
      for (const player of world.getAllPlayers()) {
           const currentRideType = getCurrentRideType(player);

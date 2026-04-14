@@ -209,7 +209,7 @@ function getDoorRuntimeData(block) {
      return getBlockState(block, "open_bit") ? 1 : 0;
 }
 
-// 生成器会把选区里的真实方块转成结构、碰撞实体和 fragment 渲染数据。
+// 生成器会把选区里的真实方块转成结构、碰撞实体和 fragment 渲染数据
 export class EntityBlockGenerator {
      constructor(minecart, player, start, end) {
           this.dimension = getOverworldDimension();
@@ -228,7 +228,7 @@ export class EntityBlockGenerator {
                     ? new TrainPluginRenderBuilder()
                     : null;
 
-          // 先把原始车体存成结构，列车拆回方块时直接从这里还原。
+          // 先把原始车体存成结构，列车拆回方块时直接从这里还原
           const structureAABBId = `mystructure:structure_${this.minecartId}_AABB`;
           const structureAABB = world.structureManager.createFromWorld(
                structureAABBId,
@@ -250,7 +250,7 @@ export class EntityBlockGenerator {
                }
           );
 
-          // 结构里不保留轨道和建造辅助方块，还原时只放回真正的车体。
+          // 结构里不保留轨道和建造辅助方块，还原时只放回真正的车体
           for (const location of structureAABBVolume.getBlockLocationIterator()) {
                const block = structureAABB.getBlockPermutation(location);
                if (
@@ -275,12 +275,12 @@ export class EntityBlockGenerator {
                : [];
           trainData.render = createEmptyRenderState();
 
-          // 特殊方块单独记录，运行时据此补粒子或交互效果。
+          // 特殊方块单独记录，运行时据此补粒子或交互效果
           const specialBlocks = [];
           const lightSources = [];
           const blockSnapshots = [];
 
-          // 先读取完整车体中的所有方块状态，再统一生成实体和清空方块。
+          // 先读取完整车体中的所有方块状态，再统一生成实体和清空方块
           for (const location of this.volume.getBlockLocationIterator()) {
                const block = this.dimension.getBlock(location);
                if (!block) {
@@ -350,7 +350,7 @@ export class EntityBlockGenerator {
                });
           }
 
-          // 统一处理采样结果，避免前面空气化影响后面的邻接状态。
+          // 统一处理采样结果，避免前面空气化影响后面的邻接状态
           for (const snapshot of blockSnapshots) {
                const {
                     block,
@@ -440,7 +440,7 @@ export class EntityBlockGenerator {
                     );
                }
 
-               // 需要实体承载的方块生成实体块，其余无碰撞方块只保留渲染数据。
+               // 需要实体承载的方块生成实体块，其余无碰撞方块只保留渲染数据
                if (hasCollision) {
                     const entity = this.dimension.spawnEntity(ENTITY_BLOCK_TYPE, {
                          x: location.x + 0.5,
@@ -489,7 +489,7 @@ export class EntityBlockGenerator {
           const secondaryRadiusY =
                Math.max(maxTopOffset, maxBottomOffset) + 0.5;
 
-          // 保存列车体积范围和核心偏移，供绑定和还原读取。
+          // 保存列车体积范围和核心偏移，供绑定和还原读取
           trainData.radii = {
                primary: primaryRadius,
                secondary: primaryRadius,

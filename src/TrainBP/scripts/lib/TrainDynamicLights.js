@@ -11,7 +11,7 @@ const AIR_BLOCK_ID = "minecraft:air";
 const LIGHT_BLOCK_ID = "minecraft:light_block";
 const TRACKED_LIGHT_LEVELS = [6, 7, 10, 13, 14, 15];
 
-// 记录列车系统中会生成移动光源的方块亮度。
+// 记录列车系统中会生成移动光源的方块亮度
 const LIGHT_LEVEL_BY_TYPE_INDEX = new Map([
      [10, 15], // campfire
      [37, 10], // soul_campfire
@@ -232,7 +232,7 @@ export function updateTrainDynamicLights(minecart, calculateActualPosition) {
           const canPlaceInAir = block.typeId === AIR_BLOCK_ID;
           const canReuseTrackedLight = block.typeId === LIGHT_BLOCK_ID;
 
-          // 只在空气或已追踪的 light_block 上写入，避免覆盖世界原有光源方块。
+          // 只在空气或已追踪的 light_block 上写入，避免覆盖世界原有光源方块
           if (!canPlaceInAir && !canReuseTrackedLight) {
                continue;
           }

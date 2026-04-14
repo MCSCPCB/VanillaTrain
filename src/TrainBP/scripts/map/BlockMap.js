@@ -1261,7 +1261,7 @@ const SLAB_TYPES = new Set([
      "smooth_red_sandstone_slab",
 ]);
 
-// 这些方块的顶面、底面和侧面贴图不同，需要单独的 UV 模型。
+// 这些方块的顶面、底面和侧面贴图不同，需要单独的 UV 模型
 const MULTI_FACE_FULL_BLOCK_TYPES = new Set([
      "quartz_block",
      "chiseled_quartz_block",
@@ -1784,7 +1784,7 @@ const BREWING_STAND_DATA_MAP = new Map([
      ["abc", 7],
 ]);
 
-// 数字索引会直接写入渲染控制器变量，因此保持显式映射。
+// 数字索引会直接写入渲染控制器变量，因此保持显式映射
 export const BLOCK_ID_MAP = new Map(BLOCK_ID_ENTRIES);
 export const UNREGISTERED_BLOCK_PLACEHOLDER_TYPE_INDEX = 499;
 
@@ -2075,8 +2075,7 @@ function getSignLikeDirectionRotation(block) {
 function getFenceGateDirectionRotation(direction) {
      const rotation = createEmptyRotation();
 
-     // Fence gate 的 direction 状态直接作为水平旋转值使用。
-     // 这里不额外交换索引，也不叠加 90 度补偿，以免开关态整体偏转。
+     // Fence gate 的 direction 状态直接作为水平旋转值使用
      rotation.ry = direction ?? 0;
 
      return rotation;
@@ -2488,7 +2487,7 @@ function getVariantModelType(variantIndex, modelTypes) {
      return modelTypes[variantIndex] ?? modelTypes[0];
 }
 
-// 根据方块状态挑选模型类型，让同一个材质槽位表示不同外形。
+// 根据方块状态挑选模型类型，让同一个材质槽位表示不同外形
 export function getBlockModelType(block) {
      if (block.typeId === "minecraft:air") {
           return BLOCK_MODEL_MAP.DEFAULT;
@@ -2741,7 +2740,7 @@ export function getBlockModelType(block) {
      return BLOCK_MODEL_MAP.DEFAULT;
 }
 
-// 按方块状态生成槽位旋转值，供 fragment 渲染控制器读取。
+// 按方块状态生成槽位旋转值，供 fragment 渲染控制器读取
 export function getBlockRotation(block) {
      if (!block || block.typeId === "minecraft:air") {
           return createEmptyRotation();
@@ -2986,8 +2985,8 @@ export function getFragmentTypeIndex(blockTypeId) {
      );
 }
 
-// 完整方块几何默认绕底面中心旋转。
-// 对于需要绕 X/Z 轴旋转的柱类方块，这里补偿由旋转点引起的位置偏移。
+// 完整方块几何默认绕底面中心旋转
+// 对于需要绕 X/Z 轴旋转的柱类方块，这里补偿由旋转点引起的位置偏移
 export function getBlockRenderOffset(block) {
      if (!block || block.typeId === "minecraft:air") {
           return createEmptyOffset();

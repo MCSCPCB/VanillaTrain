@@ -514,7 +514,7 @@ export function loadPublishedTrainPluginRegistries() {
      return new Map(publishedRegistries);
 }
 
-// 建车时只需要按方块 id 快速定位插件定义，因此这里提供扁平映射。
+// 建车时只需要按方块 id 快速定位插件定义
 export function loadTrainPluginBlockRegistry() {
      if (isBlockRegistryDirty) {
           rebuildBlockRegistry();

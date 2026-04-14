@@ -57,7 +57,7 @@ export function createFragmentSlotPayload(block, minecartLocation, location) {
           return null;
      }
 
-     // 床只让床头半块进入 fragment 渲染，避免双格模型重复。
+     // 床只让床头半块进入 fragment 渲染，避免双格模型重复
      if (block.typeId === "minecraft:bed") {
           try {
                if (!block.permutation.getState("head_piece_bit")) {
@@ -67,7 +67,7 @@ export function createFragmentSlotPayload(block, minecartLocation, location) {
      }
 
      // 门只让下半部分进入 fragment 渲染，
-     // 上半部分仍由结构数据保留，不单独生成 fragment。
+     // 上半部分仍由结构数据保留，不单独生成 fragment
      if (block.typeId.endsWith("_door")) {
           try {
                if (block.permutation.getState("upper_block_bit")) {
@@ -89,9 +89,9 @@ export function createFragmentSlotPayload(block, minecartLocation, location) {
           typeIndex,
           modelType: getBlockModelType(block),
           px: location.x + 0.5 + renderOffset.x - minecartLocation.x,
-          // fragment 几何以方块底面为原点。
+          // fragment 几何以方块底面为原点
           py: location.y + renderOffset.y - minecartLocation.y,
-          // 局部 z 轴与世界 z 轴取反，用于保持 fragment 坐标系一致。
+          // 局部 z 轴与世界 z 轴取反，用于保持 fragment 坐标系一致
           pz: -(location.z + 0.5 + renderOffset.z - minecartLocation.z),
           rx: rotation.rx,
           ry: rotation.ry,

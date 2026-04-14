@@ -43,7 +43,7 @@ function clearLegacyLeash(entity) {
      try {
           entity?.getComponent("leashable")?.unleash();
      } catch {
-          // 没有原版拴绳连接时直接忽略。
+          // 没有原版拴绳连接时直接忽略
      }
 }
 
@@ -53,7 +53,7 @@ function buildMinecartNameMap(dimension) {
           .getEntities({ type: DEFAULT_MINECART_TYPE })
           .filter((entity) => entity.typeId === DEFAULT_MINECART_TYPE);
 
-     // 建立名称到矿车的映射，供重名校验和目标查找复用。
+     // 建立名称到矿车的映射，供重名校验和目标查找复用
      for (const minecart of minecarts) {
           const trainData = loadTrainData(minecart.id) || {};
           const name = trainData.minecartName;

@@ -56,7 +56,7 @@ function resolveSurfaceMinecartId(entity) {
      return null;
 }
 
-// 自动绑定器负责判断玩家是否站在列车上，并决定何时启动或停止跟车系统。
+// 自动绑定器负责判断玩家是否站在列车上，并决定何时启动或停止跟车系统
 export class AutoBinder {
      constructor(targetMinecart, targetPlayer) {
           this.minecart = targetMinecart;
@@ -74,7 +74,7 @@ export class AutoBinder {
      }
 
      initSystems() {
-          // 延迟启动扫描，避开进世界初期的实体加载波动。
+          // 延迟启动扫描，避开进世界初期的实体加载波动
           mc.system.runTimeout(() => {
                let minecartDiscoveryCountdown = 0;
                mc.system.runInterval(() => {
@@ -133,7 +133,7 @@ export class AutoBinder {
      }
 
      scanPlayers() {
-          // 每刻检查玩家是否仍站在列车表面，据此决定绑定或解绑。
+          // 每刻检查玩家是否仍站在列车表面，据此决定绑定或解绑
           for (const player of mc.world.getAllPlayers()) {
                const hasGroundSupport = hasSolidBlockBelowFeet(player);
                const currentMinecart = this.checkPlayerPosition(player);
@@ -199,7 +199,7 @@ export class AutoBinder {
 
           if (boundMinecartId) {
                const minecartData = this.trackedMinecarts.get(boundMinecartId);
-               // 已绑定玩家使用更宽松的次级范围，允许在车内走动而不被误解绑。
+               // 已绑定玩家使用更宽松的次级范围，允许在车内走动而不被误解绑
                const positionValid =
                     minecartData &&
                     this.isInAABB(playerPosition, minecartData.secondaryAABB);
@@ -379,7 +379,7 @@ export class AutoBinder {
      }
 
      handleEnter(player, minecart) {
-          // 进入列车后创建隐藏座位，让玩家开始跟随这辆车移动。
+          // 进入列车后创建隐藏座位，让玩家开始跟随这辆车移动
           if (this.playerStates.has(player.id)) {
                this.handleLeave(player);
           }
@@ -453,7 +453,7 @@ export class AutoBinder {
      }
 
      unbindAllPlayers() {
-          // 列车拆回方块前先把所有还在跟车的玩家安全放下。
+          // 列车拆回方块前先把所有还在跟车的玩家安全放下
           const playerIds = Array.from(this.playerStates.keys());
 
           for (const playerId of playerIds) {

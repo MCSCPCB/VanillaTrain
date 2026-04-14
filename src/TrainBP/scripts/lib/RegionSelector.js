@@ -219,7 +219,7 @@ function emitPreviewShell(dimension, previewParticles) {
      }
 }
 
-// 选区必须围绕核心对称，这样列车旋转时才会始终围绕矿车中心。
+// 选区必须围绕核心对称，这样列车旋转时才会始终围绕矿车中心
 function calculateSymmetricRegion(center, start, end) {
      const getMaxRadiusForAxis = (axis) => {
           const radiusFromStart = Math.abs(center[axis] - start[axis]);
@@ -244,7 +244,7 @@ function calculateSymmetricRegion(center, start, end) {
      };
 }
 
-// 收集列车名称并写入列车数据，供管理界面和连接表单读取。
+// 收集列车名称并写入列车数据，供管理界面和连接表单读取
 function showMessageForm(player, start, end) {
      const form = new ModalFormData();
      form.title(createActionBarMessage(null, "title.form"));
@@ -293,7 +293,7 @@ function showMessageForm(player, start, end) {
                trainData.minecartName = minecartName || "Minecart";
                saveTrainData(minecart.id, trainData);
 
-               // 名称写入完成后，再开始生成列车结构和渲染数据。
+               // 名称写入完成后，再开始生成列车结构和渲染数据
                system.run(() => {
                     const railDirection = getRailDirectionAtLocation(
                          {
@@ -340,7 +340,7 @@ export class RegionSelector {
      }
 
      setupListener() {
-          // 扳手连续点两个方块，分别记录选区的起点和终点。
+          // 扳手连续点两个方块，分别记录选区的起点和终点
           world.beforeEvents.playerInteractWithBlock.subscribe((event) => {
                if (!event.isFirstEvent) {
                     return;
@@ -490,7 +490,7 @@ export class RegionSelector {
 
      onSelectionComplete(player, start, end) {
           system.run(() => {
-               // 选区内必须只有一个核心方块，且核心正下方必须有唯一矿车。
+               // 选区内必须只有一个核心方块，且核心正下方必须有唯一矿车
                const dimension = getOverworldDimension();
                const volume = new BlockVolume(start, end);
                let coreCount = 0;
@@ -544,7 +544,7 @@ export class RegionSelector {
                     start,
                     end
                );
-               // 选区需围绕核心对称，保证车体与矿车枢轴对齐。
+               // 选区需围绕核心对称，保证车体与矿车枢轴对齐
                if (
                     symmetricRegion.start.x !== start.x ||
                     symmetricRegion.start.z !== start.z ||
@@ -570,7 +570,7 @@ export class RegionSelector {
                     endDistZ > MAX_RADIUS ||
                     height > MAX_HEIGHT
                ) {
-                    // 限制列车尺寸，保证结构、渲染和碰撞数据都在支持范围内。
+                    // 限制列车尺寸，保证结构、渲染和碰撞数据都在支持范围内
                     player.onScreenDisplay.setActionBar(
                          createActionBarMessage("§m§l", "error.range")
                     );

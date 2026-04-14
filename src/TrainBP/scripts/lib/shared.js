@@ -21,7 +21,7 @@ const FOOT_SUPPORT_SAMPLE_OFFSETS = Object.freeze([
 
 export const HALF_BLOCK_EPSILON = 1e-5;
 
-// 供建造、更新、绑定等模块复用的通用工具函数。
+// 供建造、更新、绑定等模块复用的通用工具函数
 export function getOverworldDimension() {
      return world.getDimension(OVERWORLD_ID);
 }
@@ -89,7 +89,7 @@ export function snapToHalfBlock(coordinate, epsilon = HALF_BLOCK_EPSILON) {
      return Math.round(coordinate - 0.5) + 0.5;
 }
 
-// 统一把矿车水平坐标对齐到半格中心，保证偏移计算使用稳定基准。
+// 统一把矿车水平坐标对齐到半格中心，保证偏移计算使用稳定基准
 export function standardizeHorizontalEntityPosition(
      entity,
      epsilon = HALF_BLOCK_EPSILON

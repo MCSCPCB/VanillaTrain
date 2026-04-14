@@ -74,7 +74,7 @@ function setPlayerInputEnabled(player, enabled) {
      } catch {}
 }
 
-// 把输入状态映射成局部方向，再按玩家朝向换算成世界坐标。
+// 把输入状态映射成局部方向，再按玩家朝向换算成世界坐标
 const MOVEMENT_STATE_TO_VECTOR = new Map([
      ["Forward", { x: 0, z: 1 }],
      ["Backward", { x: 0, z: -1 }],
@@ -86,7 +86,7 @@ const MOVEMENT_STATE_TO_VECTOR = new Map([
      ["Backward-right", { x: -0.707, z: -0.707 }],
 ]);
 
-// 把原始摇杆输入归一化成固定状态，避免细小抖动反复触发移动。
+// 把原始摇杆输入归一化成固定状态，避免细小抖动反复触发移动
 function getPlayerControlMovement(player) {
      const movement = player.inputInfo.getMovementVector();
      const normalizedX =
@@ -146,7 +146,7 @@ function syncPlayerMoveAnimation(player, shouldPlay) {
      stopPlayerMoveAnimation(player);
 }
 
-// 把玩家视角下的前后左右换成世界坐标，并驱动隐藏座位同步移动。
+// 把玩家视角下的前后左右换成世界坐标，并驱动隐藏座位同步移动
 function applyDirectionalMovement(player, playerSeat, movementState) {
      const inputVector = MOVEMENT_STATE_TO_VECTOR.get(movementState);
      if (!inputVector) {
@@ -324,7 +324,7 @@ function getExtendedFloorSurfaceInfo(
      );
 }
 
-// 用固定探点取脚下最高有效表面，优先按列车槽位解析，缺省时再退回附近实体扫描。
+// 用固定探点取脚下最高有效表面，优先按列车槽位解析，缺省时再退回附近实体扫描
 function getNearbyEntityFloorSurfaceInfo(
      playerSeat,
      dimension = getOverworldDimension()
@@ -400,7 +400,7 @@ function getFloorSurfaceInfo(
      return resolvedFloor ?? getNearbyEntityFloorSurfaceInfo(playerSeat, dimension);
 }
 
-// 找到座位正下方最近的实体块，供过弯和上坡时临时附着。
+// 找到座位正下方最近的实体块，供过弯和上坡时临时附着
 function getNearestBelowEntityBlock(
      playerSeat,
      dimension = getOverworldDimension()
@@ -532,7 +532,7 @@ export class EntityWithPlayer {
      }
 
      movePlayer(interval) {
-          // 跟车通过隐藏座位实现，玩家实际骑乘的是这个座位实体。
+          // 跟车通过隐藏座位实现，玩家实际骑乘的是这个座位实体
           const overworld = getOverworldDimension();
           const playerSeat = this.player.dimension.spawnEntity(
                TEMP_SEAT_TYPE,
@@ -578,7 +578,7 @@ export class EntityWithPlayer {
 
           let lastSeatY = playerSeat.location.y;
 
-          // 主循环统一处理跟车、水平移动、跳跃和附着逻辑。
+          // 主循环统一处理跟车、水平移动、跳跃和附着逻辑
           const playerMove = system.runInterval(() => {
                const entity = getTrackedEntity(this.entity);
                const player = this.player;
@@ -623,7 +623,7 @@ export class EntityWithPlayer {
                     this.pendingRetarget = false;
                }
 
-               // 每刻先清掉上一刻残留速度，再按列车状态和玩家输入重新计算。
+               // 每刻先清掉上一刻残留速度，再按列车状态和玩家输入重新计算
                playerSeat.clearVelocity();
 
                const observedVelocity = {
@@ -745,7 +745,7 @@ export class EntityWithPlayer {
                );
                let targetSeatY = floor + GROUND_SEAT_OFFSET;
 
-               // 纵向运动使用显式状态机，便于区分站立、起跳和下落。
+               // 纵向运动使用显式状态机，便于区分站立、起跳和下落
                if (verticalState === "grounded") {
                     verticalOffset = 0;
                     verticalVelocity = 0;
@@ -844,7 +844,7 @@ export class EntityWithPlayer {
                     z: velocity.z,
                });
 
-               // 列车上坡时直接把座位对齐到目标高度，保持座位与坡面贴合。
+               // 列车上坡时直接把座位对齐到目标高度，保持座位与坡面贴合
                if (
                     verticalState === "grounded" &&
                     playerSeat.getVelocity().y > 0 &&
@@ -870,7 +870,7 @@ export class EntityWithPlayer {
                     );
                }
 
-               // 过弯或斜向移动时，把座位临时挂到附近实体块上，减少急转抖动。
+               // 过弯或斜向移动时，把座位临时挂到附近实体块上，减少急转抖动
                if (isTurningOrSloped) {
                     lastNonZeroVelocityTime = 0;
                     shouldEject = false;
@@ -904,7 +904,7 @@ export class EntityWithPlayer {
                          }
                     }
                } else if (isMovingHorizontally) {
-                    // 直线行驶时按延迟规则解除附着，并限制玩家逆着车头方向走出车外。
+                    // 直线行驶时按延迟规则解除附着，并限制玩家逆着车头方向走出车外
                     if (lastNonZeroVelocityTime === 0) {
                          lastNonZeroVelocityTime = Date.now();
                     }
@@ -975,7 +975,7 @@ export class EntityWithPlayer {
                lastEntityLocation = cloneLocation(entity.location);
           }, interval);
 
-          // 把循环 id 和座位实体 id 记录到玩家身上，解绑时可直接读取。
+          // 把循环 id 和座位实体 id 记录到玩家身上，解绑时可直接读取
           activeBindingControllers.set(this.player.id, this);
           this.player.setDynamicProperty("stop", playerMove);
           this.player.setDynamicProperty("entityRemove", playerSeat.id);
@@ -1008,7 +1008,7 @@ export class EntityWithPlayerStop {
      }
 
      stopPlayerMoving() {
-          // 解绑时先停止循环，再等待玩家落稳后移除隐藏座位。
+          // 解绑时先停止循环，再等待玩家落稳后移除隐藏座位
           stopPlayerMoveAnimation(this.player);
           system.clearRun(this.player.getDynamicProperty("stop"));
           activeBindingControllers.delete(this.player.id);
@@ -1031,10 +1031,10 @@ export class EntityWithPlayerStop {
                          system.clearRun(checkInterval);
                         const entity = world.getEntity(entityId);
 
-                        // 如果这个座位还挂在某个实体块上，也一并解除占用记录。
+                        // 如果这个座位还挂在某个实体块上，也一并解除占用记录
                         cleanupSeatEntity(entity);
 
-                        // 恢复输入权限，让玩家回到普通控制状态。
+                        // 恢复输入权限，让玩家回到普通控制状态
                         setPlayerInputEnabled(this.player, true);
                    }
                }, 20);

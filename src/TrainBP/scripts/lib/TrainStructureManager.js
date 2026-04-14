@@ -148,7 +148,7 @@ function getLegacyStructureRotationDegrees(
      return 0;
 }
 
-// 这个管理器负责把已经运行中的列车拆回方块结构。
+// 这个管理器负责把已经运行中的列车拆回方块结构
 export class TrainStructureManager {
      constructor(autoBinder) {
           this.autoBinder = autoBinder;
@@ -163,7 +163,7 @@ export class TrainStructureManager {
      }
 
      setupHandBookInteractListener() {
-          // 玩家使用手册物品时，打开列车列表并选择要还原的目标。
+          // 玩家使用手册物品时，打开列车列表并选择要还原的目标
           world.afterEvents.itemUse.subscribe((event) => {
                const { itemStack, source: player } = event;
                if (itemStack?.typeId !== HANDBOOK_ITEM_ID) {
@@ -355,7 +355,7 @@ export class TrainStructureManager {
           }
      }
 
-     // 根据矿车朝向和保存的核心偏移，计算结构放回世界时的基准点。
+     // 根据矿车朝向和保存的核心偏移，计算结构放回世界时的基准点
      calculateCorePosition(
           minecartLocation,
           coreOffset,
@@ -413,7 +413,7 @@ export class TrainStructureManager {
           };
      }
 
-     // 放回结构前先检查目标区域是否为空，避免直接覆盖现有建筑。
+     // 放回结构前先检查目标区域是否为空，避免直接覆盖现有建筑
      canPlaceStructure(dimension, placePosition, structureId, rotation) {
           const footprint = this.getStructureFootprint(structureId, rotation);
           if (!footprint) {
@@ -642,7 +642,7 @@ export class TrainStructureManager {
      }
 
      restoreToBlocks(player, minecartId, options = {}) {
-          // 还原时按当前矿车位置和保存的旋转数据计算结构放置方式。
+          // 还原时按当前矿车位置和保存的旋转数据计算结构放置方式
           const trainData = loadTrainData(minecartId);
           if (!trainData) {
                return false;
@@ -800,7 +800,7 @@ export class TrainStructureManager {
           getTrainUpdaterInstance()?.stopUpdaterById(minecartId);
           clearTrainDynamicLights(minecartId);
 
-          // 还原前先解绑玩家，避免座位清理与结构还原冲突。
+          // 还原前先解绑玩家，避免座位清理与结构还原冲突
           if (
                this.autoBinder &&
                typeof this.autoBinder.unbindAllPlayers === "function"

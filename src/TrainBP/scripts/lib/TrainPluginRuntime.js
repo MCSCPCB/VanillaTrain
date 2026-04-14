@@ -20,8 +20,8 @@ export function createEmptyTrainPluginRenderState() {
      };
 }
 
-// 仅在缓存快照是当前版本且插件列表已明确写入时，返回是否存在插件渲染。
-// 返回 null 表示当前数据不足以安全跳过运行时构建逻辑。
+// 仅在缓存快照是当前版本且插件列表已明确写入时，返回是否存在插件渲染
+// 返回 null 表示当前数据不足以安全跳过运行时构建逻辑
 export function hasKnownTrainPluginSnapshots(trainData) {
      const pluginRender = trainData?.pluginRender;
      if (

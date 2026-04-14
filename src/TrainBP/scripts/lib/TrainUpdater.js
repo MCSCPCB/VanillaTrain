@@ -838,7 +838,7 @@ function calculateStructurePlacePosition(minecartLocation, coreOffset, rotationD
      };
 }
 
-// 列车运行期间的碰撞、渲染、特效和附着实体同步都在这里处理。
+// 列车运行期间的碰撞、渲染、特效和附着实体同步都在这里处理
 export class TrainUpdater {
      constructor() {
           activeTrainUpdaterInstance = this;
@@ -855,7 +855,7 @@ export class TrainUpdater {
           this.recoveringMinecartIds = new Set();
           this.invalidationGraceScans = INITIAL_INVALIDATION_GRACE_SCANS;
 
-          // 定期扫描世界里的列车矿车，给新出现或刚加载进来的列车补上更新器。
+          // 定期扫描世界里的列车矿车，给新出现或刚加载进来的列车补上更新器
           this.checkInterval = system.runInterval(() => {
                if (this.invalidationGraceScans > 0) {
                     this.invalidationGraceScans -= 1;
@@ -1162,7 +1162,7 @@ export class TrainUpdater {
                return;
           }
 
-          // 定期重播 fragment 动画栈，减少客户端丢失动态状态后的空渲染。
+          // 定期重播 fragment 动画栈，减少客户端丢失动态状态后的空渲染
           const intervalId = system.runInterval(() => {
                if (!minecart.isValid()) {
                     this.stopMolangDataPlayer(minecart);
@@ -1208,7 +1208,6 @@ export class TrainUpdater {
                return;
           }
 
-          // 一些方块不会只靠模型表达，这里补运行时粒子效果。
           const generatorId = system.runInterval(() => {
                if (!minecart.isValid()) {
                     this.stopParticleGenerator(minecart);
@@ -1341,7 +1340,7 @@ export class TrainUpdater {
                return;
           }
 
-          // 特殊方块的交互由碰撞实体代接，这里处理铃铛与门的点击。
+          // 特殊方块的交互由碰撞实体代接，这里处理钟与门的点击
           const listenerId =
                world.beforeEvents.playerInteractWithEntity.subscribe((data) => {
                     const entity = data.target;
@@ -1385,7 +1384,7 @@ export class TrainUpdater {
 
           this.interactListeners.set(minecart.id, { id: listenerId });
 
-          // 持续给对应的实体块打上特殊标签，供交互监听识别。
+          // 持续给对应的实体块打上特殊标签，供交互监听识别
           const generatorId = system.runInterval(() => {
                if (!minecart.isValid()) {
                     this.stopInteract(minecart);
@@ -1535,7 +1534,7 @@ export class TrainUpdater {
                     .map((player) => player.location);
           };
 
-          // 统一列车相关实体的位置计算，避免碰撞层和渲染层错位。
+          // 统一列车相关实体的位置计算，避免碰撞层和渲染层错位
           const calculateActualPosition = (minecartEntity, offset) => {
                if (minecartEntity.id === minecart.id) {
                     return getCurrentMinecartActualPosition(offset);
@@ -1558,7 +1557,7 @@ export class TrainUpdater {
                );
           };
 
-          // 按玩家距离按需生成或回收碰撞实体，避免整列车的实体块始终常驻。
+          // 按玩家距离按需生成或回收碰撞实体，避免整列车的实体块始终常驻
           const loadTrainEntities = (trainData) => {
                if (!trainData || !Array.isArray(trainData.entities)) {
                     return [];
@@ -1610,7 +1609,7 @@ export class TrainUpdater {
                               return entry;
                          }
 
-                         // 正在给隐藏座位当附着点的实体块不能提前回收。
+                         // 正在给隐藏座位当附着点的实体块不能提前回收
                          if (activeSeatBlocks.has(entry.entityId)) {
                               return entry;
                          }
@@ -1829,7 +1828,7 @@ export class TrainUpdater {
                          blockEntities
                     )
                ) {
-                    // 运行期直接更新缓存中的列车数据，避免每刻把整包实体状态重写回动态属性。
+                    // 运行期直接更新缓存中的列车数据，避免每刻把整包实体状态重写回动态属性
                     currentTrainData.entities = blockEntities.map(
                          ({
                               entityId,
@@ -1905,7 +1904,7 @@ export class TrainUpdater {
                     }
                }
 
-               // 仅在位置变化后同步碰撞实体和渲染朝向。
+               // 仅在位置变化后同步碰撞实体和渲染朝向
                if (
                     currentLoc.x === lastPosition.x &&
                     currentLoc.y === lastPosition.y &&
@@ -1981,7 +1980,7 @@ export class TrainUpdater {
           this.startParticleGenerator(minecart, calculateActualPosition);
           this.startInteract(minecart, calculateActualPosition);
 
-          // 让靠近列车内部的普通实体跟着车体走，避免被车体甩下。
+          // 让靠近列车内部的普通实体跟着车体走，避免被车体甩下
           const entityInterval = system.runInterval(() => {
                if (!minecart.isValid()) return;
 
@@ -2030,7 +2029,7 @@ export class TrainUpdater {
                     );
 
                     if (surfaceMatch?.entry?.offset) {
-                         // 记录实体绑定到哪一个车体槽位，供偏移同步逻辑直接读取。
+                         // 记录实体绑定到哪一个车体槽位，供偏移同步逻辑直接读取
                          this.boundEntities.set(entity.id, {
                               minecartId: minecart.id,
                               offset: surfaceMatch.entry.offset,
@@ -2067,7 +2066,7 @@ export class TrainUpdater {
                          });
                }
 
-               // 实体离车体太远后解除绑定，恢复普通移动。
+               // 实体离车体太远后解除绑定，恢复普通移动
                for (const [entityId, data] of this.boundEntities) {
                     if (data.minecartId !== minecart.id) {
                          continue;
@@ -2103,7 +2102,7 @@ export class TrainUpdater {
                return;
           }
 
-          // 列车失效后把它挂的所有定时器和缓存一起清掉。
+          // 列车失效后把它挂的所有定时器和缓存一起清掉
           clearRunEntry(this.activeUpdaters, minecartId);
           this.stopMolangDataPlayer({ id: minecartId });
           this.stopParticleGenerator({ id: minecartId });

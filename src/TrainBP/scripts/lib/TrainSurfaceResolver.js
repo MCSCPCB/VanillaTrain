@@ -112,7 +112,7 @@ export function getTrainCollisionTopOffset(profile) {
      return COLLISION_PROFILE_TOP_OFFSET[profile] ?? null;
 }
 
-// 统一计算列车槽位的世界坐标，碰撞、绑定和垂直运动都基于这套结果。
+// 统一计算列车槽位的世界坐标，碰撞、绑定和垂直运动都基于这套结果
 export function calculateTrainActualPosition(
      minecart,
      offset,

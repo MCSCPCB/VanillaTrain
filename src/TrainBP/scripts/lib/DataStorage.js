@@ -109,13 +109,13 @@ function deleteChunkedJson(countKey, chunkKeyFactory) {
      world.setDynamicProperty(countKey, undefined);
 }
 
-// 记录所有已组装列车的矿车 id，供其他模块快速判断目标类型。
+// 记录所有已组装列车的矿车 id，供其他模块快速判断目标类型
 class MinecartRegistry {
      constructor() {
           this._world = world;
           this._storageKey = MINECART_LIST_KEY;
           this._list = this._loadFromStorage();
-          // 数组保留写入顺序，Set 用于加速查询。
+          // 数组保留写入顺序，Set 用于加速查询
           this._set = new Set(this._list);
      }
 
@@ -246,10 +246,10 @@ export const minecartRegistry = new MinecartRegistry();
 const trainConsistStore = new TrainConsistStore();
 const trainDataCache = new Map();
 const trainLightDataCache = new Map();
-// 记录仍被隐藏座位占用的实体块，更新器回收时需要跳过。
+// 记录仍被隐藏座位占用的实体块，更新器回收时需要跳过
 export const activePlayerSeats = new Map();
 
-// 列车数据在脚本运行期走内存缓存，避免每次读取都重新拼接并解析 JSON。
+// 列车数据在脚本运行期走内存缓存，避免每次读取都重新拼接并解析 JSON
 export function saveTrainData(trainId, data) {
      trainDataCache.set(trainId, data);
      saveChunkedJson(
@@ -259,7 +259,7 @@ export function saveTrainData(trainId, data) {
      );
 }
 
-// 同一运行期里直接复用缓存，真正缺失时才回退到动态属性读取。
+// 同一运行期里直接复用缓存，真正缺失时才回退到动态属性读取
 export function loadTrainData(trainId) {
      if (trainDataCache.has(trainId)) {
           return trainDataCache.get(trainId);
@@ -277,7 +277,7 @@ export function loadTrainData(trainId) {
      return trainData;
 }
 
-// 删除列车数据时，同时清理与旋转补丁相关的动态属性。
+// 删除列车数据时，同时清理与旋转补丁相关的动态属性
 export function deleteTrainData(trainId) {
      trainDataCache.delete(trainId);
      deleteChunkedJson(

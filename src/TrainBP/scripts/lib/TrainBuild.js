@@ -35,7 +35,7 @@ function getBuildCompleteMessage() {
      };
 }
 
-// 负责把普通矿车转换成列车核心，并处理建造期核心的回收。
+// 负责把普通矿车转换成列车核心，并处理建造期核心的回收
 export class TrainBuild {
      constructor() {
           this.setupPlaceListener();
@@ -43,7 +43,7 @@ export class TrainBuild {
      }
 
      setupPlaceListener() {
-          // 玩家拿核心物品点矿车时，进入列车建造流程。
+          // 玩家拿核心物品点矿车时，进入列车建造流程
           world.beforeEvents.playerInteractWithEntity.subscribe((event) => {
                const { itemStack, player, target: entity } = event;
 
@@ -59,7 +59,7 @@ export class TrainBuild {
                     return;
                }
 
-               // 建造入口只允许放在平直轨道上，避免初始朝向错误。
+               // 建造入口只允许放在平直轨道上，避免初始朝向错误
                const railDirection = getRailDirectionAtLocation(
                     entity.location,
                     getOverworldDimension()
@@ -75,7 +75,7 @@ export class TrainBuild {
 
                const { dimension, location } = entity;
 
-               // 延后一拍替换矿车，避开交互当帧的实体冲突。
+               // 延后替换矿车，避开交互当帧的实体冲突
                system.runTimeout(() => {
                     if (!entity.hasTag("default_type")) {
                          return;
@@ -105,7 +105,7 @@ export class TrainBuild {
      }
 
      setupBreakListener() {
-          // 核心方块被破坏时，把对应的核心矿车一并清掉，避免残留半成品列车。
+          // 核心方块被破坏时，把对应的核心矿车一并清掉，避免残留半成品列车
           world.beforeEvents.playerBreakBlock.subscribe((event) => {
                const { block } = event;
 
@@ -147,7 +147,6 @@ export class TrainBuild {
                }
           });
 
-          // 扳手点建造期核心时，把核心和占位实体拆回普通矿车物品。
           world.beforeEvents.playerInteractWithEntity.subscribe((event) => {
                const { itemStack, target: entity } = event;
 
