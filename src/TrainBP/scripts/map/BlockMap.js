@@ -2196,7 +2196,7 @@ function getTypeName(typeId) {
      return (typeId ?? "").split(":")[1] ?? "";
 }
 
-function isShipConnectionExcluded(block) {
+function isNeighborConnectionExcluded(block) {
      const blockName = getTypeName(block?.typeId);
      return (
           !blockName ||
@@ -2214,16 +2214,16 @@ function buildNeighborConnectionString(block) {
      const neighbors = getNeighborBlocks(block);
      let connection = "";
 
-     if (!isShipConnectionExcluded(neighbors.north)) {
+     if (!isNeighborConnectionExcluded(neighbors.north)) {
           connection += "n";
      }
-     if (!isShipConnectionExcluded(neighbors.west)) {
+     if (!isNeighborConnectionExcluded(neighbors.west)) {
           connection += "w";
      }
-     if (!isShipConnectionExcluded(neighbors.south)) {
+     if (!isNeighborConnectionExcluded(neighbors.south)) {
           connection += "s";
      }
-     if (!isShipConnectionExcluded(neighbors.east)) {
+     if (!isNeighborConnectionExcluded(neighbors.east)) {
           connection += "e";
      }
 
@@ -2249,7 +2249,7 @@ function buildWallConnectionString(block) {
      return connection;
 }
 
-function resolveShipConnectionShape(connection) {
+function resolveConnectionShape(connection) {
      const state = {
           variant: 0,
           ry: 0,
@@ -2292,7 +2292,7 @@ function resolveShipConnectionShape(connection) {
 
 function getConnectionRotation(connection) {
      const rotation = createEmptyRotation();
-     rotation.ry = resolveShipConnectionShape(connection).ry;
+     rotation.ry = resolveConnectionShape(connection).ry;
      return rotation;
 }
 
@@ -2703,7 +2703,7 @@ export function getBlockModelType(block) {
 
      if (BAR_TYPES.has(blockName)) {
           return getVariantModelType(
-               resolveShipConnectionShape(buildNeighborConnectionString(block))
+               resolveConnectionShape(buildNeighborConnectionString(block))
                     .variant,
                BAR_MODEL_TYPES
           );
@@ -2711,7 +2711,7 @@ export function getBlockModelType(block) {
 
      if (GLASS_PANE_TYPES.has(blockName)) {
           return getVariantModelType(
-               resolveShipConnectionShape(buildNeighborConnectionString(block))
+               resolveConnectionShape(buildNeighborConnectionString(block))
                     .variant,
                GLASS_PANE_MODEL_TYPES
           );
@@ -2719,7 +2719,7 @@ export function getBlockModelType(block) {
 
      if (WALL_TYPES.has(blockName)) {
           return getVariantModelType(
-               resolveShipConnectionShape(buildWallConnectionString(block))
+               resolveConnectionShape(buildWallConnectionString(block))
                     .variant,
                WALL_MODEL_TYPES
           );
@@ -2727,7 +2727,7 @@ export function getBlockModelType(block) {
 
      if (FENCE_TYPES.has(blockName)) {
           return getVariantModelType(
-               resolveShipConnectionShape(buildNeighborConnectionString(block))
+               resolveConnectionShape(buildNeighborConnectionString(block))
                     .variant,
                FENCE_MODEL_TYPES
           );
