@@ -19,7 +19,7 @@ const PLAYER_MOVE_ANIMATION = "animation.player_train_move";
 const OFFSET_ANIMATION_BLEND_OUT = 999999999999999;
 const MOVE_ANIMATION_STOP_EXPRESSION =
      "!query.is_riding_any_entity_of_type('train:temp_seat')";
-const MOVEMENT_THRESHOLD = 0.5;
+const MOVEMENT_THRESHOLD = 0.0; // 0.5 
 const MOVE_SPEED = 0.25;
 const GROUND_SEAT_OFFSET = 1.0;
 const JUMP_INITIAL_VELOCITY = 0.42;
